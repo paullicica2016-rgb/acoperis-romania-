@@ -1,0 +1,115 @@
+@import "tailwindcss";
+@source "../components";
+@source "../app";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: #051D3E;
+  --color-primary-light: #0a2d5c;
+  --color-accent: #C62828;
+  --color-accent-dark: #a31f1f;
+  --color-accent-light: #EF5350;
+  --color-dark: #051D3E;
+  --color-darker: #020e1f;
+  --color-navy: #051D3E;
+  --color-navy-light: #0a2d5c;
+  --color-navy-lighter: #102f5a;
+  --color-text: #212121;
+  --color-text-light: #AFAFAF;
+  --color-gray-bg: #f4f4f4;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #212121;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes count-up {
+  from { opacity: 0; transform: scale(0.5); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+.animate-count-up {
+  animation: count-up 0.5s ease-out forwards;
+}
+
+.service-card {
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.btn-accent {
+  background-color: #C62828;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-accent:hover {
+  background-color: #a31f1f;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(248, 56, 57, 0.35);
+}
+
+.btn-navy {
+  background-color: #051D3E;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-navy:hover {
+  background-color: #0a2d5c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(5, 29, 62, 0.35);
+}
+
+.btn-outline {
+  border: 2px solid rgba(255,255,255,0.4);
+  color: white;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  border-color: white;
+  background: rgba(255,255,255,0.1);
+}
+
+/* Hero gradient overlay matching bt-acoperis exactly */
+.hero-overlay {
+  background: linear-gradient(90deg, #051D3E 17%, rgba(248, 41, 91, 0) 100%);
+}
+
+/* Hide scrollbar for testimonials slider */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
