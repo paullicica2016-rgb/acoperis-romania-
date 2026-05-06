@@ -137,16 +137,16 @@ export default function DespreNoi() {
               {/* Text stanga */}
               <div className="p-8 space-y-5">
                 <p className="text-gray-600 leading-relaxed">
-                  Reparatii Pro a fost fondata din dorinta de a oferi servicii de acoperisuri la cele mai inalte standarde de calitate. De-a lungul celor peste 15 ani de activitate, am acumulat o experienta vasta in toate tipurile de lucrari — de la constructia acoperisurilor noi, pana la reparatii complexe si interventii de urgenta.
+                  Totul a inceput cu o promisiune simpla: sa facem lucrari de acoperis pe care sa le putem semna cu mandrie. Nu contracte incheiate si uitate — ci relatii construite pe incredere, corectitudine si rezultate care rezista zeci de ani.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Echipa noastra este formata din mesteri cu ani de practica in dulgherie, tinichigerie, montaj de invelitori si sisteme pluviale. Fiecare lucraree este executata cu atentie la detalii si respect fata de client.
+                  In peste 15 ani, am urcat pe sute de acoperisuri — case la curte, vile, blocuri, hale industriale. Am vazut ce inseamna o lucrare facuta prost si stim exact cum arata una facuta bine. Aceasta diferenta o punem in fiecare santier in care intram.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Lucram cu materiale de la producatori de top: Bilka Steel, Lindab, Wetterbest, Bramac, Tondach, Velux, Gerard si Ruukki. Parteneriatele directe ne permit preturi competitive si garantie extinsa.
+                  Nu subcontractam, nu improvizam si nu folosim materiale de rand. Fiecare echipa e formata din mesteri pe care ii cunoastem personal — oameni cu maini pricepute si constiinta profesionala.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Activam in Hunedoara si 12 judete din Romania, cu servicii complete: evaluare gratuita, proiectare, materiale, transport, montaj si garantie post-executie.
+                  Suntem activi in Hunedoara si alte 12 judete. Indiferent de distanta, aducem aceeasi seriozitate, aceleasi materiale si acelasi standard de executie.
                 </p>
               </div>
 
@@ -155,14 +155,14 @@ export default function DespreNoi() {
                 <h3 className="text-lg font-bold text-gray-900 mb-5">De ce sa ne alegeti?</h3>
                 <ul className="space-y-3">
                   {[
-                    "Experienta de peste 15 ani in domeniu",
-                    "Echipa de mesteri profesionisti si dedicati",
-                    "Materiale premium de la branduri de top",
-                    "Servicii complete — de la materiale la manopera",
-                    "Garantie pe toate lucrarile executate",
-                    "Preturi competitive cu reduceri la sisteme complete",
-                    "Interventii de urgenta 24/7",
-                    "Consultanta gratuita si oferta personalizata",
+                    "Peste 15 ani de lucrari livrate la termen",
+                    "Echipe proprii — nu subcontractori",
+                    "Materiale Bilka, Lindab, Wetterbest, Bramac, Velux",
+                    "Oferta gratuita, transparenta, fara costuri ascunse",
+                    "Garantie scrisa pe materiale si manopera",
+                    "Disponibili 24/7 pentru urgente",
+                    "300+ proiecte finalizate in toata Romania",
+                    "Comunicare directa pe tot parcursul lucrarii",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-3">
                       <CheckCircle2 size={18} className="text-[#0d1547] shrink-0 mt-0.5" />
@@ -209,27 +209,41 @@ export default function DespreNoi() {
       </section>
 
       {/* ── Valorile Firmei ── */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <span className="inline-block text-[#0d1547] font-semibold text-sm uppercase tracking-wider mb-3">
-              Valorile noastre
-            </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Ce Ne Defineste
-            </h2>
-          </div>
+      <section className="py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
+            {/* Left sticky label */}
+            <div className="lg:sticky lg:top-24 lg:w-64 shrink-0">
+              <span className="inline-block text-[#0d1547] font-semibold text-sm uppercase tracking-wider mb-3">
+                Valorile noastre
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                Ce Ne<br />Defineste
+              </h2>
+              <p className="text-gray-500 text-sm leading-relaxed">
+                Principiile care ghideaza fiecare lucrare, de la prima vizita pana la predarea cheilor.
+              </p>
+            </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {values.map((v) => (
-              <div key={v.title} className="bg-white rounded-2xl p-8 border border-gray-200 hover:border-[#0d1547]/30 hover:shadow-md transition-all">
-                <div className="w-14 h-14 rounded-xl bg-[#0d1547]/10 text-[#0d1547] flex items-center justify-center mb-5">
-                  <v.icon size={28} />
+            {/* Right: numbered rows */}
+            <div className="flex-1 divide-y divide-gray-100">
+              {values.map((v, i) => (
+                <div key={v.title} className="flex gap-5 py-7 group">
+                  <span className="text-4xl font-extrabold text-gray-100 group-hover:text-[#0d1547]/20 transition-colors shrink-0 w-12 leading-none pt-1">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="w-8 h-8 rounded-lg bg-[#0d1547]/8 text-[#0d1547] flex items-center justify-center shrink-0">
+                        <v.icon size={16} />
+                      </div>
+                      <h3 className="text-lg font-bold text-gray-900">{v.title}</h3>
+                    </div>
+                    <p className="text-gray-500 text-sm leading-relaxed">{v.desc}</p>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{v.title}</h3>
-                <p className="text-gray-500 leading-relaxed text-sm">{v.desc}</p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
