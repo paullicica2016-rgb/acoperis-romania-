@@ -21,9 +21,9 @@ const counties = [
 ];
 
 const blogSlugs = [
-  "interventie-urgenta-acoperis-furtuna",
-  "investitia-acoperis-calitativ",
-  "semne-reparatii-urgente-acoperis",
+  "alegere-tigla-acoperis-ghid-complet",
+  "intretinere-acoperis-calendar-anual",
+  "izolatie-termica-acoperis-economii",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

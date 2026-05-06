@@ -6,23 +6,23 @@ import PageHero from "@/components/PageHero";
 import { Calendar, ArrowRight, Phone } from "lucide-react";
 
 const blogHeroImages: Record<string, string> = {
-  "interventie-urgenta-acoperis-furtuna": "/images/hero-reparatii.webp",
-  "investitia-acoperis-calitativ": "/images/tigla-metalica-alegere.webp",
-  "semne-reparatii-urgente-acoperis": "/images/importanta-reparatie.webp",
+  "alegere-tigla-acoperis-ghid-complet": "/images/faq-tigla-metalica.webp",
+  "intretinere-acoperis-calendar-anual": "/images/reparatii-faq.webp",
+  "izolatie-termica-acoperis-economii": "/images/dulgherie-despre.webp",
 };
 
 const blogInlineImages: Record<string, { src: string; alt: string; afterParagraph: number }[]> = {
-  "interventie-urgenta-acoperis-furtuna": [
-    { src: "/images/projects/reparatii.webp", alt: "Reparatie acoperis dupa furtuna", afterParagraph: 1 },
-    { src: "/images/projects/reparatii-2.webp", alt: "Interventie de urgenta la acoperis", afterParagraph: 3 },
+  "alegere-tigla-acoperis-ghid-complet": [
+    { src: "/images/projects/tigla-ceramica-1.webp", alt: "Acoperis cu tigla ceramica", afterParagraph: 1 },
+    { src: "/images/projects/tigla-metalica-1.webp", alt: "Acoperis cu tigla metalica", afterParagraph: 3 },
   ],
-  "investitia-acoperis-calitativ": [
-    { src: "/images/projects/tigla-metalica-1.webp", alt: "Acoperis cu tigla metalica de calitate", afterParagraph: 1 },
-    { src: "/images/projects/tigla-ceramica-1.webp", alt: "Acoperis cu tigla ceramica premium", afterParagraph: 3 },
+  "intretinere-acoperis-calendar-anual": [
+    { src: "/images/projects/jgheaburi-2.webp", alt: "Verificare jgheaburi acoperis", afterParagraph: 2 },
+    { src: "/images/projects/reparatii-2.webp", alt: "Inspectie acoperis sezoniera", afterParagraph: 4 },
   ],
-  "semne-reparatii-urgente-acoperis": [
-    { src: "/images/projects/reparatii-3.webp", alt: "Semne de deteriorare pe acoperis", afterParagraph: 2 },
-    { src: "/images/projects/jgheaburi.webp", alt: "Jgheaburi deteriorate care necesita reparatii", afterParagraph: 4 },
+  "izolatie-termica-acoperis-economii": [
+    { src: "/images/projects/dulgherie-1.webp", alt: "Izolatie termica acoperis", afterParagraph: 1 },
+    { src: "/images/projects/tigla-metalica-2.webp", alt: "Acoperis izolat eficient termic", afterParagraph: 3 },
   ],
 };
 
@@ -33,44 +33,43 @@ const blogPosts: Record<string, {
   readTime: string;
   content: string[];
 }> = {
-  "interventie-urgenta-acoperis-furtuna": {
-    title: "Interventie de Urgenta la Acoperis Dupa Furtuna",
-    date: "15 Martie 2026",
-    category: "Urgente",
-    readTime: "5 min citire",
+  "alegere-tigla-acoperis-ghid-complet": {
+    title: "Cum sa Alegi Tigla Potrivita pentru Acoperisul Casei Tale",
+    date: "1 Aprilie 2026",
+    category: "Sfaturi",
+    readTime: "6 min citire",
     content: [
-      "Furtunile puternice pot provoca daune semnificative acoperisurilor, de la tigle dislocate si jgheaburi rupte, pana la deteriorari structurale ale sarpantei. In astfel de situatii, reactia rapida este esentiala pentru a preveni agravarea problemelor si pentru a proteja interiorul locuintei de infiltratii de apa.",
-      "Primul pas dupa o furtuna este inspectia vizuala a acoperisului de la sol. Cautati tigle lipsa sau deplasate, jgheaburi deteriorate, burlane rupte sau elemente de tinichigerie dislocate. Nu urcati pe acoperis pe cont propriu, deoarece structura poate fi compromisa si exista riscul de accidentare. In schimb, contactati o echipa profesionista care are echipamentele si experienta necesare pentru o interventie sigura.",
-      "Daca observati infiltratii de apa in interiorul casei -- pete pe tavan, apa care curge pe pereti sau umiditate crescuta --, este esential sa protejati bunurile din zona afectata si sa contactati imediat un serviciu de interventie de urgenta. La Reparatii Pro, echipele noastre mobile sunt disponibile 24/7 si pot ajunge la fata locului in cel mai scurt timp posibil.",
-      "Interventia de urgenta presupune, in primul rand, securizarea zonei afectate. Aceasta poate include acoperirea provizorie cu prelate profesionale a zonelor expuse, fixarea temporara a elementelor dislocate si stoparea infiltratiilor active. Scopul este de a preveni daunele suplimentare pana la realizarea reparatiilor definitive.",
-      "Dupa securizare, echipa noastra realizeaza o inspectie detaliata a intregului acoperis pentru a identifica toate deteriorarile -- nu doar cele vizibile la prima vedere. Pe baza inspectiei, intocmim un raport complet si un deviz transparent pentru reparatiile necesare. In functie de gravitatea daunelor, reparatiile pot fi realizate in aceeasi zi sau pot necesita o planificare ulterioara. Important este ca acoperisul sa fie securizat imediat, iar reparatiile definitive sa fie realizate cat mai curand posibil pentru a preveni degradarea materialelor si a structurii.",
+      "Alegerea tipului de invelitoare este una dintre cele mai importante decizii pe care le iei atunci cand construiesti sau renovezi un acoperis. Aceasta influenteaza nu doar aspectul estetic al casei, ci si durabilitatea, costurile de intretinere si chiar valoarea proprietatii pe termen lung. Pe piata exista mai multe tipuri de tigla, fiecare cu avantaje si limitari proprii, iar alegerea potrivita depinde de bugetul disponibil, zona geografica, panta acoperisului si stilul arhitectural al cladirii.",
+      "Tigla ceramica este alegerea clasica si cea mai durabila optiune disponibila. Realizata din argila arsa la temperaturi inalte, are o durata de viata de 50-100 de ani, rezistenta excelenta la foc si la radiatiile UV. Tigla ceramica ofera o estetica premium, traditionala, si este ideala pentru case construite in stil clasic sau pentru zone unde reglementarile urbanistice impun acest tip de invelitoare. Dezavantajele principale sunt greutatea ridicata - care necesita o sarpanta robusta - si pretul, care poate fi de 2-3 ori mai mare decat al tiglei metalice.",
+      "Tigla metalica reprezinta solutia preferata in ultimii ani datorita raportului excelent calitate-pret. Confectionata din tabla zincata acoperita cu polimeri de protectie, este usoara, rapid de montat si durabila - cu o garantie de pana la 50 de ani de la producatori precum Bilka, Lindab sau Wetterbest. Este ideala pentru acoperisuri cu pante intre 14 si 60 de grade si vine intr-o gama larga de culori si profile care imita aspectul tiglei ceramice. Costul redus si montajul rapid o fac alegerea numarul unu pentru casele rezidentiale moderne.",
+      "Tabla faltuita este o alternativa moderna, eleganta, folosita atat la cladiri rezidentiale, cat si comerciale. Se monteaza in panouri lungi, fara imbinari transversale, ceea ce o face extrem de eficienta in evacuarea apei si potrivita pentru pante mici (chiar si sub 7 grade). Aspectul ei minimalist si liniile drepte se potrivesc perfect cu arhitectura contemporana. Sindrila bituminoasa, pe de alta parte, este cea mai accesibila solutie - usor de montat pe forme complexe, dar cu o durata de viata mai scurta (15-25 de ani).",
+      "Inainte de a lua o decizie, recomandam o consultanta cu un specialist care sa evalueze structura existenta, panta acoperisului si conditiile climatice locale. La Reparatii Pro lucram cu toate tipurile de invelitoare si va putem oferi un calcul comparativ pentru fiecare optiune, astfel incat sa alegeti solutia cea mai potrivita pentru casa dumneavoastra. O alegere bine informata acum inseamna decenii de protectie si liniste pentru viitor.",
     ],
   },
-  "investitia-acoperis-calitativ": {
-    title: "De ce Investitia intr-un Acoperis Calitativ se Plateste Mereu",
-    date: "10 Martie 2026",
+  "intretinere-acoperis-calendar-anual": {
+    title: "Calendar de Intretinere Acoperis - Ce Verifici in Fiecare Sezon",
+    date: "25 Martie 2026",
+    category: "Ghid",
+    readTime: "5 min citire",
+    content: [
+      "Un acoperis bine intretinut poate dura cu 15-20 de ani mai mult decat unul lasat la voia intamplarii. Multi proprietari fac greseala de a se gandi la acoperis doar atunci cand apare o problema - moment in care reparatiile costa de 5-10 ori mai mult decat o intretinere preventiva. Verificarile periodice, organizate sezonier, sunt cea mai eficienta metoda de a prelungi durata de viata a acoperisului si de a evita surprizele neplacute.",
+      "Primavara este momentul ideal pentru o inspectie completa dupa rigorile iernii. Verifica daca exista tigle dislocate, fisurate sau lipsa - zapada si gheata pot deteriora chiar si cele mai durabile invelitori. Curata jgheaburile de frunzele si reziduurile acumulate in timpul iernii, pentru ca apa de ploaie sa se scurga corespunzator. Verifica daca elementele de tinichigerie - sorturile, dolii si racordurile la cosul de fum - sunt intacte si bine fixate.",
+      "Vara este sezonul potrivit pentru lucrari de igiena si tratamente preventive. Daca observi muschi sau licheni pe tigle, aplica solutii speciale anti-muschi pentru a preveni deteriorarea materialelor. Verifica si tunde crengile copacilor care ating sau se apropie de acoperis - frunzele in cadere blocheaza jgheaburile, iar crengile in furtuna pot zgaria sau lovi invelitoarea. Tot acum poti planifica eventualele renovari sau extinderi, profitand de vremea uscata.",
+      "Toamna este probabil cel mai important sezon de intretinere. Curata din nou jgheaburile dupa caderea frunzelor si verifica burlanele sa nu fie infundate. Inspecteaza izolatia podului - daca observi pete de umezeala sau zone reci, este momentul sa intervii inainte de iarna. Verifica daca tiglele sunt bine fixate si inlocuieste-le pe cele deteriorate. O singura tigla lipsa poate permite infiltrarea apei si formarea unor pungi de gheata care strica sarpanta.",
+      "Iarna nu este momentul pentru lucrari pe acoperis, ci pentru monitorizare. Urmareste daca pe streasina apar tepi de gheata sau zone unde zapada se topeste neuniform - acestea sunt semne de izolatie deficitara sau de scurgeri de caldura. Daca strarul de zapada depaseste 30-40 cm, contacteaza un specialist pentru deszapezire profesionista, mai ales pe acoperisuri cu pante mici. Pentru orice lucrare, contacteaza Reparatii Pro - oferim si contracte de intretinere anuale, cu inspectii programate de doua ori pe an.",
+    ],
+  },
+  "izolatie-termica-acoperis-economii": {
+    title: "Izolatia Termica a Acoperisului - Cum Reduci Factura cu Pana la 30%",
+    date: "20 Martie 2026",
     category: "Sfaturi",
     readTime: "7 min citire",
     content: [
-      "Cand vine vorba de constructia sau renovarea unei case, acoperisul este adesea unul dintre cele mai importante elemente -- si, paradoxal, unul dintre cele mai neglijate. Multi proprietari opteaza pentru materiale ieftine sau manopera nespecializata, incercand sa economiseasca pe termen scurt. Insa experienta arata ca aceasta abordare se dovedeste intotdeauna mai costisitoare pe termen lung.",
-      "Un acoperis de calitate, realizat cu materiale premium de la producatori recunoscuti precum Bilka, Lindab, Wetterbest sau Bramac, poate dura 30-50 de ani fara interventii majore. In comparatie, un acoperis executat cu materiale ieftine poate necesita reparatii semnificative dupa doar 5-10 ani. Costul acestor reparatii repetate depaseste rapid investitia initiala intr-un sistem de calitate.",
-      "Izolata termica este un alt aspect unde calitatea face diferenta. Un acoperis bine izolat poate reduce consumul de energie pentru incalzire si racire cu pana la 30%. Aceasta se traduce in economii semnificative la facturile de utilitati, an dupa an. Materialele de izolatie premium, precum vatele minerale bazaltice de inalta densitate, ofera performante superioare si o durata de viata mult mai lunga decat alternativele ieftine.",
-      "Garantia este un indicator important al calitatii. Producatorii de materiale premium ofera garantii extinse -- de la 15 la 50 de ani pe materiale, in functie de tipul de invelitoare. In combinatie cu garantia pe manopera oferita de o firma profesionista, aveti siguranta ca investitia dumneavoastra este protejata pe termen lung.",
-      "In concluzie, investitia intr-un acoperis de calitate este una dintre cele mai inteligente decizii pe care le puteti lua pentru proprietatea dumneavoastra. Nu este doar o cheltuiala -- este o investitie care se recupereaza prin durabilitate, economii energetice si lipsa costurilor de reparatii. Alegeti cu intelepciune producatorii, materialele si echipa de montaj, iar acoperisul dumneavoastra va va proteja casa timp de decenii.",
-    ],
-  },
-  "semne-reparatii-urgente-acoperis": {
-    title: "5 Semne ca Acoperisul Tau Are Nevoie de Reparatii Urgente",
-    date: "5 Martie 2026",
-    category: "Ghid",
-    readTime: "6 min citire",
-    content: [
-      "Acoperisul este prima linie de aparare a casei tale impotriva intemperiilor. Cu toate acestea, multi proprietari ignora semnele de uzura pana cand problemele devin grave si costisitoare. Identificarea la timp a acestor semne poate face diferenta intre o reparatie minora si o renovare completa. Iata cele 5 semne de alarma pe care nu ar trebui sa le ignorati.",
-      "1. Pete de umezeala pe tavan sau pereti. Acesta este cel mai evident semn ca acoperisul are o problema. Petele de umezeala indica faptul ca apa patrunde prin invelitoare sau prin racorduri si ajunge in interiorul casei. Chiar daca petele par mici, problema reala poate fi mult mai extinsa, deoarece apa poate curge de-a lungul grinzilor inainte de a pica pe tavan. Nu ignorati aceste semne -- contactati un specialist cat mai curand.",
-      "2. Tigle sparte, fisurate sau lipsa. Verificati periodic acoperisul de la sol, cu un binoclu daca este necesar. Tiglele sparte sau lipsa expun straturile de sub invelitoare la intemperii, ducand la degradarea rapida a izolatiei si a sarpantei. O singura tigla lipsa poate permite infiltrarea unor cantitati mari de apa, mai ales in timpul ploilor torentiale.",
-      "3. Jgheaburi si burlane deteriorate sau infundate. Sistemul pluvial joaca un rol critic in protejarea acoperisului si a fundatiei cladirii. Jgheaburile infundate cu frunze sau resturi fac ca apa sa se acumuleze si sa curga pe sub invelitoare. Jgheaburile ruginite sau cu imbinari deteriorate permit apa sa curga direct pe peretii cladirii, provocand umezeala si degradare. Verificati si curatati jgheaburile cel putin de doua ori pe an.",
-      "4. Muschi, licheni sau mucegai pe acoperis. Cresterea abundenta de muschi sau licheni pe invelitoare indica o problema de ventilatie si umiditate. Muschiul retine apa si poate deteriora materialele acoperisului in timp. De asemenea, radacinile muschiului pot ridica tiglele si pot crea spatii prin care apa patrunde. Un tratament profesional de curatare si aplicare de solutii preventive poate rezolva aceasta problema.",
-      "5. Deformarea sau curbarea sarpantei. Daca observati ca acoperisul pare deformat, cu zone care se lasa sau care par umflate, este un semn serios ca structura de sustinere a acoperisului -- sarpanta -- este compromisa. Aceasta poate fi cauzata de umiditate excesiva, atac de insecte xilofage sau suprasolicitare (de exemplu, din cauza zapezii). O sarpanta deformata necesita interventie urgenta, deoarece poate pune in pericol siguranta intregii cladiri. Contactati imediat un specialist pentru o evaluare detaliata.",
+      "Pana la 30% din pierderile termice ale unei case scapa prin acoperis - aceasta este realitatea pe care multi proprietari o ignora pana cand vad facturile la incalzire. Caldura urca natural, iar daca acoperisul nu este izolat corespunzator, energia consumata pentru incalzirea casei pleaca direct in atmosfera. Investitia intr-o izolatie termica de calitate este una dintre cele mai rentabile modernizari pe care le poti face, cu un retur al investitiei in doar 5-7 ani prin economiile la utilitati.",
+      "Cele mai folosite materiale izolante sunt vata minerala bazaltica, vata de sticla, polistirenul expandat (EPS), polistirenul extrudat (XPS) si spumele poliuretanice. Vata minerala bazaltica este alegerea premium - are performante termice excelente (lambda 0.035-0.040 W/mK), este incombustibila, ofera si izolare fonica si rezista la atacul rozatoarelor sau insectelor. Polistirenul este mai ieftin si mai usor, dar are limitari la foc si trebuie protejat de razele UV. Spuma poliuretanica aplicata prin pulverizare este ideala pentru sarpante complicate, oferind o etansare perfecta.",
+      "Grosimea izolatiei este la fel de importanta ca tipul materialului. Pentru zona climatica a Romaniei, recomandarea actuala este de minim 25-30 cm de vata minerala sau echivalent. Multi proprietari fac greseala de a monta izolatie subtire pentru a economisi pe termen scurt - insa diferenta de cost intre 15 si 30 de cm este minora comparativ cu economiile pe termen lung la incalzire si racire. O izolatie subdimensionata inseamna pierderi termice continue, ani de zile.",
+      "Un element esential, adesea uitat, este bariera de vapori si membrana hidroizolatoare. Bariera de vapori, montata pe partea calda a izolatiei (interior), impiedica condensul sa patrunda in stratul izolator. Membrana hidroizolatoare, montata sub invelitoare, protejeaza izolatia de eventuale infiltratii si permite evacuarea umiditatii reziduale. Fara aceste membrane, chiar si cea mai scumpa izolatie isi pierde proprietatile in cativa ani din cauza umiditatii acumulate.",
+      "Pe langa economiile evidente la facturi, o izolatie termica corect executata creste valoarea de revanzare a casei, imbunatateste confortul interior (temperaturi mai uniforme, fara zone reci) si reduce zgomotul exterior. Pentru o casa de 100 mp, investitia totala in izolatie premium este de aproximativ 6.000-9.000 lei, iar economia anuala la incalzire poate ajunge la 2.000-3.000 lei. La Reparatii Pro oferim consultanta gratuita si calculam pentru tine optiunea cea mai eficienta, in functie de structura existenta a acoperisului si de bugetul disponibil.",
     ],
   },
 };

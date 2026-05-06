@@ -4,31 +4,31 @@ import { ArrowRight, Calendar } from "lucide-react";
 
 const posts = [
   {
-    slug: "interventie-urgenta-acoperis-furtuna",
-    title: "Interventie de Urgenta la Acoperis Dupa Furtuna",
+    slug: "alegere-tigla-acoperis-ghid-complet",
+    title: "Cum sa Alegi Tigla Potrivita pentru Acoperisul Casei Tale",
     excerpt:
-      "Aflati cum echipa noastra raspunde rapid la deteriorarile provocate de furtuni si ce pasi urmam pentru a va proteja casa.",
-    date: "15 Mar 2026",
-    category: "Interventii de urgenta",
-    image: "/images/hero-reparatii.webp",
+      "Ceramica, metalica sau tabla faltuita? Comparam tipurile de invelitoare si te ajutam sa alegi solutia ideala pentru bugetul tau.",
+    date: "1 Apr 2026",
+    category: "Sfaturi",
+    image: "/images/faq-tigla-metalica.webp",
   },
   {
-    slug: "investitia-acoperis-calitativ",
-    title: "De ce Investitia intr-un Acoperis Calitativ se Plateste Mereu",
+    slug: "intretinere-acoperis-calendar-anual",
+    title: "Calendar de Intretinere Acoperis - Ce Verifici in Fiecare Sezon",
     excerpt:
-      "Un acoperis de calitate nu este o cheltuiala, ci o investitie pe termen lung. Descopera beneficiile materialelor premium.",
-    date: "10 Mar 2026",
-    category: "Reglementari si Finantare",
-    image: "/images/tigla-metalica-alegere.webp",
+      "Un acoperis bine intretinut dureaza de doua ori mai mult. Lista completa de verificari pe care trebuie sa le faci in fiecare sezon.",
+    date: "25 Mar 2026",
+    category: "Ghid Practic",
+    image: "/images/reparatii-faq.webp",
   },
   {
-    slug: "semne-reparatii-urgente-acoperis",
-    title: "5 Semne ca Acoperisul Tau Are Nevoie de Reparatii Urgente",
+    slug: "izolatie-termica-acoperis-economii",
+    title: "Izolatia Termica a Acoperisului - Cum Reduci Factura cu Pana la 30%",
     excerpt:
-      "Nu ignora aceste semne! Identifica la timp problemele acoperisului pentru a evita costurile mari de reparatie.",
-    date: "5 Mar 2026",
-    category: "Design si Inspiratie",
-    image: "/images/importanta-reparatie.webp",
+      "Pana la 30% din pierderile termice scapa prin acoperis. Afla ce materiale alegi si in cat timp se amortizeaza investitia.",
+    date: "20 Mar 2026",
+    category: "Eficienta Energetica",
+    image: "/images/dulgherie-despre.webp",
   },
 ];
 
