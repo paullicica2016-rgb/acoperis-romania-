@@ -22,7 +22,7 @@ const projects = [
     location: "Ilfov",
     type: "Constructie Noua",
     materials: "Tigla metalica, jgheaburi Lindab",
-    image: "/images/projects/tigla-metalica-2.webp",
+    image: "/images/dragos/poza-5.jpeg",
   },
   {
     title: "Reparatii Acoperis Rezidential",
