@@ -29,7 +29,7 @@ const projects = [
     location: "Prahova",
     type: "Reparatii",
     materials: "Inlocuire invelitoare, izolatie",
-    image: "/images/projects/reparatii.webp",
+    image: "/images/projects/acoperis-rezidential.png",
   },
   {
     title: "Montaj Jgheaburi si Burlane",
