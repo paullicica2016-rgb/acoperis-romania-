@@ -50,7 +50,7 @@ const projects = [
     location: "Dambovita",
     type: "Renovare",
     materials: "Sarpanta noua, tigla metalica",
-    image: "/images/projects/renovare-acoperis-complet.png",
+    image: "/images/projects/renovare-final.jpeg",
   },
   {
     title: "Acoperis Tigla Ceramica",
