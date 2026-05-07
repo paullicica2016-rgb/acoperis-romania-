@@ -160,51 +160,16 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Payment & ANPC bar */}
+      {/* Parteneri bar */}
       <div className="border-t border-gray-200 bg-white">
         <div className="max-w-7xl mx-auto px-4 py-8">
-          <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
-            <div className="w-16 h-10 bg-black rounded-lg flex items-center justify-center p-1.5">
-              <Image src="/images/payment/mastercard.png" alt="Mastercard" width={48} height={30} className="object-contain" />
-            </div>
-            <div className="w-16 h-10 bg-[#1a1f71] rounded-lg flex items-center justify-center p-1.5">
-              <Image src="/images/payment/visa.png" alt="Visa" width={48} height={30} className="object-contain brightness-0 invert" />
-            </div>
-            <div className="h-10 bg-gray-100 border border-gray-200 rounded-lg flex items-center justify-center px-3">
-              <span className="text-[#1a3c6e] font-bold text-sm">tbi <span className="font-normal">bank</span></span>
-            </div>
-            <div className="h-10 bg-gray-100 border border-gray-200 rounded-lg flex items-center justify-center px-3">
-              <span className="text-[#ff6200] font-bold text-sm">ING</span>
-            </div>
-          </div>
+          <p className="text-center text-xs font-semibold text-gray-400 uppercase tracking-widest mb-5">Parteneri de materiale</p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <a
-              href="https://ec.europa.eu/consumers/odr"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-gray-100 border border-gray-200 rounded-lg px-4 py-2.5 hover:bg-gray-200 transition-colors"
-            >
-              <span className="text-[#1a3c6e] text-xs font-bold text-center leading-tight uppercase">
-                Solutionarea Online<br />a Litigiilor
-              </span>
-              <span className="bg-[#1a3c6e] text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase">Detalii</span>
-            </a>
-            <a
-              href="https://anpc.ro/ce-este-sal/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-gray-100 border border-gray-200 rounded-lg px-4 py-2.5 hover:bg-gray-200 transition-colors"
-            >
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 flex items-center justify-center">
-                  <span className="text-[#1a3c6e] font-bold text-xs">ANPC</span>
-                </div>
-                <span className="text-[#1a3c6e] text-xs font-bold text-center leading-tight uppercase">
-                  Solutionarea Alternativa<br />a Litigiilor
-                </span>
+            {["Bilka Steel", "Lindab", "Wetterbest", "Bramac", "Tondach", "Velux", "Gerard", "Ruukki"].map((brand) => (
+              <div key={brand} className="h-10 bg-gray-50 border border-gray-200 rounded-xl flex items-center justify-center px-5 hover:border-[#0d1547]/30 transition-colors">
+                <span className="text-[#0d1547] font-bold text-sm tracking-tight">{brand}</span>
               </div>
-              <span className="bg-[#1a3c6e] text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase">Detalii</span>
-            </a>
+            ))}
           </div>
         </div>
       </div>
