@@ -6,39 +6,38 @@ export default function Logo({ className = "", dark = false }: { className?: str
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 260 60"
+      viewBox="0 0 290 60"
       className={className}
-      aria-label="Reparatii Pro - Acoperisuri de Incredere"
+      aria-label="Acoperisuri Pro - Acoperisuri de Incredere"
     >
-      {/* Roof icon — clean geometric triangle with ridge line */}
-      <g transform="translate(0, 4)">
-        {/* Shadow triangle */}
-        <polygon points="26,38 48,10 48,38" fill={dark ? "#c8cde8" : "#ffffff"} opacity="0.25" />
-        {/* Main roof shape */}
-        <polygon points="8,38 48,8 88,38" fill="none" stroke={textRed} strokeWidth="3.5" strokeLinejoin="round" />
-        {/* Ridge cap */}
-        <line x1="38" y1="14" x2="58" y2="14" stroke={textRed} strokeWidth="2" strokeLinecap="round" opacity="0.5" />
-        {/* Chimney */}
-        <rect x="60" y="20" width="7" height="12" rx="1" fill={textRed} opacity="0.85" />
-        <rect x="58" y="18" width="11" height="3" rx="1" fill={textRed} />
+      {/* Icon: layered roof / shield shape */}
+      <g transform="translate(4, 3)">
+        {/* Back roof layer */}
+        <polygon points="14,42 44,12 74,42" fill="none" stroke={dark ? "#c0c5dd" : "#ffffff"} strokeWidth="2.5" strokeLinejoin="round" opacity="0.4" />
+        {/* Front roof layer — offset up-right */}
+        <polygon points="8,40 40,6 72,40" fill="none" stroke={textRed} strokeWidth="3.5" strokeLinejoin="round" />
+        {/* Horizontal base line */}
+        <line x1="8" y1="40" x2="72" y2="40" stroke={textRed} strokeWidth="3.5" strokeLinecap="round" />
+        {/* Small dot at peak */}
+        <circle cx="40" cy="6" r="3" fill={textRed} />
       </g>
 
       {/* Brand name */}
       <text
-        x="98"
+        x="88"
         y="34"
         fontFamily="'Arial Black', 'Franklin Gothic Heavy', Impact, sans-serif"
         fontWeight="900"
-        fontSize="26"
+        fontSize="25"
         letterSpacing="-0.5"
       >
-        <tspan fill={textMain}>Reparatii</tspan><tspan fill={textRed}>Pro</tspan>
+        <tspan fill={textMain}>Acoperisuri</tspan><tspan fill={textRed}>Pro</tspan>
       </text>
 
       {/* Tagline */}
       <text
-        x="99"
-        y="48"
+        x="89"
+        y="49"
         fontFamily="Arial, Helvetica, sans-serif"
         fontSize="7.5"
         fill={taglineColor}
