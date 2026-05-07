@@ -60,11 +60,11 @@ const projects = [
     image: "/images/projects/dulgherie-1.webp",
   },
   {
-    title: "Sindrila Bituminoasa",
+    title: "Hidroizolatii cu Membrana Bituminoasa",
     location: "Braila",
     type: "Sindrila",
     materials: "Sindrila bituminoasa premium",
-    image: "/images/projects/sindrila-1.webp",
+    image: "/images/projects/bituminoasa.png",
   },
 ];
 
