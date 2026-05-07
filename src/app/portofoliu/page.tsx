@@ -73,20 +73,6 @@ const projects = [
     materials: "Sindrila bituminoasa premium",
     image: "/images/projects/sindrila-1.webp",
   },
-  {
-    title: "Tabla Cutata Hala",
-    location: "Ialomita",
-    type: "Tabla Cutata",
-    materials: "Tabla cutata Bilka",
-    image: "/images/projects/tabla-cutata-1.webp",
-  },
-  {
-    title: "Montaj Acoperis Complet",
-    location: "Tulcea",
-    type: "Constructie Noua",
-    materials: "Tigla metalica, accesorii complete",
-    image: "/images/projects/tigla-metalica-4.webp",
-  },
 ];
 
 export default function PortofoliuPage() {
