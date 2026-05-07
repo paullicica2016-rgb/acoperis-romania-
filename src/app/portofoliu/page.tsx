@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import PageHero from "@/components/PageHero";
 import { MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -71,11 +70,33 @@ const projects = [
 export default function PortofoliuPage() {
   return (
     <>
-      <PageHero
-        title="Portofoliu Lucrari"
-        subtitle="O selectie din proiectele finalizate de echipa Reparatii Pro. Fiecare lucrare reflecta dedicarea noastra pentru calitate si profesionalism."
-        breadcrumbs={[{ label: "Portofoliu" }]}
-      />
+      {/* Hero */}
+      <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image src="/images/hero-dulgherie.webp" alt="Portofoliu acoperisuri" fill className="object-cover" priority sizes="100vw" />
+          <div className="absolute inset-0 bg-[#051D3E]/78" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 pb-24 pt-8">
+          <nav className="flex items-center gap-2 text-sm text-white/60 mb-6">
+            <Link href="/" className="hover:text-white transition-colors">Acasa</Link>
+            <span className="text-white/40">›</span>
+            <span className="text-white">Portofoliu</span>
+          </nav>
+          <div className="max-w-2xl">
+            <span className="inline-block bg-white/15 border border-white/20 text-white/90 text-xs font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full mb-5">Proiecte finalizate</span>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-5">Portofoliu Lucrari</h1>
+            <div className="w-12 h-1 bg-[#E53935] rounded mb-6" />
+            <p className="text-white/75 text-lg leading-relaxed">
+              O selectie din proiectele finalizate de echipa Reparatii Pro. Fiecare lucrare reflecta dedicarea noastra pentru calitate si profesionalism.
+            </p>
+          </div>
+        </div>
+        <div className="relative h-16">
+          <svg viewBox="0 0 1440 64" preserveAspectRatio="none" className="absolute bottom-0 w-full h-16">
+            <path d="M0,32 C360,80 1080,0 1440,32 L1440,64 L0,64 Z" fill="white" />
+          </svg>
+        </div>
+      </section>
 
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4">
