@@ -1,23 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import PageHero from "@/components/PageHero";
-import {
-  Hammer,
-  Shield,
-  Wrench,
-  Paintbrush,
-  Home,
-  AlertTriangle,
-  Trash2,
-  Sparkles,
-  Building2,
-  Layers,
-  ArrowRight,
-} from "lucide-react";
+import Image from "next/image";
+import { Hammer, Shield, Wrench, Paintbrush, Home, AlertTriangle, Trash2, Sparkles, Building2, Layers, ArrowRight, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Servicii Montaj si Reparatii Acoperisuri - 10 Tipuri de Servicii",
-  description: "Servicii complete acoperisuri: constructie acoperis nou, montaj tigla metalica, tigla ceramica, tabla faltuita, reparatii, renovari, mansardari, interventii urgenta 24/7. Preturi competitive.",
+  description: "Servicii complete acoperisuri: constructie acoperis nou, montaj tigla metalica, tigla ceramica, tabla faltuita, reparatii, renovari, mansardari, interventii urgenta 24/7.",
 };
 
 const services = [
@@ -25,95 +13,145 @@ const services = [
     icon: Hammer,
     title: "Constructie Acoperisuri Noi",
     slug: "constructie-acoperisuri-noi",
-    desc: "Executie completa de sisteme de acoperis pentru cladiri rezidentiale, comerciale si industriale. Structuri din lemn si metal, diverse tipuri de invelitori, izolatie termica, hidroizolatie, jgheaburi si elemente de siguranta.",
+    desc: "Executie completa pentru case, cladiri comerciale si industriale — de la sarpanta la invelitoare finala.",
+    image: "/images/dragos/poza-1.jpeg",
   },
   {
     icon: Layers,
     title: "Invelitori pentru Acoperisuri",
     slug: "invelitori-pentru-acoperisuri",
-    desc: "Montaj profesional de tigla ceramica, tigla metalica, tabla faltuita, tabla cutata, sindrila bituminoasa si panouri sandwich cu precizie si atentie la detalii.",
+    desc: "Tigla ceramica, tigla metalica, tabla faltuita, tabla cutata, sindrila bituminoasa — montaj profesional.",
+    image: "/images/projects/tigla-metalica-2-new.jpeg",
   },
   {
     icon: Wrench,
     title: "Accesorii si Sisteme de Montaj",
     slug: "accesorii-si-sisteme-de-montaj",
-    desc: "Instalare jgheaburi, burlane, opritori de zapada, cosuri de fum, aeratoare, tinichigerie si sisteme de montaj specifice fiecarui tip de acoperis.",
+    desc: "Jgheaburi, burlane, parazapezi, aeratoare, cosuri de fum si tinichigerie completa.",
+    image: "/images/projects/accesorii-1.jpeg",
   },
   {
     icon: Shield,
     title: "Reparatii Acoperisuri",
     slug: "reparatii-acoperisuri",
-    desc: "Reparatii profesionale pentru invelitori deteriorate: inlocuire sarpanta, reparatii materiale, imbunatatiri izolatie si modernizare sisteme de drenaj pluvial.",
+    desc: "Tigla sparta, infiltratii, sarpanta degradata — diagnostic complet si reparatii de durata.",
+    image: "/images/hero-reparatii.webp",
   },
   {
     icon: Paintbrush,
     title: "Renovari si Modernizari",
     slug: "renovari-si-modernizari",
-    desc: "Modernizare completa a acoperisurilor deteriorate cu inlocuire totala sau partiala a structurii, imbunatatiri izolatie, hidroizolatie si sistem pluvial.",
+    desc: "Transformam acoperisuri vechi in sisteme moderne, eficiente energetic si estetice.",
+    image: "/images/dragos/renovari-1.jpeg",
   },
   {
     icon: Home,
     title: "Mansardari si Extinderi",
     slug: "mansardari-si-extinderi",
-    desc: "Transformarea podurilor neutilizate in spatii locative moderne. Modificari structurale, izolatie termica, montaj ferestre de mansarda Velux si Fakro.",
+    desc: "Transformam podul casei in spatiu locuibil modern. Proiect complet de la structura la finisaje.",
+    image: "/images/projects/mansardari-1.jpeg",
   },
   {
     icon: Trash2,
     title: "Demolari si Reconstruiri",
     slug: "demolari-si-reconstruiri",
-    desc: "Inlocuire structurala completa a acoperisurilor compromise. Demontare sigura si reconstructie cu materiale si tehnologii moderne.",
+    desc: "Demontare sigura si reconstructie completa cu materiale si tehnologii moderne.",
+    image: "/images/hero-dulgherie.webp",
   },
   {
     icon: AlertTriangle,
     title: "Interventii de Urgenta",
     slug: "interventii-de-urgenta",
-    desc: "Raspuns rapid la daune provocate de furtuni, vanturi puternice, zapada si gheata. Disponibilitate 24/7 cu echipe mobile specializate.",
+    desc: "Raspuns rapid la daune provocate de furtuni, vant, zapada. Disponibili 24/7.",
+    image: "/images/hero-reparatii.webp",
   },
   {
     icon: Sparkles,
     title: "Curatare si Intretinere",
     slug: "curatare-si-intretinere",
-    desc: "Servicii profesionale de curatare acoperisuri si intretinere regulata pentru prelungirea duratei de viata a acoperisului dumneavoastra.",
+    desc: "Curatare profesionala si intretinere regulata pentru prelungirea duratei de viata a acoperisului.",
+    image: "/images/importanta-reparatie.webp",
   },
   {
     icon: Building2,
     title: "Finisaje Fatade Exterioare",
     slug: "finisaje-fatade-exterioare",
-    desc: "Servicii complete de finisaje fatade exterioare si placari. Materiale premium si executie profesionala pentru un aspect modern si durabil.",
+    desc: "Finisaje fatade si placari exterioare cu materiale premium si executie profesionala.",
+    image: "/images/projects/tigla-ceramica-vila.jpeg",
   },
 ];
 
 export default function ServiciiPage() {
   return (
     <>
-      <PageHero
-        title="Serviciile Noastre"
-        subtitle="Oferim o gama completa de servicii pentru acoperisuri -- de la constructie si montaj, pana la reparatii, renovari si interventii de urgenta."
-        image="/images/hero.webp"
-        breadcrumbs={[{ label: "Servicii" }]}
-      />
+      {/* Hero */}
+      <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image src="/images/hero.webp" alt="Servicii acoperisuri" fill className="object-cover" priority sizes="100vw" />
+          <div className="absolute inset-0 bg-[#051D3E]/78" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 pb-24 pt-8">
+          <nav className="flex items-center gap-2 text-sm text-white/60 mb-6">
+            <Link href="/" className="hover:text-white transition-colors">Acasa</Link>
+            <span className="text-white/40">›</span>
+            <span className="text-white">Servicii</span>
+          </nav>
+          <div className="max-w-2xl">
+            <span className="inline-block bg-white/15 border border-white/20 text-white/90 text-xs font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full mb-5">Tot ce ai nevoie</span>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-5">Serviciile Noastre</h1>
+            <div className="w-12 h-1 bg-[#E53935] rounded mb-6" />
+            <p className="text-white/75 text-lg leading-relaxed">
+              De la constructie si montaj pana la reparatii, renovari si interventii de urgenta — acoperim tot ce tine de acoperisul tau.
+            </p>
+          </div>
+        </div>
+        <div className="relative h-16">
+          <svg viewBox="0 0 1440 64" preserveAspectRatio="none" className="absolute bottom-0 w-full h-16">
+            <path d="M0,32 C360,80 1080,0 1440,32 L1440,64 L0,64 Z" fill="white" />
+          </svg>
+        </div>
+      </section>
 
-      <section className="py-20 md:py-28 bg-white">
+      {/* Services grid */}
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.map((service) => (
+            {services.map((service, i) => (
               <Link
                 key={service.slug}
                 href={`/servicii/${service.slug}`}
-                className="service-card bg-white rounded-2xl p-8 border border-gray-100 group block"
+                className="group rounded-2xl overflow-hidden border border-gray-100 hover:border-[#0d1547]/20 hover:shadow-xl transition-all duration-300 bg-white"
               >
-                <div className="w-14 h-14 rounded-xl bg-accent/10 text-accent flex items-center justify-center mb-5 group-hover:bg-accent group-hover:text-white transition-all">
-                  <service.icon size={28} />
+                {/* Image */}
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
+                  <div className="absolute inset-0 bg-[#051D3E]/40 group-hover:bg-[#051D3E]/30 transition-colors" />
+                  {/* Icon badge */}
+                  <div className="absolute top-4 left-4 w-10 h-10 rounded-xl bg-white/95 text-[#0d1547] flex items-center justify-center shadow-sm">
+                    <service.icon size={19} />
+                  </div>
+                  {/* Number */}
+                  <span className="absolute bottom-4 right-4 text-white/30 font-extrabold text-4xl leading-none">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  {service.title}
-                </h3>
-                <p className="text-gray-500 leading-relaxed text-sm mb-4">
-                  {service.desc}
-                </p>
-                <span className="inline-flex items-center gap-1 text-accent font-semibold text-sm group-hover:gap-2 transition-all">
-                  Vezi Detalii <ArrowRight size={16} />
-                </span>
+
+                {/* Content */}
+                <div className="p-6">
+                  <h3 className="font-bold text-gray-900 text-lg mb-2 group-hover:text-[#0d1547] transition-colors">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-500 text-sm leading-relaxed mb-4">{service.desc}</p>
+                  <span className="inline-flex items-center gap-1.5 text-[#0d1547] font-semibold text-sm group-hover:gap-3 transition-all">
+                    Vezi detalii <ArrowRight size={15} />
+                  </span>
+                </div>
               </Link>
             ))}
           </div>
@@ -121,19 +159,19 @@ export default function ServiciiPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Ai nevoie de un serviciu specific?
-          </h2>
-          <p className="text-gray-500 mb-8">
-            Contacteaza-ne pentru o oferta personalizata. Echipa noastra iti sta la dispozitie.
-          </p>
+      <section className="relative py-20 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image src="/images/cta.webp" alt="Servicii acoperisuri" fill className="object-cover" sizes="100vw" />
+          <div className="absolute inset-0 bg-[#0d1547]/85" />
+        </div>
+        <div className="relative max-w-3xl mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ai nevoie de un serviciu?</h2>
+          <p className="text-white/70 text-lg mb-10">Suna acum pentru oferta gratuita. Venim la fata locului fara costuri.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:0754456844" className="btn-accent inline-flex items-center justify-center gap-2 text-white px-8 py-3.5 rounded-full font-semibold">
-              Apeleaza: 0754 456 844
+            <a href="tel:0754456844" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
+              <Phone size={18} /> 0754 456 844
             </a>
-            <Link href="/contact" className="inline-flex items-center justify-center gap-2 border-2 border-gray-200 text-gray-700 px-8 py-3.5 rounded-full font-semibold hover:border-accent hover:text-accent transition-all">
+            <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/25 transition-all">
               Formular Contact
             </Link>
           </div>
