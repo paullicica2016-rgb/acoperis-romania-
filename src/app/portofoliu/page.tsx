@@ -15,7 +15,7 @@ const projects = [
     location: "Bucuresti",
     type: "Tigla Metalica",
     materials: "Tigla metalica Bilka, sarpanta lemn",
-    image: "/images/projects/tigla-metalica-1.webp",
+    image: "/images/projects/tigla-metalica-2-new.jpeg",
   },
   {
     title: "Acoperis Tigla Metalica Complet",
