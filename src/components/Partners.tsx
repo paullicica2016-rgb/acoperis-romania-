@@ -21,7 +21,7 @@ export default function Partners() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid lg:grid-cols-2 rounded-2xl overflow-hidden shadow-md">
           {/* Left - Red panel */}
-          <div className="bg-[#C62828] text-white p-8 md:p-10 lg:p-12 flex flex-col justify-center">
+          <div className="bg-[#0d1547] text-white p-8 md:p-10 lg:p-12 flex flex-col justify-center">
             <span className="block text-white/80 font-semibold text-xs uppercase tracking-[0.25em] mb-4">
               Parteneri de Incredere
             </span>
@@ -47,13 +47,13 @@ export default function Partners() {
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
                 href="/portofoliu"
-                className="border-2 border-white text-white hover:bg-white hover:text-[#C62828] px-6 py-3 rounded-md font-semibold text-sm text-center transition-colors"
+                className="border-2 border-white text-white hover:bg-white hover:text-[#0d1547] px-6 py-3 rounded-md font-semibold text-sm text-center transition-colors"
               >
                 Vezi Portofoliu
               </Link>
               <a
                 href="tel:0734704026"
-                className="border-2 border-white text-white hover:bg-white hover:text-[#C62828] px-6 py-3 rounded-md font-semibold text-sm text-center transition-colors"
+                className="border-2 border-white text-white hover:bg-white hover:text-[#0d1547] px-6 py-3 rounded-md font-semibold text-sm text-center transition-colors"
               >
                 Apeleaza Acum
               </a>

@@ -36,7 +36,7 @@ function IconInput({
       <Icon className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
       <input
         {...props}
-        className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#C62828]/20 focus:border-[#C62828] outline-none transition-all text-[#212121] placeholder:text-gray-400"
+        className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#0d1547]/20 focus:border-[#0d1547] outline-none transition-all text-[#212121] placeholder:text-gray-400"
       />
     </div>
   );
@@ -73,7 +73,7 @@ export default function QuickContact() {
           {/* Left - Form card */}
           <div className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
             {/* Red ribbon header */}
-            <div className="bg-[#C62828] px-6 py-4 flex items-center gap-3">
+            <div className="bg-[#0d1547] px-6 py-4 flex items-center gap-3">
               <Send size={20} className="text-white" />
               <h2 className="text-white font-bold text-base md:text-lg leading-tight">
                 Cauti firma pentru montaj acoperis? Contacteaza-ne!
@@ -133,7 +133,7 @@ export default function QuickContact() {
                       <select
                         name="service_type"
                         aria-label="Serviciu dorit"
-                        className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#C62828]/20 focus:border-[#C62828] outline-none transition-all text-[#212121] appearance-none"
+                        className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#0d1547]/20 focus:border-[#0d1547] outline-none transition-all text-[#212121] appearance-none"
                       >
                         <option value="">Serviciul dorit</option>
                         {serviceOptions.map((s) => (
@@ -149,7 +149,7 @@ export default function QuickContact() {
                       <select
                         name="county"
                         aria-label="Judet"
-                        className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#C62828]/20 focus:border-[#C62828] outline-none transition-all text-[#212121] appearance-none"
+                        className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#0d1547]/20 focus:border-[#0d1547] outline-none transition-all text-[#212121] appearance-none"
                       >
                         <option value="">Judet</option>
                         {countyOptions.map((c) => (
@@ -169,14 +169,14 @@ export default function QuickContact() {
                       rows={3}
                       placeholder="Spune-ne despre proiectul tau..."
                       aria-label="Mesaj"
-                      className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#C62828]/20 focus:border-[#C62828] outline-none transition-all text-[#212121] placeholder:text-gray-400 resize-none"
+                      className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#0d1547]/20 focus:border-[#0d1547] outline-none transition-all text-[#212121] placeholder:text-gray-400 resize-none"
                     />
                   </div>
 
                   <button
                     type="submit"
                     disabled={status === "sending"}
-                    className="w-full py-4 rounded-lg font-bold text-base flex items-center justify-center gap-2 bg-[#C62828] hover:bg-[#a71d1d] text-white shadow-lg shadow-[#C62828]/30 hover:shadow-[#C62828]/50 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
+                    className="w-full py-4 rounded-lg font-bold text-base flex items-center justify-center gap-2 bg-[#0d1547] hover:bg-[#0a1040] text-white shadow-lg shadow-[#0d1547]/30 hover:shadow-[#0d1547]/50 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
                   >
                     <Send size={18} />
                     {status === "sending" ? "Se trimite..." : "Trimite cererea"}
@@ -209,7 +209,7 @@ export default function QuickContact() {
             <div className="absolute bottom-6 left-6 bg-[#051D3E] rounded-xl px-6 py-4 shadow-xl">
               <div className="text-white/60 text-sm">Ani de Experienta in</div>
               <div className="text-white/60 text-sm">Montarea Acoperisurilor</div>
-              <div className="text-[#C62828] text-4xl font-bold mt-1">15+</div>
+              <div className="text-[#0d1547] text-4xl font-bold mt-1">15+</div>
             </div>
             <div className="grid grid-cols-4 gap-3 mt-3">
               <div className="relative rounded-xl overflow-hidden aspect-[4/3]">

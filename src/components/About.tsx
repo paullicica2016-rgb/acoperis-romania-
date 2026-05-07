@@ -21,7 +21,7 @@ export default function About() {
           {/* Right - Text */}
           <div>
             {/* Red banner header */}
-            <div className="bg-[#C62828] text-white px-6 py-6 mb-6 rounded-md">
+            <div className="bg-[#0d1547] text-white px-6 py-6 mb-6 rounded-md">
               <span className="block text-white/90 font-semibold text-xs uppercase tracking-[0.2em] mb-2">
                 Constructie · Montaj · Reparatii Acoperis
               </span>
@@ -46,7 +46,7 @@ export default function About() {
                   key={item}
                   className="flex items-stretch border border-gray-200 rounded-md overflow-hidden bg-white shadow-sm"
                 >
-                  <div className="w-1.5 bg-[#C62828] shrink-0" />
+                  <div className="w-1.5 bg-[#0d1547] shrink-0" />
                   <div className="px-4 py-3.5 text-[#212121]">{item}</div>
                 </div>
               ))}

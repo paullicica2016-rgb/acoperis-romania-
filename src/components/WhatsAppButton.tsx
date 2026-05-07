@@ -6,7 +6,7 @@ export default function WhatsAppButton() {
       {/* Phone icon only */}
       <a
         href="tel:0734704026"
-        className="w-14 h-14 bg-red-600 hover:bg-red-700 text-white rounded-full shadow-lg hover:shadow-xl flex items-center justify-center transition-all hover:scale-110"
+        className="w-14 h-14 bg-[#0d1547] hover:bg-[#0a1040] text-white rounded-full shadow-lg hover:shadow-xl flex items-center justify-center transition-all hover:scale-110"
         aria-label="Suna acum"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="white">

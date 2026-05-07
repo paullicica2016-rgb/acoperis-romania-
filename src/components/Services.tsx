@@ -58,10 +58,9 @@ const tabs = [
     title: "Accesorii si Sisteme de Montaj",
     desc: "Montam accesorii esentiale pentru functionarea optima a acoperisului: jgheaburi si burlane, parazapezi, dolii, coame, aerisiri, elemente de tinichigerie si sisteme de prindere specifice fiecarui tip de invelitoare.",
     images: [
-      "/images/projects/jgheaburi.webp",
-      "/images/projects/jgheaburi-2.webp",
-      "/images/projects/tabla-cutata-1.webp",
-      "/images/projects/tabla-faltuita-2.webp",
+      "/images/projects/accesorii-1.jpeg",
+      "/images/projects/accesorii-2.jpeg",
+      "/images/projects/accesorii-3.jpeg",
     ],
   },
   {
@@ -84,10 +83,10 @@ const tabs = [
     title: "Mansardari si Extinderi",
     desc: "Transformam podurile neutilizate in spatii locuibile moderne sau extindem acoperisurile existente pentru a crea suprafete suplimentare functionale. Experienta solida, atentie la detalii tehnice si respectarea normativelor.",
     images: [
-      "/images/projects/dulgherie-1.webp",
-      "/images/projects/tigla-metalica-2.webp",
-      "/images/projects/reparatii.webp",
-      "/images/projects/tigla-ceramica-1.webp",
+      "/images/projects/mansardari-1.jpeg",
+      "/images/projects/mansardari-2.jpeg",
+      "/images/projects/mansardari-3.jpeg",
+      "/images/projects/mansardari-4.jpeg",
     ],
   },
 ];
@@ -101,20 +100,20 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4">
 
         {/* Dark feature panel - numbered cards with red top accent */}
-        <div className="bg-[#0F0F12] rounded-2xl px-5 py-8 md:px-8 md:py-10 lg:p-12 mb-20 shadow-xl">
+        <div className="bg-gray-100 rounded-2xl px-5 py-8 md:px-8 md:py-10 lg:p-12 mb-20">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
             {features.map((f, i) => (
               <div
                 key={i}
-                className="relative bg-[#18181C] rounded-xl p-6 border-t-[3px] border-[#C62828] hover:bg-[#1F1F24] transition-colors"
+                className="relative bg-white rounded-xl p-6 border border-gray-200 border-t-[3px] border-t-[#0d1547] hover:shadow-md transition-shadow"
               >
-                <div className="text-[#C62828] font-extrabold text-sm tracking-[0.2em] mb-3">
+                <div className="text-[#0d1547] font-extrabold text-sm tracking-[0.2em] mb-3">
                   {String(i + 1).padStart(2, "0")}
                 </div>
-                <h3 className="font-bold text-white mb-3 text-base leading-tight">
+                <h3 className="font-bold text-[#0d1547] mb-3 text-base leading-tight">
                   {f.title}
                 </h3>
-                <p className="text-gray-400 text-sm leading-relaxed">{f.desc}</p>
+                <p className="text-gray-500 text-sm leading-relaxed">{f.desc}</p>
               </div>
             ))}
           </div>
@@ -122,13 +121,13 @@ export default function Services() {
 
         {/* Tabbed services section */}
         <div className="text-center mb-10">
-          <span className="text-[#B91C1C] font-semibold text-sm uppercase tracking-wider mb-2 block">
+          <span className="text-[#0d1547] font-semibold text-sm uppercase tracking-wider mb-2 block">
             Constructie Acoperisuri
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-[#051D3E] mb-3">
             Servicii pentru montaj si reparatii acoperisuri
           </h2>
-          <Link href="/servicii" className="inline-flex items-center gap-2 text-[#B91C1C] font-semibold text-sm hover:gap-3 transition-all mt-2">
+          <Link href="/servicii" className="inline-flex items-center gap-2 text-[#0d1547] font-semibold text-sm hover:gap-3 transition-all mt-2">
             Toate serviciile <ArrowRight size={16} />
           </Link>
         </div>
@@ -166,7 +165,7 @@ export default function Services() {
           </div>
 
           <div className="flex flex-col gap-4">
-            <span className="text-[#B91C1C] font-semibold text-sm uppercase tracking-wider">
+            <span className="text-[#0d1547] font-semibold text-sm uppercase tracking-wider">
               {tab.badge}
             </span>
             <h3 className="text-2xl md:text-3xl font-bold text-[#051D3E] leading-tight">

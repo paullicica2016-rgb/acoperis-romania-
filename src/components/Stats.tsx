@@ -1,12 +1,13 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { Home, Users, Award, ShieldCheck } from "lucide-react";
 
 const stats = [
-  { value: 300, suffix: "+", label: "Acoperisuri Finalizate" },
-  { value: 250, suffix: "+", label: "Clienti Multumiti" },
-  { value: 15, suffix: "+", label: "Ani Experienta" },
-  { value: 100, suffix: "%", label: "Garantie Lucrari" },
+  { value: 300, suffix: "+", label: "Acoperisuri Finalizate", icon: Home },
+  { value: 250, suffix: "+", label: "Clienti Multumiti", icon: Users },
+  { value: 15, suffix: "+", label: "Ani Experienta", icon: Award },
+  { value: 100, suffix: "%", label: "Garantie Lucrari", icon: ShieldCheck },
 ];
 
 function Counter({ target, suffix }: { target: number; suffix: string }) {
@@ -50,19 +51,28 @@ function Counter({ target, suffix }: { target: number; suffix: string }) {
 
 export default function Stats() {
   return (
-    <section className="lg:hidden py-10 bg-[#051D3E]">
+    <section className="lg:hidden py-10 bg-gray-50">
       <div className="max-w-5xl mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {stats.map((stat) => (
-            <div key={stat.label} className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-1">
-                <Counter target={stat.value} suffix={stat.suffix} />
+        <div className="grid grid-cols-2 gap-4">
+          {stats.map((stat) => {
+            const Icon = stat.icon;
+            return (
+              <div
+                key={stat.label}
+                className="bg-white rounded-2xl border border-gray-200 p-5 flex flex-col items-center text-center shadow-sm"
+              >
+                <div className="w-11 h-11 rounded-xl bg-blue-50 flex items-center justify-center mb-3">
+                  <Icon size={20} className="text-[#0d1547]" />
+                </div>
+                <div className="text-3xl font-bold text-[#051D3E] mb-1">
+                  <Counter target={stat.value} suffix={stat.suffix} />
+                </div>
+                <div className="text-xs text-gray-500 font-medium leading-tight">
+                  {stat.label}
+                </div>
               </div>
-              <div className="text-sm text-white/70 font-medium">
-                {stat.label}
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

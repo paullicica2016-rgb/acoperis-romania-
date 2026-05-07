@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import Logo from "./Logo";
 
 const serviceLinks = [
@@ -41,48 +41,38 @@ const navLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#051D3E] text-white">
-      <div className="max-w-7xl mx-auto px-4 py-16">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10">
+    <footer className="bg-gray-50 text-gray-800 border-t border-gray-200">
+      <div className="max-w-7xl mx-auto px-4 py-14">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
+
           {/* Brand */}
-          <div className="lg:col-span-1">
-            <div className="mb-5" aria-label="Reparatii Pro - Acoperisuri de Incredere">
-              <Logo className="h-14 w-auto" />
+          <div className="lg:col-span-1 bg-white border border-gray-200 rounded-2xl p-6 flex flex-col gap-4">
+            <div aria-label="Reparatii Pro - Acoperisuri de Incredere">
+              <Logo className="h-12 w-auto" />
             </div>
-            <p className="text-white/70 text-sm leading-relaxed mb-5">
-              Firma cu peste 15 ani experienta in montaj, reparatii si
-              intretinere acoperisuri. Solutii complete, de la materiale la
-              manopera.
+            <p className="text-gray-500 text-sm leading-relaxed">
+              Firma cu peste 15 ani experienta in montaj, reparatii si intretinere acoperisuri.
             </p>
-            <div className="space-y-3">
-              <a
-                href="tel:0734704026"
-                className="flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm"
-              >
-                <Phone size={14} /> 0734 704 026
+            <div className="space-y-2.5">
+              <a href="tel:0734704026" className="flex items-center gap-2 text-gray-600 hover:text-[#0d1547] transition-colors text-sm">
+                <Phone size={14} className="text-[#0d1547]" /> 0734 704 026
               </a>
-              <a
-                href="mailto:office@reparatiipro.ro"
-                className="flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm"
-              >
-                <Mail size={14} /> office@reparatiipro.ro
+              <a href="mailto:office@reparatiipro.ro" className="flex items-center gap-2 text-gray-600 hover:text-[#0d1547] transition-colors text-sm">
+                <Mail size={14} className="text-[#0d1547]" /> office@reparatiipro.ro
               </a>
-              <span className="flex items-center gap-2 text-white/70 text-sm">
-                <MapPin size={14} /> Hunedoara si zona invecinata
+              <span className="flex items-center gap-2 text-gray-600 text-sm">
+                <MapPin size={14} className="text-[#0d1547]" /> Hunedoara si zona invecinata
               </span>
             </div>
           </div>
 
           {/* Services */}
-          <div>
-            <h3 className="font-bold text-white mb-5">Servicii</h3>
-            <ul className="space-y-2.5">
+          <div className="bg-white border border-gray-200 rounded-2xl p-6">
+            <h3 className="font-bold text-gray-900 mb-4 text-sm uppercase tracking-wide">Servicii</h3>
+            <ul className="space-y-2">
               {serviceLinks.map((s) => (
                 <li key={s.slug}>
-                  <Link
-                    href={`/servicii/${s.slug}`}
-                    className="text-white/70 hover:text-white transition-colors text-sm"
-                  >
+                  <Link href={`/servicii/${s.slug}`} className="text-gray-500 hover:text-[#0d1547] transition-colors text-sm">
                     {s.label}
                   </Link>
                 </li>
@@ -91,15 +81,12 @@ export default function Footer() {
           </div>
 
           {/* Counties */}
-          <div>
-            <h3 className="font-bold text-white mb-5">Judete</h3>
-            <ul className="space-y-2.5">
+          <div className="bg-white border border-gray-200 rounded-2xl p-6">
+            <h3 className="font-bold text-gray-900 mb-4 text-sm uppercase tracking-wide">Judete</h3>
+            <ul className="space-y-2">
               {countyLinks.map((c) => (
                 <li key={c.slug}>
-                  <Link
-                    href={`/judete/${c.slug}`}
-                    className="text-white/70 hover:text-white transition-colors text-sm"
-                  >
+                  <Link href={`/judete/${c.slug}`} className="text-gray-500 hover:text-[#0d1547] transition-colors text-sm">
                     {c.label}
                   </Link>
                 </li>
@@ -107,72 +94,65 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Navigation */}
-          <div>
-            <h3 className="font-bold text-white mb-5">Navigare</h3>
-            <ul className="space-y-2.5">
+          {/* Navigation + Legal */}
+          <div className="bg-white border border-gray-200 rounded-2xl p-6">
+            <h3 className="font-bold text-gray-900 mb-4 text-sm uppercase tracking-wide">Navigare</h3>
+            <ul className="space-y-2 mb-6">
               {navLinks.map((l) => (
                 <li key={l.href}>
-                  <Link
-                    href={l.href}
-                    className="text-white/70 hover:text-white transition-colors text-sm"
-                  >
+                  <Link href={l.href} className="text-gray-500 hover:text-[#0d1547] transition-colors text-sm">
                     {l.label}
                   </Link>
                 </li>
               ))}
             </ul>
-
-            <h3 className="font-bold text-white mt-8 mb-4">Legal</h3>
-            <ul className="space-y-2.5">
+            <h3 className="font-bold text-gray-900 mb-4 text-sm uppercase tracking-wide">Legal</h3>
+            <ul className="space-y-2">
               <li>
-                <Link href="/termeni-si-conditii" className="text-white/70 hover:text-white transition-colors text-sm">
+                <Link href="/termeni-si-conditii" className="text-gray-500 hover:text-[#0d1547] transition-colors text-sm">
                   Termeni si Conditii
                 </Link>
               </li>
               <li>
-                <Link href="/politica-de-confidentialitate" className="text-white/70 hover:text-white transition-colors text-sm">
+                <Link href="/politica-de-confidentialitate" className="text-gray-500 hover:text-[#0d1547] transition-colors text-sm">
                   Politica de Confidentialitate
                 </Link>
               </li>
               <li>
-                <Link href="/politica-de-cookies" className="text-white/70 hover:text-white transition-colors text-sm">
+                <Link href="/politica-de-cookies" className="text-gray-500 hover:text-[#0d1547] transition-colors text-sm">
                   Politica Cookie
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* CTA */}
-          <div>
-            <h3 className="font-bold text-white mb-5">Program de Lucru</h3>
-            <div className="space-y-2 text-sm text-white/70 mb-6">
-              <div className="flex justify-between">
-                <span>Luni - Vineri</span>
-                <span className="text-white font-medium">07:00 - 20:00</span>
+          {/* Program + CTA */}
+          <div className="bg-white border border-gray-200 rounded-2xl p-6 flex flex-col gap-4">
+            <h3 className="font-bold text-gray-900 text-sm uppercase tracking-wide flex items-center gap-2">
+              <Clock size={14} className="text-[#0d1547]" /> Program de Lucru
+            </h3>
+            <div className="space-y-2 text-sm">
+              <div className="flex justify-between border-b border-gray-100 pb-2">
+                <span className="text-gray-500">Luni - Vineri</span>
+                <span className="font-semibold text-gray-800">07:00 - 20:00</span>
+              </div>
+              <div className="flex justify-between border-b border-gray-100 pb-2">
+                <span className="text-gray-500">Sambata</span>
+                <span className="font-semibold text-gray-800">08:00 - 16:00</span>
               </div>
               <div className="flex justify-between">
-                <span>Sambata</span>
-                <span className="text-white font-medium">08:00 - 16:00</span>
-              </div>
-              <div className="flex justify-between">
-                <span>Duminica</span>
-                <span className="text-white/70">Urgente</span>
+                <span className="text-gray-500">Duminica</span>
+                <span className="text-gray-500">Urgente</span>
               </div>
             </div>
-
-            <a
-              href="tel:0734704026"
-              className="btn-accent block text-center py-3 rounded-lg font-semibold text-sm"
-            >
+            <a href="tel:0734704026" className="btn-accent block text-center py-3 rounded-xl font-semibold text-sm mt-auto">
               Apeleaza Acum
             </a>
-
             <a
               href="https://wa.me/40734704026"
               target="_blank"
               rel="noopener noreferrer"
-              className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-semibold text-sm mt-3 transition-colors"
+              className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors"
             >
               WhatsApp
             </a>
@@ -181,9 +161,8 @@ export default function Footer() {
       </div>
 
       {/* Payment & ANPC bar */}
-      <div className="border-t border-white/10">
+      <div className="border-t border-gray-200 bg-white">
         <div className="max-w-7xl mx-auto px-4 py-8">
-          {/* Payment methods */}
           <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
             <div className="w-16 h-10 bg-black rounded-lg flex items-center justify-center p-1.5">
               <Image src="/images/payment/mastercard.png" alt="Mastercard" width={48} height={30} className="object-contain" />
@@ -191,21 +170,19 @@ export default function Footer() {
             <div className="w-16 h-10 bg-[#1a1f71] rounded-lg flex items-center justify-center p-1.5">
               <Image src="/images/payment/visa.png" alt="Visa" width={48} height={30} className="object-contain brightness-0 invert" />
             </div>
-            <div className="h-10 bg-white rounded-lg flex items-center justify-center px-3">
+            <div className="h-10 bg-gray-100 border border-gray-200 rounded-lg flex items-center justify-center px-3">
               <span className="text-[#1a3c6e] font-bold text-sm">tbi <span className="font-normal">bank</span></span>
             </div>
-            <div className="h-10 bg-white rounded-lg flex items-center justify-center px-3">
+            <div className="h-10 bg-gray-100 border border-gray-200 rounded-lg flex items-center justify-center px-3">
               <span className="text-[#ff6200] font-bold text-sm">ING</span>
             </div>
           </div>
-
-          {/* ANPC links */}
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
               href="https://ec.europa.eu/consumers/odr"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-white rounded-lg px-4 py-2.5 hover:bg-gray-100 transition-colors"
+              className="flex items-center gap-2 bg-gray-100 border border-gray-200 rounded-lg px-4 py-2.5 hover:bg-gray-200 transition-colors"
             >
               <span className="text-[#1a3c6e] text-xs font-bold text-center leading-tight uppercase">
                 Solutionarea Online<br />a Litigiilor
@@ -216,7 +193,7 @@ export default function Footer() {
               href="https://anpc.ro/ce-este-sal/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-white rounded-lg px-4 py-2.5 hover:bg-gray-100 transition-colors"
+              className="flex items-center gap-2 bg-gray-100 border border-gray-200 rounded-lg px-4 py-2.5 hover:bg-gray-200 transition-colors"
             >
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 flex items-center justify-center">
@@ -233,13 +210,12 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-white/10">
+      <div className="border-t border-gray-200 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <span className="text-white/70 text-sm">
-            &copy; {new Date().getFullYear()} Reparatii Pro. Toate drepturile
-            rezervate.
+          <span className="text-gray-500 text-sm">
+            &copy; {new Date().getFullYear()} Reparatii Pro. Toate drepturile rezervate.
           </span>
-          <span className="text-white/70 text-xs">
+          <span className="text-gray-400 text-xs">
             Construim acoperisuri pentru o viata!
           </span>
         </div>

@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="max-w-2xl py-20">
           {/* Small label with icon */}
           <div className="flex items-center gap-2 mb-5">
-            <svg className="w-5 h-5 text-[#B91C1C]" viewBox="0 0 24 24" fill="currentColor">
+            <svg className="w-5 h-5 text-[#0d1547]" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"/>
             </svg>
             <span className="text-white/80 text-sm font-medium">Montaj si Reparatii Acoperisuri</span>
@@ -61,22 +61,8 @@ export default function Hero() {
             </Link>
           </div>
 
-          {/* Stats row at bottom of hero - like bt-acoperis */}
+          {/* Stats row at bottom of hero */}
           <div className="flex items-center gap-8 md:gap-12">
-            {/* Small profile photos */}
-            <div className="flex -space-x-2">
-              <div className="w-10 h-10 rounded-full bg-white/20 border-2 border-white/30 overflow-hidden">
-                <Image src="/images/projects/tigla-metalica-1.webp" alt="" width={40} height={40} className="object-cover w-full h-full" />
-              </div>
-              <div className="w-10 h-10 rounded-full bg-white/20 border-2 border-white/30 overflow-hidden">
-                <Image src="/images/projects/reparatii.webp" alt="" width={40} height={40} className="object-cover w-full h-full" />
-              </div>
-              <div className="w-10 h-10 rounded-full bg-white/20 border-2 border-white/30 overflow-hidden">
-                <Image src="/images/projects/tigla-ceramica-1.webp" alt="" width={40} height={40} className="object-cover w-full h-full" />
-              </div>
-            </div>
-
-            {/* Stats */}
             <div className="text-center">
               <div className="text-white/75 text-xs mb-1">Acoperisuri finalizate</div>
               <div className="text-white text-2xl md:text-3xl font-bold">300+</div>

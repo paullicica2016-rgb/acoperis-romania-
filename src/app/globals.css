@@ -7,9 +7,9 @@
   --color-foreground: var(--foreground);
   --color-primary: #051D3E;
   --color-primary-light: #0a2d5c;
-  --color-accent: #C62828;
-  --color-accent-dark: #a31f1f;
-  --color-accent-light: #EF5350;
+  --color-accent: #0d1547;
+  --color-accent-dark: #0a1040;
+  --color-accent-light: #1a2a6e;
   --color-dark: #051D3E;
   --color-darker: #020e1f;
   --color-navy: #051D3E;
@@ -65,13 +65,13 @@ html {
 }
 
 .btn-accent {
-  background-color: #C62828;
+  background-color: #0d1547;
   color: white;
   transition: all 0.3s ease;
 }
 
 .btn-accent:hover {
-  background-color: #a31f1f;
+  background-color: #0a1040;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(248, 56, 57, 0.35);
 }

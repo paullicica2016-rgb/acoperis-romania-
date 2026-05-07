@@ -119,18 +119,18 @@ export default function Testimonials() {
   }, [checkScroll]);
 
   return (
-    <section className="py-16 md:py-20 bg-[#0A0A0B]">
+    <section className="py-16 md:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-10">
-          <span className="text-[#C62828] font-semibold text-sm tracking-[0.25em] mb-3 block">
+          <span className="text-[#0d1547] font-semibold text-sm tracking-[0.25em] mb-3 block">
             // RECENZII
           </span>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">
-            Ce spun <span className="text-[#C62828]">clientii</span>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#0d1547] mb-6">
+            Ce spun <span className="text-gray-700">clientii</span>
           </h2>
           {/* Google rating badge */}
-          <div className="inline-flex items-center gap-2.5 bg-[#16161A] border border-white/10 rounded-full px-5 py-2.5">
+          <div className="inline-flex items-center gap-2.5 bg-white border border-gray-200 rounded-full px-5 py-2.5 shadow-sm">
             <GoogleG className="w-5 h-5" />
             <span className="text-white font-bold">4.9</span>
             <div className="flex gap-0.5">
@@ -152,7 +152,7 @@ export default function Testimonials() {
           {testimonials.map((t) => (
             <div
               key={t.name}
-              className="relative bg-[#18181C] rounded-2xl p-7 border border-white/[0.06] snap-start shrink-0 w-[300px] sm:w-[360px] flex flex-col"
+              className="relative bg-white rounded-2xl p-7 border border-gray-200 shadow-sm snap-start shrink-0 w-[300px] sm:w-[360px] flex flex-col"
             >
               {/* Stars + decorative quote */}
               <div className="flex justify-between items-start mb-4">
@@ -163,24 +163,24 @@ export default function Testimonials() {
                 </div>
                 <Quote
                   size={36}
-                  className="text-[#C62828] rotate-180 -mr-1 -mt-1"
+                  className="text-[#0d1547] rotate-180 -mr-1 -mt-1"
                   strokeWidth={0}
                   fill="currentColor"
                 />
               </div>
 
-              <p className="text-white/80 italic leading-relaxed mb-6 flex-1">
+              <p className="text-gray-600 italic leading-relaxed mb-6 flex-1">
                 &ldquo;{t.text}&rdquo;
               </p>
 
-              <div className="border-t border-white/10 pt-4 flex items-center justify-between">
+              <div className="border-t border-gray-100 pt-4 flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-[#C62828] flex items-center justify-center text-white text-xs font-bold tracking-wider">
+                  <div className="w-10 h-10 rounded-full bg-[#0d1547] flex items-center justify-center text-white text-xs font-bold tracking-wider">
                     {t.initials}
                   </div>
                   <div>
-                    <div className="text-white font-semibold text-sm">{t.name}</div>
-                    <div className="text-white/50 text-xs">{t.when}</div>
+                    <div className="text-gray-900 font-semibold text-sm">{t.name}</div>
+                    <div className="text-gray-400 text-xs">{t.when}</div>
                   </div>
                 </div>
                 <GoogleG className="w-5 h-5 opacity-70" />
@@ -200,8 +200,8 @@ export default function Testimonials() {
             }}
             className={`w-11 h-11 rounded-full border flex items-center justify-center transition-all ${
               canScrollLeft
-                ? "border-white/30 text-white hover:bg-white/10"
-                : "border-white/10 text-white/20"
+                ? "border-gray-300 text-gray-700 hover:bg-gray-100"
+                : "border-gray-200 text-gray-300"
             }`}
           >
             <ChevronLeft size={20} />
@@ -213,7 +213,7 @@ export default function Testimonials() {
               pauseAutoplay();
               resumeAutoplay();
             }}
-            className="w-11 h-11 rounded-full border border-white/30 text-white hover:bg-white/10 flex items-center justify-center transition-all"
+            className="w-11 h-11 rounded-full border border-gray-300 text-gray-700 hover:bg-gray-100 flex items-center justify-center transition-all"
           >
             <ChevronRight size={20} />
           </button>
