@@ -37,7 +37,7 @@ function IconInput({
       <Icon className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
       <input
         {...props}
-        className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#C62828]/20 focus:border-[#C62828] outline-none transition-all text-[#212121] placeholder:text-gray-400"
+        className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#0d1547]/20 focus:border-[#0d1547] outline-none transition-all text-[#212121] placeholder:text-gray-400"
       />
     </div>
   );
@@ -71,7 +71,7 @@ export default function Contact() {
     <section className="py-16 md:py-20 bg-gradient-to-b from-[#f7f7f9] to-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <span className="text-[#C62828] font-semibold text-xs uppercase tracking-[0.25em] mb-3 block">
+          <span className="text-[#0d1547] font-semibold text-xs uppercase tracking-[0.25em] mb-3 block">
             // Hai sa stam de vorba
           </span>
           <h2 className="text-3xl md:text-5xl font-extrabold text-[#051D3E] mb-3 leading-tight">
@@ -87,7 +87,7 @@ export default function Contact() {
           <div className="lg:col-span-3">
             <div className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
               {/* Red top accent ribbon */}
-              <div className="bg-[#C62828] px-7 py-4 flex items-center gap-3">
+              <div className="bg-[#0d1547] px-7 py-4 flex items-center gap-3">
                 <Send size={20} className="text-white" />
                 <h3 className="text-white font-bold text-base md:text-lg">
                   Formular de Contact
@@ -151,7 +151,7 @@ export default function Contact() {
                         <select
                           name="county"
                           aria-label="Judet"
-                          className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#C62828]/20 focus:border-[#C62828] outline-none transition-all text-[#212121] appearance-none"
+                          className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#0d1547]/20 focus:border-[#0d1547] outline-none transition-all text-[#212121] appearance-none"
                         >
                           <option value="">Judet</option>
                           {countyOptions.map((c) => (
@@ -167,7 +167,7 @@ export default function Contact() {
                         <select
                           name="service_type"
                           aria-label="Serviciu dorit"
-                          className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#C62828]/20 focus:border-[#C62828] outline-none transition-all text-[#212121] appearance-none"
+                          className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#0d1547]/20 focus:border-[#0d1547] outline-none transition-all text-[#212121] appearance-none"
                         >
                           <option value="">Serviciul dorit</option>
                           {serviceOptions.map((s) => (
@@ -187,14 +187,14 @@ export default function Contact() {
                         rows={4}
                         placeholder="Spune-ne despre proiectul tau..."
                         aria-label="Mesaj"
-                        className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#C62828]/20 focus:border-[#C62828] outline-none transition-all text-[#212121] placeholder:text-gray-400 resize-none"
+                        className="w-full pl-11 pr-4 py-3.5 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-[#0d1547]/20 focus:border-[#0d1547] outline-none transition-all text-[#212121] placeholder:text-gray-400 resize-none"
                       />
                     </div>
 
                     <button
                       type="submit"
                       disabled={status === "sending"}
-                      className="w-full py-4 rounded-lg font-bold text-base flex items-center justify-center gap-2 bg-[#C62828] hover:bg-[#a71d1d] text-white shadow-lg shadow-[#C62828]/30 hover:shadow-[#C62828]/50 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
+                      className="w-full py-4 rounded-lg font-bold text-base flex items-center justify-center gap-2 bg-[#0d1547] hover:bg-[#0a1040] text-white shadow-lg shadow-[#0d1547]/30 hover:shadow-[#0d1547]/50 transition-all disabled:opacity-60 disabled:cursor-not-allowed"
                     >
                       <Send size={18} />
                       {status === "sending" ? "Se trimite..." : "Trimite cererea"}
@@ -219,9 +219,9 @@ export default function Contact() {
           <div className="lg:col-span-2 space-y-4">
             <a
               href="tel:0734704026"
-              className="group flex items-center gap-4 bg-white rounded-xl p-5 border-l-4 border-[#C62828] shadow-sm hover:shadow-md transition-all"
+              className="group flex items-center gap-4 bg-white rounded-xl p-5 border-l-4 border-[#0d1547] shadow-sm hover:shadow-md transition-all"
             >
-              <div className="w-12 h-12 rounded-xl bg-[#C62828]/10 text-[#C62828] flex items-center justify-center shrink-0 group-hover:bg-[#C62828] group-hover:text-white transition-colors">
+              <div className="w-12 h-12 rounded-xl bg-[#0d1547]/10 text-[#0d1547] flex items-center justify-center shrink-0 group-hover:bg-[#0d1547] group-hover:text-white transition-colors">
                 <Phone size={22} />
               </div>
               <div>
@@ -234,9 +234,9 @@ export default function Contact() {
 
             <a
               href="mailto:office@reparatiipro.ro"
-              className="group flex items-center gap-4 bg-white rounded-xl p-5 border-l-4 border-[#C62828] shadow-sm hover:shadow-md transition-all"
+              className="group flex items-center gap-4 bg-white rounded-xl p-5 border-l-4 border-[#0d1547] shadow-sm hover:shadow-md transition-all"
             >
-              <div className="w-12 h-12 rounded-xl bg-[#C62828]/10 text-[#C62828] flex items-center justify-center shrink-0 group-hover:bg-[#C62828] group-hover:text-white transition-colors">
+              <div className="w-12 h-12 rounded-xl bg-[#0d1547]/10 text-[#0d1547] flex items-center justify-center shrink-0 group-hover:bg-[#0d1547] group-hover:text-white transition-colors">
                 <Mail size={22} />
               </div>
               <div className="min-w-0">
