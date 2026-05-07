@@ -159,9 +159,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   Echipa Reparatii Pro iti sta la dispozitie pentru orice problema legata de acoperis. Contacteaza-ne acum!
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a href="tel:0734704026" className="inline-flex items-center justify-center gap-2 bg-white text-accent px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
+                  <a href="tel:0754456844" className="inline-flex items-center justify-center gap-2 bg-white text-accent px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
                     <Phone size={18} />
-                    0734 704 026
+                    0754 456 844
                   </a>
                   <Link href="/contact" className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition-colors">
                     Formular Contact
@@ -200,11 +200,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   <p className="text-gray-400 text-sm mb-4">
                     Echipa noastra este disponibila 24/7 pentru interventii de urgenta la acoperisuri.
                   </p>
-                  <a href="tel:0734704026" className="btn-accent block text-center text-white py-3 rounded-xl font-semibold text-sm">
+                  <a href="tel:0754456844" className="btn-accent block text-center text-white py-3 rounded-xl font-semibold text-sm">
                     Apeleaza Acum
                   </a>
                   <a
-                    href="https://wa.me/40734704026"
+                    href="https://wa.me/40754456844"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm mt-3 transition-colors"

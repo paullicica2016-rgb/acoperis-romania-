@@ -97,8 +97,8 @@ export default function AccesoriiMontaj() {
               Jgheaburi, parazapezi, aeratoare, tinichigerie, cosuri de fum — toate elementele care transforma un acoperis dintr-o invelitoare intr-un sistem complet si durabil.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <a href="tel:0734704026" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
-                <Phone size={16} /> 0734 704 026
+              <a href="tel:0754456844" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
+                <Phone size={16} /> 0754 456 844
               </a>
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-7 py-3.5 rounded-full font-semibold text-sm hover:bg-white/25 transition-all">
                 Cere Oferta Gratuita <ArrowRight size={15} />
@@ -192,8 +192,8 @@ export default function AccesoriiMontaj() {
                 ))}
               </ul>
               <div className="flex flex-col sm:flex-row gap-3">
-                <a href="tel:0734704026" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
-                  <Phone size={15} /> 0734 704 026
+                <a href="tel:0754456844" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
+                  <Phone size={15} /> 0754 456 844
                 </a>
                 <Link href="/contact" className="inline-flex items-center justify-center gap-2 border border-white/30 text-white px-7 py-3.5 rounded-full font-semibold text-sm hover:bg-white/10 transition-all">
                   Formular Contact <ArrowRight size={14} />
@@ -212,7 +212,7 @@ export default function AccesoriiMontaj() {
                   </li>
                 ))}
               </ul>
-              <a href="https://wa.me/40734704026" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">
+              <a href="https://wa.me/40754456844" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">
                 WhatsApp
               </a>
             </div>
@@ -234,8 +234,8 @@ export default function AccesoriiMontaj() {
             Suna-ne pentru o evaluare gratuita. Montam tot ce lipseste sau inlocuim ce e deteriorat.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:0734704026" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
-              <Phone size={18} /> 0734 704 026
+            <a href="tel:0754456844" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
+              <Phone size={18} /> 0754 456 844
             </a>
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/25 transition-all">
               Formular Contact

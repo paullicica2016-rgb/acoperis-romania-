@@ -188,7 +188,7 @@ export default function QuickContact() {
 
                   {status === "error" && (
                     <p className="text-red-600 text-sm text-center">
-                      Eroare la trimitere. Incercati din nou sau sunati la 0734 704 026.
+                      Eroare la trimitere. Incercati din nou sau sunati la 0754 456 844.
                     </p>
                   )}
                 </form>

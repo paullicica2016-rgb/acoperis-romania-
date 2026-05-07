@@ -180,7 +180,7 @@ export default function Services() {
                 Vezi serviciu <ArrowRight size={16} />
               </Link>
               <a
-                href="tel:0734704026"
+                href="tel:0754456844"
                 className="btn-accent inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm"
               >
                 Apeleaza Acum

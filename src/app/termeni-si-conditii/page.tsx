@@ -54,7 +54,7 @@ export default function TermeniPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Contact</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Pentru orice intrebari legate de acesti termeni si conditii, ne puteti contacta la adresa de email office@reparatiipro.ro sau la numarul de telefon 0734 704 026.
+              Pentru orice intrebari legate de acesti termeni si conditii, ne puteti contacta la adresa de email office@reparatiipro.ro sau la numarul de telefon 0754 456 844.
             </p>
           </div>
         </div>

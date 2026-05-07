@@ -130,8 +130,8 @@ export default function ServiciiPage() {
             Contacteaza-ne pentru o oferta personalizata. Echipa noastra iti sta la dispozitie.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:0734704026" className="btn-accent inline-flex items-center justify-center gap-2 text-white px-8 py-3.5 rounded-full font-semibold">
-              Apeleaza: 0734 704 026
+            <a href="tel:0754456844" className="btn-accent inline-flex items-center justify-center gap-2 text-white px-8 py-3.5 rounded-full font-semibold">
+              Apeleaza: 0754 456 844
             </a>
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 border-2 border-gray-200 text-gray-700 px-8 py-3.5 rounded-full font-semibold hover:border-accent hover:text-accent transition-all">
               Formular Contact

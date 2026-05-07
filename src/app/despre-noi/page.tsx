@@ -285,10 +285,10 @@ export default function DespreNoi() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:0734704026"
+              href="tel:0754456844"
               className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors"
             >
-              Apeleaza: 0734 704 026
+              Apeleaza: 0754 456 844
             </a>
             <Link
               href="/contact"

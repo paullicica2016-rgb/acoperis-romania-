@@ -14,7 +14,7 @@ import Contact from "@/components/Contact";
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Bucuresti | Reparatii Pro - Firma Acoperisuri",
   description:
-    "Reparatii Pro - firma cu 15+ ani experienta in montaj acoperisuri, reparatii acoperisuri, tigla metalica, tigla ceramica, tabla faltuita. Servicii complete Bucuresti si 13 judete. Discount 15-20% sistem complet. Suna 0734 704 026.",
+    "Reparatii Pro - firma cu 15+ ani experienta in montaj acoperisuri, reparatii acoperisuri, tigla metalica, tigla ceramica, tabla faltuita. Servicii complete Bucuresti si 13 judete. Discount 15-20% sistem complet. Suna 0754 456 844.",
   alternates: {
     canonical: "https://reparatiipro.ro",
   },

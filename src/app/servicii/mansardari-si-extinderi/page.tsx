@@ -55,8 +55,8 @@ export default function MansardariExtinderi() {
               Transformam podul casei in camere confortabile sau extindem acoperisul pentru spatiu suplimentar. Proiect complet de la structura la finisaje.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <a href="tel:0734704026" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
-                <Phone size={16} /> 0734 704 026
+              <a href="tel:0754456844" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
+                <Phone size={16} /> 0754 456 844
               </a>
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-7 py-3.5 rounded-full font-semibold text-sm hover:bg-white/25 transition-all">
                 Cere Oferta Gratuita <ArrowRight size={15} />
@@ -119,10 +119,10 @@ export default function MansardariExtinderi() {
               <div className="bg-[#051D3E] rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-lg mb-2">Consultatie Gratuita</h3>
                 <p className="text-white/60 text-sm mb-5">Venim sa vedem podul, evaluam structura si iti spunem ce e posibil.</p>
-                <a href="tel:0734704026" className="flex items-center justify-center gap-2 bg-white text-[#051D3E] py-3 rounded-xl font-bold text-sm hover:bg-gray-100 transition-colors mb-3">
-                  <Phone size={15} /> 0734 704 026
+                <a href="tel:0754456844" className="flex items-center justify-center gap-2 bg-white text-[#051D3E] py-3 rounded-xl font-bold text-sm hover:bg-gray-100 transition-colors mb-3">
+                  <Phone size={15} /> 0754 456 844
                 </a>
-                <a href="https://wa.me/40734704026" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">WhatsApp</a>
+                <a href="https://wa.me/40754456844" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">WhatsApp</a>
               </div>
               <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6">
                 <h3 className="font-bold text-gray-900 text-sm uppercase tracking-wide mb-4">Alte Servicii</h3>
@@ -162,8 +162,8 @@ export default function MansardariExtinderi() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ai pod neutilizat? Transformam noi.</h2>
           <p className="text-white/70 text-lg mb-10">Consultatie gratuita, proiect personalizat, executie la cheie cu garantie.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:0734704026" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
-              <Phone size={18} /> 0734 704 026
+            <a href="tel:0754456844" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
+              <Phone size={18} /> 0754 456 844
             </a>
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/25 transition-all">
               Formular Contact

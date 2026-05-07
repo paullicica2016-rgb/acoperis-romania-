@@ -8,7 +8,7 @@ interface PhoneLinkProps {
 export default function PhoneLink({ children, className }: PhoneLinkProps) {
   return (
     <a
-      href="tel:0734704026"
+      href="tel:0754456844"
       className={className}
       onClick={() => {
         if (typeof window !== "undefined" && window.gtag)

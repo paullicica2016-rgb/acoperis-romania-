@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Reparatii Pro - Acoperisuri Profesionale",
   },
   description:
-    "Firma cu peste 15 ani experienta in montaj acoperisuri, reparatii acoperisuri, tigla metalica, tigla ceramica, tabla faltuita. Servicii complete in Bucuresti si 13 judete. Garantie lucrari. Apeleaza 0734 704 026.",
+    "Firma cu peste 15 ani experienta in montaj acoperisuri, reparatii acoperisuri, tigla metalica, tigla ceramica, tabla faltuita. Servicii complete in Bucuresti si 13 judete. Garantie lucrari. Apeleaza 0754 456 844.",
   keywords: [
     "montaj acoperis", "reparatii acoperis", "firma acoperisuri", "acoperis Bucuresti",
     "tigla metalica", "tigla ceramica", "tabla faltuita", "sindrila bituminoasa",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Reparatii Pro - Montaj si Reparatii Acoperisuri",
     title: "Montaj si Reparatii Acoperisuri | Reparatii Pro",
     description:
-      "Firma cu peste 15 ani experienta in montaj si reparatii acoperisuri. Tigla metalica, ceramica, tabla faltuita. Bucuresti si 13 judete. Suna 0734 704 026.",
+      "Firma cu peste 15 ani experienta in montaj si reparatii acoperisuri. Tigla metalica, ceramica, tabla faltuita. Bucuresti si 13 judete. Suna 0754 456 844.",
     images: [
       {
         url: "/images/hero.webp",
@@ -150,7 +150,7 @@ export default function RootLayout({
               name: "Reparatii Pro",
               description: "Firma cu peste 15 ani experienta in montaj si reparatii acoperisuri. Servicii complete: constructie acoperisuri noi, invelitori, reparatii, renovari, mansardari, interventii de urgenta.",
               url: "https://reparatiipro.ro",
-              telephone: "+40734704026",
+              telephone: "+40754456844",
               email: "office@reparatiipro.ro",
               address: {
                 "@type": "PostalAddress",
