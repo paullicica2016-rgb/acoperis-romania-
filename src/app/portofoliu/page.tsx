@@ -53,13 +53,6 @@ const projects = [
     image: "/images/projects/renovare-final.jpeg",
   },
   {
-    title: "Tabla Faltuita Dublu Falт",
-    location: "Arges",
-    type: "Tabla Faltuita",
-    materials: "Tabla faltuita Lindab",
-    image: "/images/projects/tabla-faltuita-1.webp",
-  },
-  {
     title: "Dulgherie si Sarpanta",
     location: "Galati",
     type: "Dulgherie",
