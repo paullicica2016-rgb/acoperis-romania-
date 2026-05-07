@@ -39,11 +39,11 @@ const projects = [
     image: "/images/projects/jgheaburi.webp",
   },
   {
-    title: "Tigla Metalica Vila",
+    title: "Tigla Ceramica Vila",
     location: "Brasov",
-    type: "Tigla Metalica",
-    materials: "Tigla metalica Wetterbest",
-    image: "/images/projects/tigla-metalica-3.webp",
+    type: "Tigla Ceramica",
+    materials: "Tigla ceramica Tondach",
+    image: "/images/projects/tigla-ceramica-vila.jpeg",
   },
   {
     title: "Renovare Acoperis Complet",
