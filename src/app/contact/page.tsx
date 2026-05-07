@@ -292,7 +292,7 @@ export default function ContactPage() {
       {/* CTA final */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/cta.webp" alt="Contact acoperisuri" fill className="object-cover" sizes="100vw" />
+          <Image src="/images/hero-dulgherie.webp" alt="Contact acoperisuri" fill className="object-cover" sizes="100vw" />
           <div className="absolute inset-0 bg-[#0d1547]/85" />
         </div>
         <div className="relative max-w-3xl mx-auto px-4 text-center">
