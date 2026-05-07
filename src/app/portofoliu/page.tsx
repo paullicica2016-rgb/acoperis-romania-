@@ -53,13 +53,6 @@ const projects = [
     image: "/images/projects/renovare-final.jpeg",
   },
   {
-    title: "Acoperis Tigla Ceramica",
-    location: "Buzau",
-    type: "Tigla Ceramica",
-    materials: "Tigla ceramica Tondach",
-    image: "/images/projects/tigla-ceramica-1.webp",
-  },
-  {
     title: "Tabla Faltuita Dublu Falт",
     location: "Arges",
     type: "Tabla Faltuita",
