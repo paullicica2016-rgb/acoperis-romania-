@@ -57,7 +57,7 @@ const projects = [
     location: "Galati",
     type: "Dulgherie",
     materials: "Structura lemn masiv",
-    image: "/images/projects/dulgherie-1.webp",
+    image: "/images/projects/foisor.jpeg",
   },
   {
     title: "Hidroizolatii cu Membrana Bituminoasa",
