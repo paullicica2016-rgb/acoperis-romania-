@@ -39,19 +39,6 @@ const tabs = [
     ],
   },
   {
-    label: "Invelitori pentru Acoperisuri",
-    slug: "invelitori-pentru-acoperisuri",
-    badge: "Invelitori pentru Acoperisuri",
-    title: "Invelitori pentru acoperisuri",
-    desc: "Montam toate tipurile de invelitori, asigurand protectie, durabilitate si estetica superioara pentru orice tip de constructie. Lucram cu materiale diverse – tigla ceramica, tigla metalica, tabla faltuita, tabla cutata si sindrila bituminoasa.",
-    images: [
-      "/images/projects/tigla-ceramica-2.webp",
-      "/images/projects/tigla-metalica-3.webp",
-      "/images/projects/tabla-faltuita-1.webp",
-      "/images/projects/sindrila-1.webp",
-    ],
-  },
-  {
     label: "Accesorii si Sisteme de Montaj",
     slug: "accesorii-si-sisteme-de-montaj",
     badge: "Accesorii si Sisteme de Montaj",
