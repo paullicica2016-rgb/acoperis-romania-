@@ -10,10 +10,10 @@ export default function About() {
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <div className="relative rounded-xl overflow-hidden aspect-[3/4]">
-                <Image src="/images/about.webp" alt="Firma montaj acoperis" fill className="object-cover" />
+                <Image src="/images/dragos/poza-1.jpeg" alt="Firma montaj acoperis" fill className="object-cover" />
               </div>
               <div className="relative rounded-xl overflow-hidden aspect-[3/4] mt-8">
-                <Image src="/images/projects/tigla-metalica-2.webp" alt="Montaj acoperis" fill className="object-cover" />
+                <Image src="/images/dragos/poza-5.jpeg" alt="Montaj acoperis" fill className="object-cover" />
               </div>
             </div>
           </div>
