@@ -5,7 +5,7 @@ import { MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Portofoliu Lucrari Acoperisuri - Proiecte Finalizate",
-  description: "Galerie foto cu acoperisuri finalizate: tigla metalica, tigla ceramica, tabla faltuita, reparatii, renovari. Proiecte in Bucuresti, Ilfov, Constanta, Prahova, Brasov si alte judete.",
+  description: "Galerie foto cu acoperisuri finalizate: tigla metalica, tigla ceramica, tabla faltuita, reparatii, renovari. Proiecte in Hunedoara, Alba, Sibiu, Cluj, Timis si alte judete.",
 };
 
 const projects = [
@@ -87,7 +87,7 @@ export default function PortofoliuPage() {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-5">Portofoliu Lucrari</h1>
             <div className="w-12 h-1 bg-[#E53935] rounded mb-6" />
             <p className="text-white/75 text-lg leading-relaxed">
-              O selectie din proiectele finalizate de echipa Reparatii Pro. Fiecare lucrare reflecta dedicarea noastra pentru calitate si profesionalism.
+              O selectie din proiectele finalizate de echipa Acoperisuri Pro. Fiecare lucrare reflecta dedicarea noastra pentru calitate si profesionalism.
             </p>
           </div>
         </div>

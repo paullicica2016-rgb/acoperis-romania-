@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background image */}
       <Image
         src="/images/hero-proacoperis-2.png"
-        alt="Reparatii Pro - Montaj acoperisuri"
+        alt="Acoperisuri Pro - Montaj acoperisuri"
         fill
         className="object-cover object-right"
         priority

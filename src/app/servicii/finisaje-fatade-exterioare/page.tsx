@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Paintbrush, Shield, Star, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Finisaje Fatade Exterioare - Reparatii Pro",
+  title: "Finisaje Fatade Exterioare - Acoperisuri Pro",
   description: "Finisaje fatade exterioare — tencuiala decorativa, placaje, vopsitorie. Materiale certificate, aspect premium, protectie la intemperii. Evaluare gratuita.",
 };
 

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Search, FileText, Wrench, BadgeCheck } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Reparatii Acoperisuri - Reparatii Pro",
+  title: "Reparatii Acoperisuri - Acoperisuri Pro",
   description: "Reparatii profesionale acoperisuri deteriorate — tigla sparta, sarpanta degradata, infiltratii. Evaluare gratuita, interventie rapida, garantie scrisa.",
 };
 
@@ -85,7 +85,7 @@ export default function ReparatiiAcoperisuri() {
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-5">O reparatie la timp salveaza un acoperis intreg</h2>
                 <div className="space-y-4 text-gray-600 leading-relaxed text-sm">
                   <p>O tigla sparta ignorata devine infiltratie. O infiltratie netratata degradeaza sarpanta. O sarpanta degradata poate compromite intreaga structura. Reparatiile mici facute la timp sunt intotdeauna mai ieftine decat lucrarile mari lasate sa se agraveze.</p>
-                  <p>Echipa Reparatii Pro face mai intai un diagnostic corect al intregului acoperis — nu doar al zonei vizibil deteriorate — si iti prezinta toate problemele identificate inainte de a incepe orice lucrare.</p>
+                  <p>Echipa Acoperisuri Pro face mai intai un diagnostic corect al intregului acoperis — nu doar al zonei vizibil deteriorate — si iti prezinta toate problemele identificate inainte de a incepe orice lucrare.</p>
                 </div>
               </div>
 

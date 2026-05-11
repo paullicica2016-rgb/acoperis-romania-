@@ -6,7 +6,7 @@ import { Calendar, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Blog Acoperisuri - Sfaturi Montaj, Reparatii si Intretinere",
-  description: "Articole utile despre montaj acoperisuri, reparatii, alegerea materialelor potrivite, intretinere si interventii de urgenta. Sfaturi de la expertii Reparatii Pro.",
+  description: "Articole utile despre montaj acoperisuri, reparatii, alegerea materialelor potrivite, intretinere si interventii de urgenta. Sfaturi de la expertii Acoperisuri Pro.",
 };
 
 const posts = [

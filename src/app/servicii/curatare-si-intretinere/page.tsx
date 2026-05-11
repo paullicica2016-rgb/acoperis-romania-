@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Droplets, Leaf, Eye, CalendarCheck } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Curatare si Intretinere Acoperisuri - Reparatii Pro",
+  title: "Curatare si Intretinere Acoperisuri - Acoperisuri Pro",
   description: "Curatare profesionala acoperisuri — muschi, licheni, jgheaburi infundate. Inspectie periodica si intretinere preventiva. Prelungim viata acoperisului tau.",
 };
 

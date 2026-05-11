@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Montaj si Reparatii Acoperisuri Hunedoara - Reparatii Pro",
+  title: "Montaj si Reparatii Acoperisuri Hunedoara - Acoperisuri Pro",
   description: "Firma locala cu 15+ ani experienta in acoperisuri in judetul Hunedoara. Deva, Petrosani, Orastie, Brad, Simeria. Evaluare gratuita, garantie scrisa.",
 };
 

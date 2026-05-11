@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
-  title: "Politica de Confidentialitate - Reparatii Pro",
-  description: "Politica de confidentialitate a Reparatii Pro. Informatii despre colectarea si protejarea datelor personale.",
+  title: "Politica de Confidentialitate - Acoperisuri Pro",
+  description: "Politica de confidentialitate a Acoperisuri Pro. Informatii despre colectarea si protejarea datelor personale.",
 };
 
 export default function PoliticaConfidentialitatePage() {
@@ -19,7 +19,7 @@ export default function PoliticaConfidentialitatePage() {
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Introducere</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Reparatii Pro respecta confidentialitatea datelor dumneavoastra personale si se angajeaza sa le protejeze in conformitate cu Regulamentul General privind Protectia Datelor (GDPR) si cu legislatia nationala in vigoare. Aceasta politica descrie modul in care colectam, utilizam si protejam informatiile dumneavoastra personale.
+              Acoperisuri Pro respecta confidentialitatea datelor dumneavoastra personale si se angajeaza sa le protejeze in conformitate cu Regulamentul General privind Protectia Datelor (GDPR) si cu legislatia nationala in vigoare. Aceasta politica descrie modul in care colectam, utilizam si protejam informatiile dumneavoastra personale.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Datele Colectate</h2>

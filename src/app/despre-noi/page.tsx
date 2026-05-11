@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Despre Noi - Firma Montaj Acoperisuri cu 15+ Ani Experienta",
-  description: "Reparatii Pro - firma acreditata cu 15+ ani experienta in montaj acoperisuri, reparatii, renovari. Echipa specializata, materiale premium Bilka, Lindab, Wetterbest. Garantie lucrari.",
+  description: "Acoperisuri Pro - firma acreditata cu 15+ ani experienta in montaj acoperisuri, reparatii, renovari. Echipa specializata, materiale premium Bilka, Lindab, Wetterbest. Garantie lucrari.",
 };
 
 const stats = [
@@ -68,7 +68,7 @@ export default function DespreNoi() {
       {/* ── Hero custom cu val ── */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/hero-reparatii.webp" alt="Despre Reparatii Pro" fill className="object-cover" priority sizes="100vw" />
+          <Image src="/images/hero-reparatii.webp" alt="Despre Acoperisuri Pro" fill className="object-cover" priority sizes="100vw" />
           <div className="absolute inset-0 bg-[#051D3E]/70" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 pb-20">
@@ -78,7 +78,7 @@ export default function DespreNoi() {
             <span className="text-white">Despre Noi</span>
           </nav>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-4 max-w-xl">
-            Despre<br />Reparatii Pro
+            Despre<br />Acoperisuri Pro
           </h1>
           <div className="w-12 h-1 bg-[#E53935] rounded mb-5" />
           <p className="text-white/75 text-lg max-w-xl leading-relaxed">
@@ -273,7 +273,7 @@ export default function DespreNoi() {
       {/* ── CTA Final ── */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/cta.webp" alt="Echipa Reparatii Pro" fill className="object-cover" sizes="100vw" />
+          <Image src="/images/cta.webp" alt="Echipa Acoperisuri Pro" fill className="object-cover" sizes="100vw" />
           <div className="absolute inset-0 bg-[#0d1547]/85" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 text-center">

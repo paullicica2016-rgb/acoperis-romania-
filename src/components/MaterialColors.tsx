@@ -125,7 +125,7 @@ export default function MaterialColors() {
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-10">
           <span className="text-[#0d1547] font-semibold text-sm uppercase tracking-wider mb-2 block">
-            Reparatii Pro
+            Acoperisuri Pro
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-[#051D3E] mb-8">
             Paletar culori

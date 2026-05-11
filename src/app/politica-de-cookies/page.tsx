@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
-  title: "Politica de Cookies - Reparatii Pro",
-  description: "Politica de cookies a Reparatii Pro. Informatii despre utilizarea cookie-urilor pe site-ul nostru.",
+  title: "Politica de Cookies - Acoperisuri Pro",
+  description: "Politica de cookies a Acoperisuri Pro. Informatii despre utilizarea cookie-urilor pe site-ul nostru.",
 };
 
 export default function PoliticaCookiesPage() {
@@ -34,7 +34,7 @@ export default function PoliticaCookiesPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Cookie-uri de la Terti</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Este posibil ca pe site-ul nostru sa fie utilizate cookie-uri de la terti, cum ar fi servicii de analiza web (Google Analytics) sau platforme de social media. Aceste cookie-uri sunt guvernate de politicile de confidentialitate ale tertilor respectivi si nu sunt controlate de Reparatii Pro.
+              Este posibil ca pe site-ul nostru sa fie utilizate cookie-uri de la terti, cum ar fi servicii de analiza web (Google Analytics) sau platforme de social media. Aceste cookie-uri sunt guvernate de politicile de confidentialitate ale tertilor respectivi si nu sunt controlate de Acoperisuri Pro.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Gestionarea Cookie-urilor</h2>
@@ -49,7 +49,7 @@ export default function PoliticaCookiesPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Modificari ale Politicii de Cookies</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Reparatii Pro isi rezerva dreptul de a modifica aceasta politica de cookies. Orice modificare va fi publicata pe aceasta pagina cu data actualizarii.
+              Acoperisuri Pro isi rezerva dreptul de a modifica aceasta politica de cookies. Orice modificare va fi publicata pe aceasta pagina cu data actualizarii.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Contact</h2>

@@ -4,8 +4,8 @@ import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, AlertTriangle, RefreshCcw, ShieldCheck, Hammer } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Demolari si Reconstruiri Acoperisuri - Reparatii Pro",
-  description: "Demolare sigura a acoperisului vechi si reconstructie completa de la zero. Sarpanta noua, materiale moderne, garantie integrala. Reparatii Pro.",
+  title: "Demolari si Reconstruiri Acoperisuri - Acoperisuri Pro",
+  description: "Demolare sigura a acoperisului vechi si reconstructie completa de la zero. Sarpanta noua, materiale moderne, garantie integrala. Acoperisuri Pro.",
 };
 
 const semne = [

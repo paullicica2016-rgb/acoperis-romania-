@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Hammer, Layers, TrendingUp, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Renovari si Modernizari Acoperisuri - Reparatii Pro",
+  title: "Renovari si Modernizari Acoperisuri - Acoperisuri Pro",
   description: "Renovare completa acoperisuri vechi — invelitoare noua, sarpanta consolidata, izolatie termica. Reducere pierderi caldura pana la 30%. Garantie scrisa.",
 };
 

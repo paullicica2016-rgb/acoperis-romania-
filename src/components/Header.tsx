@@ -64,7 +64,7 @@ export default function Header() {
       {/* Main nav - WHITE background like bt-acoperis */}
       <header className="sticky top-0 z-50 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16 md:h-20">
-          <Link href="/" className="flex items-center" aria-label="Reparatii Pro - Acoperisuri de Incredere">
+          <Link href="/" className="flex items-center" aria-label="Acoperisuri Pro - Acoperisuri de Incredere">
             <Logo dark className="h-12 md:h-16 w-auto" />
           </Link>
 

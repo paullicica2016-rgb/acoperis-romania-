@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Shield, Clock, Hammer, Home, Award, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Constructie Acoperisuri Noi - Reparatii Pro",
+  title: "Constructie Acoperisuri Noi - Acoperisuri Pro",
   description: "Constructie acoperisuri noi pentru case, vile si hale. Sarpanta lemn sau metal, toate tipurile de invelitori. Evaluare gratuita, garantie completa. Activi in 12 judete.",
 };
 
@@ -102,7 +102,7 @@ export default function ConstructieAcoperisuri() {
                   Un acoperis construit corect de la inceput inseamna zeci de ani fara griji. Un acoperis facut in graba sau cu materiale slabe inseamna infiltratii, costuri repetate si stres. Diferenta o face echipa si modul in care lucreaza.
                 </p>
                 <p>
-                  La Reparatii Pro, fiecare acoperis nou incepe cu o evaluare tehnica serioasa si se incheie cu o predare verificata punct cu punct. Folosim exclusiv materiale de la producatori de top cu care avem parteneriate directe — Bilka, Lindab, Wetterbest, Bramac, Tondach.
+                  La Acoperisuri Pro, fiecare acoperis nou incepe cu o evaluare tehnica serioasa si se incheie cu o predare verificata punct cu punct. Folosim exclusiv materiale de la producatori de top cu care avem parteneriate directe — Bilka, Lindab, Wetterbest, Bramac, Tondach.
                 </p>
                 <p>
                   Sarpanta — din lemn masiv tratat ignifug si fungicid sau din structura metalica — este dimensionata conform normativelor in vigoare si adaptata specific tipului si dimensiunilor cladirii tale.
@@ -182,7 +182,7 @@ export default function ConstructieAcoperisuri() {
             {/* Avantaje 2-col grid */}
             <div className="lg:col-span-2">
               <span className="text-[#0d1547] font-semibold text-sm uppercase tracking-wider block mb-3">De ce noi</span>
-              <h2 className="text-3xl font-bold text-gray-900 mb-10">Ce Primesti cu Reparatii Pro</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-10">Ce Primesti cu Acoperisuri Pro</h2>
               <div className="grid sm:grid-cols-2 gap-6">
                 {avantaje.map((a) => (
                   <div key={a.title} className="flex gap-4">

@@ -47,7 +47,7 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="lg:col-span-1 bg-white border border-gray-200 rounded-2xl p-6 flex flex-col gap-4">
-            <div aria-label="Reparatii Pro - Acoperisuri de Incredere">
+            <div aria-label="Acoperisuri Pro - Acoperisuri de Incredere">
               <Logo className="h-12 w-auto" />
             </div>
             <p className="text-gray-500 text-sm leading-relaxed">
@@ -178,7 +178,7 @@ export default function Footer() {
       <div className="border-t border-gray-200 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <span className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} Reparatii Pro. Toate drepturile rezervate.
+            &copy; {new Date().getFullYear()} Acoperisuri Pro. Toate drepturile rezervate.
           </span>
           <span className="text-gray-400 text-xs">
             Construim acoperisuri pentru o viata!

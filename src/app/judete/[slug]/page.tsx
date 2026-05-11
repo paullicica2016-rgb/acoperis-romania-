@@ -12,7 +12,7 @@ const countiesData: Record<string, {
   hunedoara: {
     name: "Hunedoara",
     description: [
-      "Reparatii Pro ofera servicii complete de montaj si reparatii acoperisuri in judetul Hunedoara, zona noastra principala de activitate. Cu o experienta de peste 15 ani, echipele noastre au realizat proiecte in Deva, Hunedoara, Petrosani, Orastie, Brad, Simeria si in toate localitatile din judet.",
+      "Acoperisuri Pro ofera servicii complete de montaj si reparatii acoperisuri in judetul Hunedoara, zona noastra principala de activitate. Cu o experienta de peste 15 ani, echipele noastre au realizat proiecte in Deva, Hunedoara, Petrosani, Orastie, Brad, Simeria si in toate localitatile din judet.",
       "Specificul constructiilor din Hunedoara, cu zone montane intinse (Valea Jiului, Tinutul Padurenilor, Retezat) si zone de campie, necesita solutii adaptate fiecarei locatii. Folosim sarpante dimensionate corespunzator pentru sarcini mari de zapada si invelitori cu rezistenta crescuta la conditii climatice severe.",
       "Fiind o firma locala, oferim cei mai scurti timpi de raspuns in judetul Hunedoara, deplasare gratuita pentru evaluare si preturi competitive. Lucram cu materiale premium de la Bilka, Lindab, Wetterbest si Bramac, cu garantie extinsa pe toate lucrarile.",
     ],
@@ -26,7 +26,7 @@ const countiesData: Record<string, {
   alba: {
     name: "Alba",
     description: [
-      "Reparatii Pro deserves judetul Alba cu servicii complete de montaj si reparatii acoperisuri in Alba Iulia, Sebes, Aiud, Blaj, Cugir si in toate localitatile din judet. Apropierea de Hunedoara ne permite sa oferim timpi de raspuns rapizi si preturi competitive in intregul judet.",
+      "Acoperisuri Pro deserves judetul Alba cu servicii complete de montaj si reparatii acoperisuri in Alba Iulia, Sebes, Aiud, Blaj, Cugir si in toate localitatile din judet. Apropierea de Hunedoara ne permite sa oferim timpi de raspuns rapizi si preturi competitive in intregul judet.",
       "Specificul constructiilor din Alba, cu cetati si centre istorice (Alba Iulia, Sebes, Aiud), necesita atentie deosebita la detaliile arhitecturale. Echipa noastra are experienta in lucrarile care respecta caracterul cladirilor traditionale si a celor moderne din zona.",
       "Pentru zonele montane din Apuseni si Tara Motilor, dimensionam sarpantele pentru sarcini mari de zapada si folosim invelitori durabile -- tigla ceramica, tigla metalica sau sindrila bituminoasa, in functie de cerintele fiecarui proiect.",
     ],
@@ -40,7 +40,7 @@ const countiesData: Record<string, {
   sibiu: {
     name: "Sibiu",
     description: [
-      "Reparatii Pro este prezent activ in judetul Sibiu, cu servicii complete de acoperisuri in Sibiu, Medias, Cisnadie, Avrig, Agnita si in localitatile din judet. Sibiul, cu centrul sau istoric protejat UNESCO, necesita atentie speciala la lucrarile de acoperis pentru a respecta caracterul arhitectural al zonei.",
+      "Acoperisuri Pro este prezent activ in judetul Sibiu, cu servicii complete de acoperisuri in Sibiu, Medias, Cisnadie, Avrig, Agnita si in localitatile din judet. Sibiul, cu centrul sau istoric protejat UNESCO, necesita atentie speciala la lucrarile de acoperis pentru a respecta caracterul arhitectural al zonei.",
       "Lucram cu invelitori clasice de tigla ceramica si solzi, specifice zonei sasesti, dar si cu solutii moderne pentru constructiile noi din ansamblurile rezidentiale. Echipa noastra cunoaste specificul local si lucreaza cu materiale aprobate pentru cladirile istorice.",
       "Conditiile climatice din zona Sibiu, cu ierni reci si zapezi abundente, impun acoperisuri bine dimensionate. Folosim sarpante robuste si sisteme de evacuare a apei meteorice optimizate pentru zona montana din Marginimea Sibiului si imprejurimi.",
     ],
@@ -54,7 +54,7 @@ const countiesData: Record<string, {
   valcea: {
     name: "Valcea",
     description: [
-      "Reparatii Pro deserves judetul Valcea cu servicii profesionale de montaj si reparatii acoperisuri in Ramnicu Valcea, Dragasani, Calimanesti, Horezu si in toate localitatile din judet. Apropierea de Hunedoara prin Pasul Vulcan ne permite deplasari rapide si preturi competitive.",
+      "Acoperisuri Pro deserves judetul Valcea cu servicii profesionale de montaj si reparatii acoperisuri in Ramnicu Valcea, Dragasani, Calimanesti, Horezu si in toate localitatile din judet. Apropierea de Hunedoara prin Pasul Vulcan ne permite deplasari rapide si preturi competitive.",
       "Specificul Valcei, cu zone de deal si munte (Cozia, Capatanii, Lotrului) si zona viticola din Dragasani, necesita solutii adaptate fiecarui tip de teren. Echipa noastra are experienta cu acoperisuri pentru pensiuni, vile, case rurale si spatii comerciale.",
       "Folosim invelitori durabile -- tigla ceramica, tigla metalica, tabla faltuita si sindrila bituminoasa -- de la producatori recunoscuti, cu garantie pe lucrari. Consultanta si evaluarea sunt gratuite in toata zona Valcea.",
     ],
@@ -68,7 +68,7 @@ const countiesData: Record<string, {
   gorj: {
     name: "Gorj",
     description: [
-      "In judetul Gorj, Reparatii Pro ofera servicii complete de acoperisuri in Targu Jiu, Motru, Rovinari, Novaci, Tismana si in localitatile din judet. Vecinatatea cu Hunedoara face din Gorj o zona unde echipele noastre se deplaseaza regulat, oferind preturi competitive si timpi de raspuns scurti.",
+      "In judetul Gorj, Acoperisuri Pro ofera servicii complete de acoperisuri in Targu Jiu, Motru, Rovinari, Novaci, Tismana si in localitatile din judet. Vecinatatea cu Hunedoara face din Gorj o zona unde echipele noastre se deplaseaza regulat, oferind preturi competitive si timpi de raspuns scurti.",
       "Specificul Gorjului, cu zone montane (Parang, Valcan, Godeanu) si zone de campie, impune solutii diferite pentru fiecare proiect. Echipa noastra are experienta atat cu acoperisuri pentru case traditionale gorjenesti, cat si cu solutii moderne pentru constructiile noi.",
       "Oferim intreaga gama de servicii -- constructie acoperisuri noi, reparatii, renovari, mansardari, jgheaburi, parazapezi si interventii de urgenta. Materialele provin de la producatori certificati, cu garantie extinsa pe toate lucrarile.",
     ],
@@ -82,7 +82,7 @@ const countiesData: Record<string, {
   timis: {
     name: "Timis",
     description: [
-      "Reparatii Pro este activ in judetul Timis, cu servicii de acoperisuri in Timisoara, Lugoj, Sannicolau Mare, Jimbolia si in toate localitatile din judet. Timisul, cu Timisoara ca centru economic puternic, ofera oportunitati pentru proiecte rezidentiale si industriale.",
+      "Acoperisuri Pro este activ in judetul Timis, cu servicii de acoperisuri in Timisoara, Lugoj, Sannicolau Mare, Jimbolia si in toate localitatile din judet. Timisul, cu Timisoara ca centru economic puternic, ofera oportunitati pentru proiecte rezidentiale si industriale.",
       "Echipa noastra are experienta in proiecte diverse -- de la case individuale in cartierele rezidentiale ale Timisoarei, pana la hale industriale si spatii comerciale in zona metropolitana. Cunoastem specificul constructiilor din Banat si oferim solutii adaptate.",
       "Pentru zona de campie a Timisului, ne concentram pe solutii cu eficienta termica ridicata si invelitori durabile. Oferim deplasare, evaluare gratuita si preturi competitive in intregul judet, cu garantie completa pe toate lucrarile.",
     ],
@@ -96,7 +96,7 @@ const countiesData: Record<string, {
   arad: {
     name: "Arad",
     description: [
-      "Reparatii Pro ofera servicii complete de acoperisuri in judetul Arad, cu echipe care lucreaza in Arad, Lipova, Ineu, Pancota, Sebis si in localitatile din judet. Apropierea de zona Hunedoara prin Deva ne permite sa oferim deplasare rapida si preturi accesibile.",
+      "Acoperisuri Pro ofera servicii complete de acoperisuri in judetul Arad, cu echipe care lucreaza in Arad, Lipova, Ineu, Pancota, Sebis si in localitatile din judet. Apropierea de zona Hunedoara prin Deva ne permite sa oferim deplasare rapida si preturi accesibile.",
       "In zona Arad am realizat proiecte variate -- de la acoperisuri pentru casele din cartierele Aradului si din comunele apropiate, pana la spatii agricole si comerciale. Cunoastem specificul constructiilor din zona si oferim solutii personalizate.",
       "Pentru zona deluroasa din estul judetului (Muntii Codru-Moma, Zarand) folosim sarpante dimensionate pentru sarcini mari de zapada si invelitori durabile. In zona de campie ne concentram pe eficienta termica si rezistenta la intemperii.",
     ],
@@ -110,7 +110,7 @@ const countiesData: Record<string, {
   cluj: {
     name: "Cluj",
     description: [
-      "Reparatii Pro este prezent in judetul Cluj cu servicii profesionale de montaj si reparatii acoperisuri in Cluj-Napoca, Turda, Dej, Gherla, Campia Turzii si in toate localitatile din judet. Cluj-Napoca este un centru economic puternic, cu o piata imobiliara dinamica.",
+      "Acoperisuri Pro este prezent in judetul Cluj cu servicii profesionale de montaj si reparatii acoperisuri in Cluj-Napoca, Turda, Dej, Gherla, Campia Turzii si in toate localitatile din judet. Cluj-Napoca este un centru economic puternic, cu o piata imobiliara dinamica.",
       "Echipa noastra are experienta cu proiecte rezidentiale moderne din ansamblurile noi din Cluj, dar si cu acoperisuri pentru cladiri istorice din centrul orasului. Lucram cu invelitori diverse -- tigla ceramica, tigla metalica, tabla faltuita -- adaptate fiecarui tip de constructie.",
       "Conditiile climatice din zona Cluj, cu ierni reci si precipitatii moderate, impun acoperisuri bine izolate termic. Oferim solutii complete -- sarpanta, invelitoare, izolatie, jgheaburi si parazapezi -- cu garantie pe toate lucrarile.",
     ],
@@ -124,7 +124,7 @@ const countiesData: Record<string, {
   bihor: {
     name: "Bihor",
     description: [
-      "In judetul Bihor, Reparatii Pro ofera servicii de acoperisuri in Oradea, Beius, Salonta, Marghita, Alesd si in localitatile din judet. Oradea, cu centrul istoric in stil Art Nouveau, necesita lucrari executate cu atentie la detalii arhitecturale.",
+      "In judetul Bihor, Acoperisuri Pro ofera servicii de acoperisuri in Oradea, Beius, Salonta, Marghita, Alesd si in localitatile din judet. Oradea, cu centrul istoric in stil Art Nouveau, necesita lucrari executate cu atentie la detalii arhitecturale.",
       "Echipa noastra are experienta cu acoperisuri pentru cladirile istorice din Oradea, dar si pentru constructiile moderne din ansamblurile rezidentiale. Folosim invelitori adaptate fiecarui tip de proiect, de la tigla ceramica clasica pana la solutii metalice moderne.",
       "Pentru zona montana din Apuseni (Padurea Craiului, Codru-Moma) si zona termala (Felix, 1 Mai), folosim sarpante robuste si invelitori cu rezistenta crescuta la umiditate. Oferim deplasare, evaluare gratuita si garantie extinsa pe toate lucrarile.",
     ],
@@ -138,7 +138,7 @@ const countiesData: Record<string, {
   mehedinti: {
     name: "Mehedinti",
     description: [
-      "Reparatii Pro ofera servicii complete de montaj si reparatii acoperisuri in judetul Mehedinti, cu echipe care lucreaza in Drobeta-Turnu Severin, Strehaia, Orsova, Vanju Mare si in localitatile din judet. Apropierea de Hunedoara prin zona Gorj ne permite deplasari rapide si preturi competitive.",
+      "Acoperisuri Pro ofera servicii complete de montaj si reparatii acoperisuri in judetul Mehedinti, cu echipe care lucreaza in Drobeta-Turnu Severin, Strehaia, Orsova, Vanju Mare si in localitatile din judet. Apropierea de Hunedoara prin zona Gorj ne permite deplasari rapide si preturi competitive.",
       "Specificul Mehediniului, cu zona Dunarii si Portile de Fier, impune solutii adaptate la umiditate ridicata si vanturi puternice. Folosim materiale cu rezistenta crescuta la coroziune si sisteme pluviale dimensionate pentru precipitatii abundente.",
       "Echipa noastra are experienta cu proiecte diverse -- de la case in Drobeta si Severin, pana la pensiuni in zona Cazanele Dunarii si constructii in zona montana Mehedinti. Oferim consultanta gratuita si garantie extinsa pe toate lucrarile.",
     ],
@@ -152,7 +152,7 @@ const countiesData: Record<string, {
   bucuresti: {
     name: "Bucuresti",
     description: [
-      "Reparatii Pro ofera servicii complete de montaj si reparatii acoperisuri in Bucuresti si in toate sectoarele capitalei. Echipele noastre au realizat numeroase proiecte in zona metropolitana, de la case individuale in cartierele rezidentiale pana la cladiri comerciale si industriale.",
+      "Acoperisuri Pro ofera servicii complete de montaj si reparatii acoperisuri in Bucuresti si in toate sectoarele capitalei. Echipele noastre au realizat numeroase proiecte in zona metropolitana, de la case individuale in cartierele rezidentiale pana la cladiri comerciale si industriale.",
       "Bucurestiul este o zona importanta pentru noi, cu echipe mobile care pot interveni rapid in orice sector al capitalei pentru montaj acoperisuri noi, reparatii sau interventii de urgenta. Lucram cu materiale premium de la Bilka, Lindab, Wetterbest si Bramac.",
       "Cunoastem bine specificul constructiilor din Bucuresti -- de la cladirile vechi din centrul istoric care necesita interventii delicate, pana la noile ansambluri rezidentiale care beneficiaza de solutii moderne de acoperis. Oferim consultanta personalizata si solutii adaptate fiecarui tip de constructie.",
     ],
@@ -166,7 +166,7 @@ const countiesData: Record<string, {
   ilfov: {
     name: "Ilfov",
     description: [
-      "Judetul Ilfov, aflat in imediata apropiere a capitalei, este una dintre zonele cu cea mai intensa activitate de constructii din Romania. Reparatii Pro este prezent activ in toate comunele si orasele din judetul Ilfov, oferind servicii complete de acoperisuri pentru locuintele noi si existente.",
+      "Judetul Ilfov, aflat in imediata apropiere a capitalei, este una dintre zonele cu cea mai intensa activitate de constructii din Romania. Acoperisuri Pro este prezent activ in toate comunele si orasele din judetul Ilfov, oferind servicii complete de acoperisuri pentru locuintele noi si existente.",
       "In zona Ilfov am realizat numeroase proiecte de constructie acoperisuri noi pentru casele din ansamblurile rezidentiale in plina dezvoltare -- Bragadiru, Chiajna, Popesti-Leordeni, Voluntari, Otopeni si multe alte localitati. De asemenea, oferim servicii de reparatii si renovari pentru acoperisurile existente.",
       "Proximitatea fata de Bucuresti ne permite sa oferim timp de raspuns rapid si preturi competitive, fara costuri suplimentare de deplasare pentru majoritatea localitatilor din judetul Ilfov.",
     ],
@@ -197,9 +197,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const county = countiesData[slug];
-  if (!county) return { title: "Judet Negasit - Reparatii Pro" };
+  if (!county) return { title: "Judet Negasit - Acoperisuri Pro" };
   return {
-    title: `Montaj si Reparatii Acoperisuri in ${county.name} - Reparatii Pro`,
+    title: `Montaj si Reparatii Acoperisuri in ${county.name} - Acoperisuri Pro`,
     description: `Servicii profesionale de montaj, reparatii si intretinere acoperisuri in judetul ${county.name}. Echipe mobile, materiale premium, garantie completa.`,
   };
 }
@@ -233,7 +233,7 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
               <div className="bg-accent/5 rounded-2xl p-8 mb-12">
                 <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
                   <MapPin size={24} className="text-accent" />
-                  De ce Reparatii Pro in {county.name}?
+                  De ce Acoperisuri Pro in {county.name}?
                 </h2>
                 <ul className="space-y-3">
                   {county.highlights.map((h) => (

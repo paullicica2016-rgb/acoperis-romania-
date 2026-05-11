@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Clock, Zap, ShieldAlert, PhoneCall } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Interventii de Urgenta Acoperisuri - Reparatii Pro",
+  title: "Interventii de Urgenta Acoperisuri - Acoperisuri Pro",
   description: "Interventii urgenta 24/7 pentru acoperisuri avariate — furtuna, vant, grindina. Echipe mobile, raspuns rapid, securizare imediata. Suna acum 0754 456 844.",
 };
 

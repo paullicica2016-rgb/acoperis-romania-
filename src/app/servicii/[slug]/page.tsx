@@ -40,7 +40,7 @@ const servicesData: Record<string, {
   "constructie-acoperisuri-noi": {
     title: "Constructie Acoperisuri Noi",
     description: [
-      "Constructia unui acoperis nou reprezinta una dintre cele mai importante etape in realizarea oricarei cladiri. Echipa Reparatii Pro are experienta necesara pentru a executa sisteme complete de acoperisuri pentru locuinte individuale, blocuri de apartamente, spatii comerciale si hale industriale. Fiecare proiect incepe cu o evaluare detaliata a cerintelor si o planificare riguroasa care sa respecte normele de constructie in vigoare.",
+      "Constructia unui acoperis nou reprezinta una dintre cele mai importante etape in realizarea oricarei cladiri. Echipa Acoperisuri Pro are experienta necesara pentru a executa sisteme complete de acoperisuri pentru locuinte individuale, blocuri de apartamente, spatii comerciale si hale industriale. Fiecare proiect incepe cu o evaluare detaliata a cerintelor si o planificare riguroasa care sa respecte normele de constructie in vigoare.",
       "Oferim solutii de sarpanta din lemn masiv sau metal, in functie de specificul cladirii si de bugetul disponibil. Structurile din lemn sunt tratate cu substante ignifuge si fungicide pentru a asigura durabilitatea in timp, iar cele metalice sunt protejate anticoroziv. Indiferent de tipul de structura ales, montajul este realizat de echipe cu experienta vasta in dulgherie si constructii.",
       "Dupa realizarea sarpantei, urmeaza montajul invelitorii -- tigla ceramica, tigla metalica, tabla faltuita, sindrila bituminoasa sau panouri sandwich, in functie de preferintele dumneavoastra. Fiecare tip de invelitoare vine cu avantaje specifice, iar echipa noastra va poate consilia in alegerea celei mai potrivite variante.",
       "Pe langa structura si invelitoare, asiguram si montajul complet al izolatiei termice si al hidroizolatiei, al sistemelor pluviale (jgheaburi, burlane), al opritorilor de zapada, aeratoarelor si al tuturor elementelor de siguranta necesare unui acoperis functional si durabil. Toate lucrarile vin cu garantie completa pe materiale si manopera.",
@@ -59,7 +59,7 @@ const servicesData: Record<string, {
   "invelitori-pentru-acoperisuri": {
     title: "Invelitori pentru Acoperisuri",
     description: [
-      "Alegerea invelitorii potrivite este esentiala pentru protectia si estetica casei dumneavoastra. Reparatii Pro ofera montaj profesional pentru toate tipurile de invelitori disponibile pe piata romaneasca, de la tigla ceramica traditionala pana la solutii moderne precum panourile sandwich sau tabla faltuita cu dublu falt.",
+      "Alegerea invelitorii potrivite este esentiala pentru protectia si estetica casei dumneavoastra. Acoperisuri Pro ofera montaj profesional pentru toate tipurile de invelitori disponibile pe piata romaneasca, de la tigla ceramica traditionala pana la solutii moderne precum panourile sandwich sau tabla faltuita cu dublu falt.",
       "Tigla ceramica ramane una dintre cele mai apreciate optiuni datorita durabilitatii sale exceptionale si aspectului clasic. Montam tigla ceramica Tondach si Bramac, disponibila intr-o varietate larga de culori si profile. Pentru cei care prefera o solutie mai usoara si mai accesibila, tigla metalica de la Bilka, Lindab sau Wetterbest ofera un raport excelent calitate-pret.",
       "Tabla faltuita cu dublu falt este preferata pentru acoperisurile cu pante mici sau cu forme complexe, oferind o etanseitate perfecta si un aspect modern. Sindrila bituminoasa este ideala pentru acoperisurile cu geometrie complexa, iar panourile sandwich sunt solutia optima pentru hale industriale si spatii comerciale.",
       "Indiferent de tipul de invelitoare ales, echipa noastra asigura montajul conform specificatiilor producatorului, cu respectarea tuturor normelor tehnice. Folosim sisteme de fixare originale si accesorii de calitate pentru a garanta longevitatea acoperisului.",
@@ -78,7 +78,7 @@ const servicesData: Record<string, {
   "accesorii-si-sisteme-de-montaj": {
     title: "Accesorii si Sisteme de Montaj",
     description: [
-      "Un acoperis complet nu inseamna doar sarpanta si invelitoare. Accesoriile si sistemele de montaj joaca un rol crucial in functionarea corecta si in durabilitatea intregului sistem de acoperis. Reparatii Pro ofera instalarea profesionala a tuturor componentelor auxiliare necesare.",
+      "Un acoperis complet nu inseamna doar sarpanta si invelitoare. Accesoriile si sistemele de montaj joaca un rol crucial in functionarea corecta si in durabilitatea intregului sistem de acoperis. Acoperisuri Pro ofera instalarea profesionala a tuturor componentelor auxiliare necesare.",
       "Sistemele pluviale -- jgheaburi si burlane -- sunt esentiale pentru colectarea si evacuarea apelor pluviale, protejand atat acoperisul, cat si fundatia cladirii. Montam sisteme pluviale din tabla vopsita, cupru sau PVC, in functie de preferintele si bugetul dumneavoastra. Toate imbinarile sunt etanse si rezistente la intemperii.",
       "Opritorii de zapada previn alunecarea brusca a zapezii de pe acoperis, protejand persoanele si bunurile de la baza cladirii. Cosurile de fum si aeratoarele asigura ventilarea corecta a spatiului de sub acoperis, prevenind condensul si degradarea materialelor.",
       "Serviciile noastre de tinichigerie acopera realizarea sorturilor, a coamelor, a doliilors si a tuturor racordurilor speciale necesare unui acoperis etans. Folosim doar materiale de calitate superioara si tehnici de montaj validate de producatori.",
@@ -97,7 +97,7 @@ const servicesData: Record<string, {
   "reparatii-acoperisuri": {
     title: "Reparatii Acoperisuri",
     description: [
-      "Deteriorarea acoperisului poate avea cauze multiple -- de la uzura naturala a materialelor in timp, pana la daune provocate de furtuni, grindina sau zapada abundenta. Reparatii Pro ofera servicii profesionale de reparatii pentru orice tip de acoperis, indiferent de gravitatea deteriorarii.",
+      "Deteriorarea acoperisului poate avea cauze multiple -- de la uzura naturala a materialelor in timp, pana la daune provocate de furtuni, grindina sau zapada abundenta. Acoperisuri Pro ofera servicii profesionale de reparatii pentru orice tip de acoperis, indiferent de gravitatea deteriorarii.",
       "Procesul de reparatie incepe cu o inspectie detaliata a acoperisului pentru a identifica toate zonele afectate -- nu doar cele vizibile. Echipa noastra verifica starea sarpantei, a invelitorii, a izolatiei, a sistemului pluvial si a tuturor accesoriilor. Pe baza inspectiei, intocmim un raport complet si o oferta transparenta.",
       "Reparatiile pot include inlocuirea partiala a sarpantei deteriorate, repararea sau inlocuirea tiglelor sparte sau dislocate, refacerea izolatiei termice si a hidroizolatiei, repararea sau inlocuirea jgheaburilor si burlanelor deteriorate, precum si fixarea elementelor de tinichigerie.",
       "Intervenim rapid si eficient pentru a preveni agravarea daunelor si pentru a readuce acoperisul la parametrii optimi de functionare. Toate reparatiile sunt executate cu materiale de calitate si vin cu garantie, oferindu-va siguranta ca investitia dumneavoastra este protejata.",
@@ -116,7 +116,7 @@ const servicesData: Record<string, {
   "renovari-si-modernizari": {
     title: "Renovari si Modernizari",
     description: [
-      "Renovarea unui acoperis vechi sau deteriorat este o investitie esentiala pentru siguranta si confortul locuintei. Reparatii Pro realizeaza proiecte complete de renovare si modernizare, transformand acoperisurile invechite in sisteme moderne, eficiente energetic si estetic atragatoare.",
+      "Renovarea unui acoperis vechi sau deteriorat este o investitie esentiala pentru siguranta si confortul locuintei. Acoperisuri Pro realizeaza proiecte complete de renovare si modernizare, transformand acoperisurile invechite in sisteme moderne, eficiente energetic si estetic atragatoare.",
       "Procesul de renovare poate include demontarea completa a invelitorii vechi si inlocuirea cu materiale noi, consolidarea sau inlocuirea sarpantei, aplicarea de izolatie termica performanta si hidroizolatie moderna, montarea de sisteme pluviale noi si instalarea tuturor accesoriilor necesare.",
       "Modernizarea acoperisului aduce beneficii semnificative: reducerea pierderilor de caldura cu pana la 30%, eliminarea infiltratiilor de apa, imbunatatirea aspectului estetic al cladirii si cresterea valorii proprietatii. De asemenea, un acoperis nou sau renovat elimina riscurile structurale asociate unui acoperis degradat.",
       "Echipa noastra va asista pe parcursul intregului proces -- de la evaluarea initiala si alegerea materialelor, pana la finalizarea lucrarii si predarea cu garantie. Ne adaptam fiecarui proiect si fiecarui buget, oferind solutii flexibile si eficiente.",
@@ -135,7 +135,7 @@ const servicesData: Record<string, {
   "mansardari-si-extinderi": {
     title: "Mansardari si Extinderi",
     description: [
-      "Mansardarea reprezinta una dintre cele mai eficiente modalitati de a castiga spatiu locuibil suplimentar fara a extinde amprenta la sol a cladirii. Reparatii Pro transforma podurile neutilizate in camere confortabile, birouri sau spatii de depozitare organizate, cu respectarea tuturor normelor de constructie.",
+      "Mansardarea reprezinta una dintre cele mai eficiente modalitati de a castiga spatiu locuibil suplimentar fara a extinde amprenta la sol a cladirii. Acoperisuri Pro transforma podurile neutilizate in camere confortabile, birouri sau spatii de depozitare organizate, cu respectarea tuturor normelor de constructie.",
       "Procesul de mansardare implica mai multe etape: evaluarea structurii existente pentru a determina capacitatea portanta, proiectarea noii configuratii, realizarea modificarilor structurale necesare, aplicarea izolatiei termice si fonice, montajul ferestrelor de mansarda si finisajele interioare.",
       "Lucram cu ferestre de mansarda de la producatori de renume -- Velux si Fakro -- care ofera iluminare naturala excelenta, ventilatie controlata si izolatie termica superioara. Ferestrele sunt montate conform specificatiilor producatorului, cu etansare completa impotriva infiltratiilor.",
       "Extinderea acoperisului este o alta solutie pe care o oferim, fie prin cresterea suprafetei acoperite, fie prin modificarea formei acoperisului pentru a gazdui noi spatii. Fiecare proiect este tratat individual, cu atentie la detalii si cu respectarea caracteristicilor arhitecturale ale cladirii.",
@@ -154,7 +154,7 @@ const servicesData: Record<string, {
   "demolari-si-reconstruiri": {
     title: "Demolari si Reconstruiri",
     description: [
-      "Uneori, starea avansata de degradare a unui acoperis face ca reparatiile sau renovarile sa nu mai fie viabile din punct de vedere economic sau structural. In astfel de situatii, demolarea completa si reconstructia de la zero reprezinta solutia optima. Reparatii Pro ofera servicii profesionale de demolare si reconstructie a acoperisurilor.",
+      "Uneori, starea avansata de degradare a unui acoperis face ca reparatiile sau renovarile sa nu mai fie viabile din punct de vedere economic sau structural. In astfel de situatii, demolarea completa si reconstructia de la zero reprezinta solutia optima. Acoperisuri Pro ofera servicii profesionale de demolare si reconstructie a acoperisurilor.",
       "Procesul incepe cu o evaluare tehnica detaliata pentru a stabili gradul de degradare si a determina cea mai buna abordare. Demontarea acoperisului vechi se realizeaza in conditii de siguranta, cu gestionarea corespunzatoare a deseurilor rezultate si cu protejarea structurii cladirii si a bunurilor din interior.",
       "Reconstructia include realizarea unei sarpante noi, dimensionate conform normelor actuale, montajul izolatiei termice si al hidroizolatiei, instalarea invelitorii alese, a sistemelor pluviale si a tuturor accesoriilor necesare. Practic, beneficiati de un acoperis complet nou, cu materiale si tehnologii de ultima generatie.",
       "Aceasta abordare ofera avantajul unui acoperis proiectat conform standardelor actuale de eficienta energetica si rezistenta structurala, eliminand complet problemele acumulate de-a lungul anilor. Oferim garantie completa pe intreaga lucrare, de la structura pana la ultimul accesoriu.",
@@ -173,7 +173,7 @@ const servicesData: Record<string, {
   "interventii-de-urgenta": {
     title: "Interventii de Urgenta",
     description: [
-      "Furtunile violente, vanturile puternice, grindina si incarcarea excesiva cu zapada pot provoca daune grave acoperisurilor, punand in pericol siguranta locuintelor si a persoanelor. Reparatii Pro ofera servicii de interventie de urgenta 24/7, cu echipe mobile pregatite sa raspunda rapid in orice situatie.",
+      "Furtunile violente, vanturile puternice, grindina si incarcarea excesiva cu zapada pot provoca daune grave acoperisurilor, punand in pericol siguranta locuintelor si a persoanelor. Acoperisuri Pro ofera servicii de interventie de urgenta 24/7, cu echipe mobile pregatite sa raspunda rapid in orice situatie.",
       "La primirea apelului de urgenta, echipa noastra se deplaseaza la fata locului in cel mai scurt timp posibil. Prioritatea imediata este securizarea zonei afectate pentru a preveni agravarea daunelor si pentru a proteja interiorul cladirii de infiltratii de apa, vant sau alte intemperii.",
       "Dupa securizare, realizam o evaluare rapida a pagubelor si stabilim planul de interventie. Reparatiile de urgenta pot include fixarea sau inlocuirea tiglelor dislocate, acoperirea provizorie a zonelor expuse, consolidarea elementelor structurale afectate si repararea sistemelor pluviale deteriorate.",
       "Odata situatia de urgenta rezolvata, va oferim o evaluare completa a starii acoperisului si un plan detaliat de reparatii definitive. Echipa noastra va asista pe parcursul intregului proces, de la interventie pana la restaurarea completa a acoperisului.",
@@ -192,7 +192,7 @@ const servicesData: Record<string, {
   "curatare-si-intretinere": {
     title: "Curatare si Intretinere",
     description: [
-      "Intretinerea regulata a acoperisului este esentiala pentru prelungirea duratei sale de viata si pentru prevenirea problemelor costisitoare. Reparatii Pro ofera servicii profesionale de curatare si intretinere preventiva, adaptate fiecarui tip de acoperis si fiecarui sezon.",
+      "Intretinerea regulata a acoperisului este esentiala pentru prelungirea duratei sale de viata si pentru prevenirea problemelor costisitoare. Acoperisuri Pro ofera servicii profesionale de curatare si intretinere preventiva, adaptate fiecarui tip de acoperis si fiecarui sezon.",
       "Serviciul de curatare include indepartarea frunzelor, ramurilor si a altor resturi organice acumulate pe acoperis si in jgheaburi, curatarea muschiurilor si lichenilor care pot deteriora invelitoarea, precum si verificarea si curatarea burlanelor pentru a asigura scurgerea corecta a apelor pluviale.",
       "Intretinerea preventiva presupune inspectia periodica a tuturor componentelor acoperisului -- invelitoare, sarpanta, izolatie, sisteme pluviale, racorduri si accesorii. Identificam si remediem la timp micile probleme inainte ca acestea sa se transforme in defectiuni majore si costisitoare.",
       "Recomandam cel putin doua inspectii pe an -- primavara, dupa sezonul rece, si toamna, inainte de venirea iernii. Aceasta abordare preventiva poate economisi sume semnificative pe termen lung si poate prelungi durata de viata a acoperisului cu ani buni.",
@@ -211,7 +211,7 @@ const servicesData: Record<string, {
   "finisaje-fatade-exterioare": {
     title: "Finisaje Fatade Exterioare",
     description: [
-      "Fatada unei cladiri este cartea de vizita a oricarei proprietati. Reparatii Pro ofera servicii complete de finisaje exterioare si placari, folosind materiale de calitate superioara care asigura atat estetica, cat si protectia cladirii impotriva intemperiilor.",
+      "Fatada unei cladiri este cartea de vizita a oricarei proprietati. Acoperisuri Pro ofera servicii complete de finisaje exterioare si placari, folosind materiale de calitate superioara care asigura atat estetica, cat si protectia cladirii impotriva intemperiilor.",
       "Serviciile noastre de finisaje exterioare includ aplicarea tencuielii decorative, montajul placajelor din diverse materiale -- piatra naturala, caramida aparenta, panouri compozite sau lemn termotratat --, precum si realizarea elementelor decorative si a detaliilor arhitecturale.",
       "Lucram cu materiale certificate si echipamente profesionale pentru a asigura o aderenta perfecta, rezistenta la intemperii si un aspect estetic deosebit. Fiecare proiect este tratat cu atentie la detalii, respectand viziunea arhitecturala si preferintele clientului.",
       "Combinatia dintre un acoperis de calitate si o fatada bine realizata transforma orice cladire si ii creste semnificativ valoarea. Echipa noastra va poate consilia in alegerea materialelor si a finisajelor care se potrivesc cel mai bine stilului casei dumneavoastra.",
@@ -241,9 +241,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const service = servicesData[slug];
-  if (!service) return { title: "Serviciu Negasit - Reparatii Pro" };
+  if (!service) return { title: "Serviciu Negasit - Acoperisuri Pro" };
   return {
-    title: `${service.title} - Reparatii Pro`,
+    title: `${service.title} - Acoperisuri Pro`,
     description: service.description[0].substring(0, 160),
   };
 }

@@ -43,7 +43,7 @@ const blogPosts: Record<string, {
       "Tigla ceramica este alegerea clasica si cea mai durabila optiune disponibila. Realizata din argila arsa la temperaturi inalte, are o durata de viata de 50-100 de ani, rezistenta excelenta la foc si la radiatiile UV. Tigla ceramica ofera o estetica premium, traditionala, si este ideala pentru case construite in stil clasic sau pentru zone unde reglementarile urbanistice impun acest tip de invelitoare. Dezavantajele principale sunt greutatea ridicata - care necesita o sarpanta robusta - si pretul, care poate fi de 2-3 ori mai mare decat al tiglei metalice.",
       "Tigla metalica reprezinta solutia preferata in ultimii ani datorita raportului excelent calitate-pret. Confectionata din tabla zincata acoperita cu polimeri de protectie, este usoara, rapid de montat si durabila - cu o garantie de pana la 50 de ani de la producatori precum Bilka, Lindab sau Wetterbest. Este ideala pentru acoperisuri cu pante intre 14 si 60 de grade si vine intr-o gama larga de culori si profile care imita aspectul tiglei ceramice. Costul redus si montajul rapid o fac alegerea numarul unu pentru casele rezidentiale moderne.",
       "Tabla faltuita este o alternativa moderna, eleganta, folosita atat la cladiri rezidentiale, cat si comerciale. Se monteaza in panouri lungi, fara imbinari transversale, ceea ce o face extrem de eficienta in evacuarea apei si potrivita pentru pante mici (chiar si sub 7 grade). Aspectul ei minimalist si liniile drepte se potrivesc perfect cu arhitectura contemporana. Sindrila bituminoasa, pe de alta parte, este cea mai accesibila solutie - usor de montat pe forme complexe, dar cu o durata de viata mai scurta (15-25 de ani).",
-      "Inainte de a lua o decizie, recomandam o consultanta cu un specialist care sa evalueze structura existenta, panta acoperisului si conditiile climatice locale. La Reparatii Pro lucram cu toate tipurile de invelitoare si va putem oferi un calcul comparativ pentru fiecare optiune, astfel incat sa alegeti solutia cea mai potrivita pentru casa dumneavoastra. O alegere bine informata acum inseamna decenii de protectie si liniste pentru viitor.",
+      "Inainte de a lua o decizie, recomandam o consultanta cu un specialist care sa evalueze structura existenta, panta acoperisului si conditiile climatice locale. La Acoperisuri Pro lucram cu toate tipurile de invelitoare si va putem oferi un calcul comparativ pentru fiecare optiune, astfel incat sa alegeti solutia cea mai potrivita pentru casa dumneavoastra. O alegere bine informata acum inseamna decenii de protectie si liniste pentru viitor.",
     ],
   },
   "intretinere-acoperis-calendar-anual": {
@@ -56,7 +56,7 @@ const blogPosts: Record<string, {
       "Primavara este momentul ideal pentru o inspectie completa dupa rigorile iernii. Verifica daca exista tigle dislocate, fisurate sau lipsa - zapada si gheata pot deteriora chiar si cele mai durabile invelitori. Curata jgheaburile de frunzele si reziduurile acumulate in timpul iernii, pentru ca apa de ploaie sa se scurga corespunzator. Verifica daca elementele de tinichigerie - sorturile, dolii si racordurile la cosul de fum - sunt intacte si bine fixate.",
       "Vara este sezonul potrivit pentru lucrari de igiena si tratamente preventive. Daca observi muschi sau licheni pe tigle, aplica solutii speciale anti-muschi pentru a preveni deteriorarea materialelor. Verifica si tunde crengile copacilor care ating sau se apropie de acoperis - frunzele in cadere blocheaza jgheaburile, iar crengile in furtuna pot zgaria sau lovi invelitoarea. Tot acum poti planifica eventualele renovari sau extinderi, profitand de vremea uscata.",
       "Toamna este probabil cel mai important sezon de intretinere. Curata din nou jgheaburile dupa caderea frunzelor si verifica burlanele sa nu fie infundate. Inspecteaza izolatia podului - daca observi pete de umezeala sau zone reci, este momentul sa intervii inainte de iarna. Verifica daca tiglele sunt bine fixate si inlocuieste-le pe cele deteriorate. O singura tigla lipsa poate permite infiltrarea apei si formarea unor pungi de gheata care strica sarpanta.",
-      "Iarna nu este momentul pentru lucrari pe acoperis, ci pentru monitorizare. Urmareste daca pe streasina apar tepi de gheata sau zone unde zapada se topeste neuniform - acestea sunt semne de izolatie deficitara sau de scurgeri de caldura. Daca strarul de zapada depaseste 30-40 cm, contacteaza un specialist pentru deszapezire profesionista, mai ales pe acoperisuri cu pante mici. Pentru orice lucrare, contacteaza Reparatii Pro - oferim si contracte de intretinere anuale, cu inspectii programate de doua ori pe an.",
+      "Iarna nu este momentul pentru lucrari pe acoperis, ci pentru monitorizare. Urmareste daca pe streasina apar tepi de gheata sau zone unde zapada se topeste neuniform - acestea sunt semne de izolatie deficitara sau de scurgeri de caldura. Daca strarul de zapada depaseste 30-40 cm, contacteaza un specialist pentru deszapezire profesionista, mai ales pe acoperisuri cu pante mici. Pentru orice lucrare, contacteaza Acoperisuri Pro - oferim si contracte de intretinere anuale, cu inspectii programate de doua ori pe an.",
     ],
   },
   "izolatie-termica-acoperis-economii": {
@@ -69,7 +69,7 @@ const blogPosts: Record<string, {
       "Cele mai folosite materiale izolante sunt vata minerala bazaltica, vata de sticla, polistirenul expandat (EPS), polistirenul extrudat (XPS) si spumele poliuretanice. Vata minerala bazaltica este alegerea premium - are performante termice excelente (lambda 0.035-0.040 W/mK), este incombustibila, ofera si izolare fonica si rezista la atacul rozatoarelor sau insectelor. Polistirenul este mai ieftin si mai usor, dar are limitari la foc si trebuie protejat de razele UV. Spuma poliuretanica aplicata prin pulverizare este ideala pentru sarpante complicate, oferind o etansare perfecta.",
       "Grosimea izolatiei este la fel de importanta ca tipul materialului. Pentru zona climatica a Romaniei, recomandarea actuala este de minim 25-30 cm de vata minerala sau echivalent. Multi proprietari fac greseala de a monta izolatie subtire pentru a economisi pe termen scurt - insa diferenta de cost intre 15 si 30 de cm este minora comparativ cu economiile pe termen lung la incalzire si racire. O izolatie subdimensionata inseamna pierderi termice continue, ani de zile.",
       "Un element esential, adesea uitat, este bariera de vapori si membrana hidroizolatoare. Bariera de vapori, montata pe partea calda a izolatiei (interior), impiedica condensul sa patrunda in stratul izolator. Membrana hidroizolatoare, montata sub invelitoare, protejeaza izolatia de eventuale infiltratii si permite evacuarea umiditatii reziduale. Fara aceste membrane, chiar si cea mai scumpa izolatie isi pierde proprietatile in cativa ani din cauza umiditatii acumulate.",
-      "Pe langa economiile evidente la facturi, o izolatie termica corect executata creste valoarea de revanzare a casei, imbunatateste confortul interior (temperaturi mai uniforme, fara zone reci) si reduce zgomotul exterior. Pentru o casa de 100 mp, investitia totala in izolatie premium este de aproximativ 6.000-9.000 lei, iar economia anuala la incalzire poate ajunge la 2.000-3.000 lei. La Reparatii Pro oferim consultanta gratuita si calculam pentru tine optiunea cea mai eficienta, in functie de structura existenta a acoperisului si de bugetul disponibil.",
+      "Pe langa economiile evidente la facturi, o izolatie termica corect executata creste valoarea de revanzare a casei, imbunatateste confortul interior (temperaturi mai uniforme, fara zone reci) si reduce zgomotul exterior. Pentru o casa de 100 mp, investitia totala in izolatie premium este de aproximativ 6.000-9.000 lei, iar economia anuala la incalzire poate ajunge la 2.000-3.000 lei. La Acoperisuri Pro oferim consultanta gratuita si calculam pentru tine optiunea cea mai eficienta, in functie de structura existenta a acoperisului si de bugetul disponibil.",
     ],
   },
 };
@@ -88,9 +88,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const post = blogPosts[slug];
-  if (!post) return { title: "Articol Negasit - Reparatii Pro" };
+  if (!post) return { title: "Articol Negasit - Acoperisuri Pro" };
   return {
-    title: `${post.title} - Blog Reparatii Pro`,
+    title: `${post.title} - Blog Acoperisuri Pro`,
     description: post.content[0].substring(0, 160),
   };
 }
@@ -156,7 +156,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               <div className="mt-12 bg-gradient-to-r from-primary to-accent rounded-2xl p-8 text-white">
                 <h3 className="text-2xl font-bold mb-3">Ai nevoie de ajutor profesionist?</h3>
                 <p className="text-white/80 mb-6">
-                  Echipa Reparatii Pro iti sta la dispozitie pentru orice problema legata de acoperis. Contacteaza-ne acum!
+                  Echipa Acoperisuri Pro iti sta la dispozitie pentru orice problema legata de acoperis. Contacteaza-ne acum!
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a href="tel:0754456844" className="inline-flex items-center justify-center gap-2 bg-white text-accent px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">

@@ -49,7 +49,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/hero-contact.webp" alt="Contact Reparatii Pro" fill className="object-cover" priority sizes="100vw" />
+          <Image src="/images/hero-contact.webp" alt="Contact Acoperisuri Pro" fill className="object-cover" priority sizes="100vw" />
           <div className="absolute inset-0 bg-[#051D3E]/80" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 pb-28 pt-10">

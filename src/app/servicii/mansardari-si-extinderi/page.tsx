@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Home, Sun, Thermometer, Ruler } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Mansardari si Extinderi - Reparatii Pro",
+  title: "Mansardari si Extinderi - Acoperisuri Pro",
   description: "Transformam podul in spatiu locuibil — mansardari complete cu izolatie, ferestre Velux, finisaje. Extinderi acoperis pentru spatiu suplimentar. Garantie scrisa.",
 };
 
