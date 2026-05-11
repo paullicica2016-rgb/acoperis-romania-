@@ -61,7 +61,7 @@ export default function Footer() {
                 <Mail size={14} className="text-[#0d1547]" /> office@reparatiipro.ro
               </a>
               <span className="flex items-center gap-2 text-gray-600 text-sm">
-                <MapPin size={14} className="text-[#0d1547]" /> Hunedoara si zona invecinata
+                Hunedoara si zona invecinata
               </span>
             </div>
           </div>
