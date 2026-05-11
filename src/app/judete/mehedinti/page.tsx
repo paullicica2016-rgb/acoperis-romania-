@@ -234,12 +234,8 @@ export default function MehedintiPage() {
       </section>
 
       {/* CTA final */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0">
-          <Image src="/images/cta.webp" alt="Acoperisuri Mehedinti" fill className="object-cover" sizes="100vw" />
-          <div className="absolute inset-0 bg-[#0d1547]/85" />
-        </div>
-        <div className="relative max-w-3xl mx-auto px-4 text-center">
+      <section className="py-20 bg-[#0d1547]">
+        <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ai nevoie de un acoperis in Mehedinti?
           </h2>
