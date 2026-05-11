@@ -157,12 +157,8 @@ export default function InterventiiUrgenta() {
         </div>
       </section>
 
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0">
-          <Image src="/images/cta.webp" alt="Urgenta acoperis" fill className="object-cover" sizes="100vw" />
-          <div className="absolute inset-0 bg-[#0d1547]/85" />
-        </div>
-        <div className="relative max-w-3xl mx-auto px-4 text-center">
+      <section className="py-20 bg-[#0d1547]">
+        <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Nu lasa apa sa patrunda mai adanc</h2>
           <p className="text-white/70 text-lg mb-10">Fiecare ora de intarziere inseamna daune mai mari. Suna-ne acum.</p>
           <a href="tel:0754456844" className="inline-flex items-center justify-center gap-2 bg-[#E53935] text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">

@@ -140,12 +140,8 @@ export default function AccesoriiMontaj() {
       </section>
 
       {/* CTA final */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0">
-          <Image src="/images/cta.webp" alt="Accesorii montaj acoperis" fill className="object-cover" sizes="100vw" />
-          <div className="absolute inset-0 bg-[#0d1547]/85" />
-        </div>
-        <div className="relative max-w-3xl mx-auto px-4 text-center">
+      <section className="py-20 bg-[#0d1547]">
+        <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Un acoperis complet incepe cu detaliile corecte</h2>
           <p className="text-white/70 text-lg mb-10">Suna-ne pentru o evaluare gratuita. Montam tot ce lipseste sau inlocuim ce e deteriorat.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
