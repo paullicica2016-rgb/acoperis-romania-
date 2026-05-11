@@ -12,6 +12,33 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "ce-tip-de-tigla-rezista-la-grindina",
+    title: "Ce Tip de Tigla Rezista cel mai Bine la Grindina?",
+    excerpt: "Grindina distruge anual mii de acoperisuri in Romania. Comparam tigla metalica, ceramica si sindrila bituminoasa si iti spunem care rezista cel mai bine la impact.",
+    date: "5 Mai 2026",
+    category: "Sfaturi",
+    readTime: "5 min citire",
+    image: "/images/hero-tigla-metalica.webp",
+  },
+  {
+    slug: "greseli-montaj-acoperis",
+    title: "5 Greseli la Montajul unui Acoperis (si cum le eviti)",
+    excerpt: "Cele mai comune greseli facute la montajul acoperisurilor duc la infiltratii, mucegai si reparatii costisitoare. Afla cum sa le eviti inainte sa fie prea tarziu.",
+    date: "28 Apr 2026",
+    category: "Ghid",
+    readTime: "6 min citire",
+    image: "/images/tipuri-reparatii.webp",
+  },
+  {
+    slug: "cat-costa-un-acoperis-complet-2026",
+    title: "Cat Costa un Acoperis Complet in 2026? Preturi si Calcule Reale",
+    excerpt: "Materiale, manopera, suprafata, tip de invelitoare — toti factorii care influenteaza pretul unui acoperis nou explicati cu exemple concrete si cifre reale.",
+    date: "15 Apr 2026",
+    category: "Preturi",
+    readTime: "8 min citire",
+    image: "/images/hero-dulgherie.webp",
+  },
+  {
     slug: "alegere-tigla-acoperis-ghid-complet",
     title: "Cum sa Alegi Tigla Potrivita pentru Acoperisul Casei Tale",
     excerpt: "Ceramica, metalica sau tabla faltuita? Comparam tipurile de invelitoare si te ajutam sa alegi solutia ideala pentru bugetul si stilul casei tale.",

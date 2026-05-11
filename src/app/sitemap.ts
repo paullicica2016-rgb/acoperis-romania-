@@ -21,6 +21,9 @@ const counties = [
 ];
 
 const blogSlugs = [
+  "ce-tip-de-tigla-rezista-la-grindina",
+  "greseli-montaj-acoperis",
+  "cat-costa-un-acoperis-complet-2026",
   "alegere-tigla-acoperis-ghid-complet",
   "intretinere-acoperis-calendar-anual",
   "izolatie-termica-acoperis-economii",

@@ -166,9 +166,51 @@ export default function ReparatiiAcoperisuri() {
         </div>
       </section>
 
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#051D3E] mb-10 text-center">Intrebari Frecvente despre Reparatii Acoperisuri</h2>
+          <div className="space-y-4">
+            {[
+              {
+                q: "Cat dureaza o reparatie de acoperis?",
+                a: "Reparatiile simple (inlocuire tigla, remediere infiltratie localizata) dureaza 1-2 zile. Reparatiile complexe care implica portiuni mari de sarpanta sau invelitoare pot dura 3-7 zile, in functie de amploare si conditii meteo.",
+              },
+              {
+                q: "Lucrati si iarna?",
+                a: "Da, efectuam reparatii urgente si iarna, cu exceptia perioadelor cu temperaturi sub -5°C sau cu ninsoare activa. Pentru lucrari planificate, recomandam perioadele cu temperaturi peste 5°C pentru aderenta optima a materialelor.",
+              },
+              {
+                q: "Oferiti garantie pentru reparatii?",
+                a: "Da, toate lucrarile de reparatie vin cu garantie scrisa. Oferim minim 2 ani garantie pe manopera si respectam garantia producatorului pentru materialele folosite (5-10 ani pentru tigla metalica, 30+ ani pentru ceramica).",
+              },
+              {
+                q: "Faceti si reparatii urgente?",
+                a: "Da, avem echipe disponibile 24/7 pentru interventii de urgenta — acoperisuri avariate de furtuna, infiltratii active, tabla smulsa. Sunati 0754 456 844 si ajungem in maxim 3 ore in zona Hunedoara si judete invecinate.",
+              },
+              {
+                q: "Cat costa o evaluare a acoperisului?",
+                a: "Evaluarea si devizul sunt complet gratuite. Un specialist vine la fata locului, inspecteaza acoperisul si va ofera un calcul detaliat fara niciun cost si fara nicio obligatie.",
+              },
+            ].map((item, i) => (
+              <details key={i} className="group bg-white rounded-xl border border-gray-200 overflow-hidden">
+                <summary className="flex items-center justify-between gap-4 px-6 py-4 cursor-pointer font-semibold text-[#051D3E] hover:bg-gray-50 transition-colors list-none">
+                  {item.q}
+                  <span className="shrink-0 text-[#0d1547] text-xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-5 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                  {item.a}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA final */}
       
-      <FaqSchema items={[{"q":"Cat costa o reparatie de acoperis?","a":"Pretul depinde de suprafata afectata si tipul lucrarii. Oferim evaluare gratuita si deviz detaliat fara costuri ascunse."},{"q":"Cat dureaza o reparatie de acoperis?","a":"Reparatiile simple dureaza 1-2 zile. Lucrarile mai complexe pot dura 3-5 zile, in functie de amploare."},{"q":"Oferiti garantie pentru reparatii?","a":"Da, toate lucrarile de reparatie vin cu garantie scrisa. Durata garantiei variaza in functie de tipul lucrarii."}]} />
+      <FaqSchema items={[{"q":"Cat dureaza o reparatie de acoperis?","a":"Reparatiile simple (inlocuire tigla, remediere infiltratie localizata) dureaza 1-2 zile. Reparatiile complexe care implica portiuni mari de sarpanta sau invelitoare pot dura 3-7 zile, in functie de amploare si conditii meteo."},{"q":"Lucrati si iarna?","a":"Da, efectuam reparatii urgente si iarna, cu exceptia perioadelor cu temperaturi sub -5°C sau cu ninsoare activa. Pentru lucrari planificate, recomandam perioadele cu temperaturi peste 5°C pentru aderenta optima a materialelor."},{"q":"Oferiti garantie pentru reparatii?","a":"Da, toate lucrarile de reparatie vin cu garantie scrisa. Oferim minim 2 ani garantie pe manopera si respectam garantia producatorului pentru materialele folosite (5-10 ani pentru tigla metalica, 30+ ani pentru ceramica)."},{"q":"Faceti si reparatii urgente?","a":"Da, avem echipe disponibile 24/7 pentru interventii de urgenta — acoperisuri avariate de furtuna, infiltratii active, tabla smulsa. Sunati 0754 456 844 si ajungem in maxim 3 ore in zona Hunedoara si judete invecinate."},{"q":"Cat costa o evaluare a acoperisului?","a":"Evaluarea si devizul sunt complet gratuite. Un specialist vine la fata locului, inspecteaza acoperisul si va ofera un calcul detaliat fara niciun cost si fara nicio obligatie."}]} />
 
       <section className="py-20 bg-[#0d1547]">
         <div className="max-w-3xl mx-auto px-4 text-center">

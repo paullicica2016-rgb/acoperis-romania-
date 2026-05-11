@@ -161,6 +161,49 @@ export default function ConstructieAcoperisuri() {
       </section>
 
       {/* ── Etapele lucrarii ── */}
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#051D3E] mb-10 text-center">Intrebari Frecvente despre Constructia Acoperisurilor</h2>
+          <div className="space-y-4">
+            {[
+              {
+                q: "Cat dureaza montajul unui acoperis nou?",
+                a: "Pentru o casa unifamiliala standard (100-150 mp), montajul complet — sarpanta, membrana, invelitoare, accesorii — dureaza 10-20 zile lucratoare, in functie de complexitate, forma acoperisului si conditii meteo.",
+              },
+              {
+                q: "Lucrati si iarna?",
+                a: "Lucrarile de sarpanta pot fi executate pe tot parcursul anului. Montajul invelitorii necesita temperaturi de peste 5°C. Planificam lucrarile in avans si va comunicam transparent daca conditiile meteo pot influenta termenele.",
+              },
+              {
+                q: "Oferiti garantie pentru acoperisul nou?",
+                a: "Da. Oferim garantie de 10 ani pe manopera si respectam garantiile producatorilor pentru materiale: 10-15 ani pentru tigla metalica, 30-50 ani pentru tigla ceramica. Totul este documentat intr-un certificat de garantie scris.",
+              },
+              {
+                q: "Faceti si reparatii urgente?",
+                a: "Da, pe langa constructii noi gestionam si urgente — securizare acoperis avariat, interventii rapide post-furtuna, acoperire provizorie. Sunati 0754 456 844 pentru interventie rapida.",
+              },
+              {
+                q: "Ce tipuri de invelitoare montati?",
+                a: "Montam toate tipurile: tigla metalica (Bilka, Lindab, Wetterbest), tigla ceramica (Bramac, Tondach), tabla faltuita, sindrila bituminoasa si table speciale. Va recomandam solutia optima pentru panta, zona climatica si bugetul dumneavoastra.",
+              },
+            ].map((item, i) => (
+              <details key={i} className="group bg-white rounded-xl border border-gray-200 overflow-hidden">
+                <summary className="flex items-center justify-between gap-4 px-6 py-4 cursor-pointer font-semibold text-[#051D3E] hover:bg-gray-50 transition-colors list-none">
+                  {item.q}
+                  <span className="shrink-0 text-[#0d1547] text-xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-5 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                  {item.a}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
       <section className="py-20 bg-[#0d1547]">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-14">
@@ -263,7 +306,7 @@ export default function ConstructieAcoperisuri() {
 
       {/* ── CTA final ── */}
       
-      <FaqSchema items={[{"q":"Cat dureaza constructia unui acoperis nou?","a":"Un acoperis nou pentru o casa unifamiliala dureaza in medie 2-4 saptamani, in functie de complexitate si suprafata."},{"q":"Ce tipuri de invelitoare montati?","a":"Montam tigla ceramica, tigla metalica, tabla faltuita, sindrila bituminoasa si toate celelalte sisteme moderne de invelitoare."},{"q":"Oferiti garantie pentru constructie acoperis?","a":"Da, oferim garantie extinsa atat pentru materialele folosite cat si pentru manopera, cu certificat scris la predarea lucrarii."}]} />
+      <FaqSchema items={[{"q":"Cat dureaza montajul unui acoperis nou?","a":"Pentru o casa unifamiliala standard (100-150 mp), montajul complet — sarpanta, membrana, invelitoare, accesorii — dureaza 10-20 zile lucratoare, in functie de complexitate, forma acoperisului si conditii meteo."},{"q":"Lucrati si iarna?","a":"Lucrarile de sarpanta pot fi executate pe tot parcursul anului. Montajul invelitorii necesita temperaturi de peste 5°C. Planificam lucrarile in avans si va comunicam transparent daca conditiile meteo pot influenta termenele."},{"q":"Oferiti garantie pentru acoperisul nou?","a":"Da. Oferim garantie de 10 ani pe manopera si respectam garantiile producatorilor pentru materiale: 10-15 ani pentru tigla metalica, 30-50 ani pentru tigla ceramica. Totul este documentat intr-un certificat de garantie scris."},{"q":"Faceti si reparatii urgente?","a":"Da, pe langa constructii noi gestionam si urgente — securizare acoperis avariat, interventii rapide post-furtuna, acoperire provizorie. Sunati 0754 456 844 pentru interventie rapida."},{"q":"Ce tipuri de invelitoare montati?","a":"Montam toate tipurile: tigla metalica (Bilka, Lindab, Wetterbest), tigla ceramica (Bramac, Tondach), tabla faltuita, sindrila bituminoasa si table speciale. Va recomandam solutia optima pentru panta, zona climatica si bugetul dumneavoastra."}]} />
 
       <section className="py-20 bg-[#0d1547]">
         <div className="max-w-3xl mx-auto px-4 text-center">

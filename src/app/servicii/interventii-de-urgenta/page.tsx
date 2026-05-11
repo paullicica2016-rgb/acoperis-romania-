@@ -164,6 +164,49 @@ export default function InterventiiUrgenta() {
       
       <FaqSchema items={[{"q":"Cat de repede ajungeti la interventii de urgenta?","a":"Suntem disponibili 24/7 si ajungem de regula in 1-3 ore de la apel, in functie de locatie."},{"q":"Ce tipuri de urgente acoperiti?","a":"Acoperim orice urgenta: acoperis avariat de furtuna, infiltratii active, tabla smulsa de vant, tigla sparta sau dislocata."},{"q":"Lucrati si in weekend sau noapte?","a":"Da, suntem disponibili 24/7 inclusiv sambata, duminica si noptile pentru interventii de urgenta."}]} />
 
+      {/* FAQ Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#051D3E] mb-10 text-center">Intrebari Frecvente despre Interventiile de Urgenta</h2>
+          <div className="space-y-4">
+            {[
+              {
+                q: "Cat de repede ajungeti la o urgenta?",
+                a: "In zona Hunedoara si judete invecinate ajungem in maxim 1-3 ore. Suntem disponibili 24/7, inclusiv sambata, duminica si sarbatori legale. Sunati 0754 456 844 si va confirmam ora sosirii.",
+              },
+              {
+                q: "Lucrati si iarna sau pe timp de furtuna?",
+                a: "Da, intervenim in orice conditii meteo pentru securizarea acoperisurilor avariate. Daca montajul definitiv nu este posibil imediat din cauza conditiilor, aplicam o solutie provizorie sigura si revin pentru lucrarea definitiva.",
+              },
+              {
+                q: "Oferiti garantie pentru interventiile de urgenta?",
+                a: "Da, toate interventiile vin cu garantie scrisa, inclusiv cele de urgenta. Garantia acopera atat manopera cat si materialele folosite.",
+              },
+              {
+                q: "Cat costa o interventie de urgenta?",
+                a: "Pretul depinde de tipul si amploarea lucrarii. Deplasarea si evaluarea la fata locului sunt gratuite. Va oferim un deviz transparent inainte de inceperea lucrarii, fara costuri ascunse.",
+              },
+              {
+                q: "Ce tipuri de urgente rezolvati?",
+                a: "Acoperis avariat de furtuna sau grindina, tabla smulsa de vant, tigla sparta sau dislocata, infiltratii active, cosuri de fum desprinse, jgheaburi cazute. Orice situatie care pericliteaza siguranta locuintei sau permite patrunderea apei.",
+              },
+            ].map((item, i) => (
+              <details key={i} className="group bg-white rounded-xl border border-gray-200 overflow-hidden">
+                <summary className="flex items-center justify-between gap-4 px-6 py-4 cursor-pointer font-semibold text-[#051D3E] hover:bg-gray-50 transition-colors list-none">
+                  {item.q}
+                  <span className="shrink-0 text-[#0d1547] text-xl transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-5 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                  {item.a}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
+
       <section className="py-20 bg-[#0d1547]">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Nu lasa apa sa patrunda mai adanc</h2>

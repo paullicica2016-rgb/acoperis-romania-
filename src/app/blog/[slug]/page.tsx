@@ -9,20 +9,34 @@ const blogHeroImages: Record<string, string> = {
   "alegere-tigla-acoperis-ghid-complet": "/images/faq-tigla-metalica.webp",
   "intretinere-acoperis-calendar-anual": "/images/reparatii-faq.webp",
   "izolatie-termica-acoperis-economii": "/images/dulgherie-despre.webp",
+  "ce-tip-de-tigla-rezista-la-grindina": "/images/hero-tigla-metalica.webp",
+  "greseli-montaj-acoperis": "/images/tipuri-reparatii.webp",
+  "cat-costa-un-acoperis-complet-2026": "/images/hero-dulgherie.webp",
 };
 
 const blogInlineImages: Record<string, { src: string; alt: string; afterParagraph: number }[]> = {
   "alegere-tigla-acoperis-ghid-complet": [
-    { src: "/images/projects/tigla-ceramica-1.webp", alt: "Acoperis cu tigla ceramica", afterParagraph: 1 },
-    { src: "/images/projects/tigla-metalica-1.webp", alt: "Acoperis cu tigla metalica", afterParagraph: 3 },
+    { src: "/images/faq-tigla-metalica.webp", alt: "Acoperis cu tigla metalica", afterParagraph: 1 },
+    { src: "/images/reparatii-faq.webp", alt: "Acoperis cu tigla ceramica", afterParagraph: 3 },
   ],
   "intretinere-acoperis-calendar-anual": [
-    { src: "/images/projects/jgheaburi-2.webp", alt: "Verificare jgheaburi acoperis", afterParagraph: 2 },
-    { src: "/images/projects/reparatii-2.webp", alt: "Inspectie acoperis sezoniera", afterParagraph: 4 },
+    { src: "/images/importanta-reparatie.webp", alt: "Verificare jgheaburi acoperis", afterParagraph: 2 },
+    { src: "/images/tipuri-reparatii.webp", alt: "Inspectie acoperis sezoniera", afterParagraph: 4 },
   ],
   "izolatie-termica-acoperis-economii": [
-    { src: "/images/projects/dulgherie-1.webp", alt: "Izolatie termica acoperis", afterParagraph: 1 },
-    { src: "/images/projects/tigla-metalica-2.webp", alt: "Acoperis izolat eficient termic", afterParagraph: 3 },
+    { src: "/images/dulgherie-servicii.webp", alt: "Izolatie termica acoperis", afterParagraph: 1 },
+    { src: "/images/hero-reparatii.webp", alt: "Acoperis izolat eficient termic", afterParagraph: 3 },
+  ],
+  "ce-tip-de-tigla-rezista-la-grindina": [
+    { src: "/images/faq-tigla-metalica.webp", alt: "Tigla metalica rezistenta la grindina", afterParagraph: 1 },
+    { src: "/images/reparatii-faq.webp", alt: "Acoperis dupa grindina - reparatii", afterParagraph: 3 },
+  ],
+  "greseli-montaj-acoperis": [
+    { src: "/images/importanta-reparatie.webp", alt: "Greseli frecvente la montajul acoperisului", afterParagraph: 2 },
+  ],
+  "cat-costa-un-acoperis-complet-2026": [
+    { src: "/images/hero-tigla-metalica.webp", alt: "Acoperis nou tigla metalica 2026", afterParagraph: 1 },
+    { src: "/images/dulgherie-servicii.webp", alt: "Sarpanta si manopera acoperis", afterParagraph: 3 },
   ],
 };
 
@@ -57,6 +71,45 @@ const blogPosts: Record<string, {
       "Vara este sezonul potrivit pentru lucrari de igiena si tratamente preventive. Daca observi muschi sau licheni pe tigle, aplica solutii speciale anti-muschi pentru a preveni deteriorarea materialelor. Verifica si tunde crengile copacilor care ating sau se apropie de acoperis - frunzele in cadere blocheaza jgheaburile, iar crengile in furtuna pot zgaria sau lovi invelitoarea. Tot acum poti planifica eventualele renovari sau extinderi, profitand de vremea uscata.",
       "Toamna este probabil cel mai important sezon de intretinere. Curata din nou jgheaburile dupa caderea frunzelor si verifica burlanele sa nu fie infundate. Inspecteaza izolatia podului - daca observi pete de umezeala sau zone reci, este momentul sa intervii inainte de iarna. Verifica daca tiglele sunt bine fixate si inlocuieste-le pe cele deteriorate. O singura tigla lipsa poate permite infiltrarea apei si formarea unor pungi de gheata care strica sarpanta.",
       "Iarna nu este momentul pentru lucrari pe acoperis, ci pentru monitorizare. Urmareste daca pe streasina apar tepi de gheata sau zone unde zapada se topeste neuniform - acestea sunt semne de izolatie deficitara sau de scurgeri de caldura. Daca strarul de zapada depaseste 30-40 cm, contacteaza un specialist pentru deszapezire profesionista, mai ales pe acoperisuri cu pante mici. Pentru orice lucrare, contacteaza Acoperisuri Pro - oferim si contracte de intretinere anuale, cu inspectii programate de doua ori pe an.",
+    ],
+  },
+  "ce-tip-de-tigla-rezista-la-grindina": {
+    title: "Ce Tip de Tigla Rezista cel mai Bine la Grindina?",
+    date: "5 Mai 2026",
+    category: "Sfaturi",
+    readTime: "5 min citire",
+    content: [
+      "Grindina este unul dintre cei mai distructivi factori climatici pentru acoperisuri. In Romania, furtunile de grindina afecteaza anual zeci de mii de locuinte, iar costurile de reparatie pot ajunge la mii de euro per acoperis. Alegerea unui tip de invelitoare rezistenta la impact este, asadar, o decizie cu implicatii financiare directe — nu doar estetice. Dar care tip de tigla rezista cel mai bine?",
+      "Tigla ceramica are o rezistenta la impact moderata spre buna. Testata conform standardului european EN 1297, tigla ceramica de calitate suporta impacte de grindina de dimensiuni medii (15-20 mm). Totusi, la grindina mare (peste 30 mm), poate fisura sau sparge, mai ales la unghiuri de impact defavorabile. Avantajul ei este ca o tigla sparta se inlocuieste punctual, fara a afecta restul acoperisului. Producatorii premium ofera garantii de rezistenta la impact de clasa FM 4473.",
+      "Tigla metalica — in special profilele cu nervuri adanci din tabla groasa (0.5-0.6 mm) — are o rezistenta la grindina superioara tiglei ceramice. Tabla se poate deforma vizibil la impact, dar rareori se perforeaza sau permite infiltratii imediate. Unele sisteme metalice premium (Ruukki, Lindab, Bilka) sunt certificate la clasa de impact RC3-RC4 si pot rezista la grindinele cele mai severe inregistrate in Romania. Daca acoperisul se deformeaza vizibil, reparatia inseamna inlocuirea unor panouri, nu a intregii invelitori.",
+      "Sindrila bituminoasa este cea mai vulnerabila la grindina. Granulele de protectie de pe suprafata se pot desprinde la impact, lasand material expus la UV si umiditate. Dupa o furtuna puternica, sindrila bituminoasa trebuie inspectata obligatoriu si adesea inlocuita partial sau total. Tabla faltuita (tip Lindab Seamline sau similar), datorita lipsei imbinarilor si a suprafetei continue, are comportament bun la grindina — se poate zamfli, dar etanseitatea nu este afectata imediat.",
+      "Concluzia practica: daca locuiti intr-o zona cu frecventa ridicata a furtunilor cu grindina (Campia de Vest, Muntenia, Moldova), recomandam tigla metalica cu profil adanc si tabla groasa de 0.5 mm sau mai mult, sau tigla ceramica de clasa premium. Indiferent de alegere, o inspectie anuala dupa sezonul furtunilor este obligatorie. La Acoperisuri Pro oferim evaluare gratuita post-grindina si reparatii rapide cu garantie scrisa.",
+    ],
+  },
+  "greseli-montaj-acoperis": {
+    title: "5 Greseli la Montajul unui Acoperis (si cum le eviti)",
+    date: "28 Aprilie 2026",
+    category: "Ghid",
+    readTime: "6 min citire",
+    content: [
+      "Un acoperis montat gresit nu se vede imediat — problemele apar dupa primul sezon ploios sau dupa prima iarna grea. Din pacate, pana atunci, daunele s-au extins deja: mucegai in pod, sarpanta putrezita, tencuiala patata pe interior. Reparatia unui acoperis cu greseli de montaj costa de 3-5 ori mai mult decat daca lucrarea ar fi fost facuta corect de la inceput. Iata cele mai frecvente 5 greseli pe care le vedem la Acoperisuri Pro.",
+      "Prima greseala: montajul membranei hidroizolatoare gresit sau absent. Membrana trebuie sa acopere intreaga suprafata a sarpantei, montata cu suprapuneri de minim 15 cm si fixata corect la coame, dolii si streasina. O membrana montata cu tensiune, fara lagaruire, sau fara suprapuneri suficiente permite infiltratii de apa in primul an. Solutia: folositi membrane certificate (minim 150 g/mp) si verificati ca meserul stie sa le monteze corect.",
+      "A doua greseala: distanta intre sipci calculata gresit pentru tipul de tigla ales. Fiecare producator specifica exact distanta optima intre sipci pentru modelul sau. O distanta mai mare duce la bataie de vant, una mai mica la curbarea tiglelor. Verificati intotdeauna fisele tehnice ale materialului ales si cereti meserului sa confirme calculul inainte de montaj.",
+      "A treia greseala: ignorarea ventilatiei acoperisului. Un pod neventilat corect acumuleaza condens in lunile reci, care satureaza izolatia si degradeaza sarpanta in 5-10 ani. Solutia este simpla: aerisitoare de coama, aerisitoare de streasina si un calcul corect al suprafetei de ventilatie (minim 1/300 din suprafata planseului). Multi constructori sar peste acest pas pentru a economisi cateva sute de lei — si creeaza daune de zeci de mii.",
+      "A patra greseala: tinichigeria executata neglijent. Sorturile la cosul de fum, doliile, racordurile la pereti verticali — toate trebuie executate cu raburi si sigilate cu chit special. O singura imbinare slaba inseamna infiltratie directa in pod la prima ploaie puternica. A cincea greseala: folosirea tiglelor de la mai multe sarcini/loturi pentru acelasi acoperis. Diferentele de culoare si dimensionale duc la neetanseitate. Comandati intotdeauna un surplus de 5-10% din acelasi lot si pastrati-l pentru reparatii viitoare. La Acoperisuri Pro verificam fiecare etapa si oferim garantie de 10 ani pe manopera.",
+    ],
+  },
+  "cat-costa-un-acoperis-complet-2026": {
+    title: "Cat Costa un Acoperis Complet in 2026? Preturi si Calcule Reale",
+    date: "15 Aprilie 2026",
+    category: "Preturi",
+    readTime: "8 min citire",
+    content: [
+      "Intrebarea pe care o primim cel mai des: cat costa un acoperis nou? Raspunsul sincer este: depinde — dar nu va lasam cu atat. In acest articol detaliem toti factorii de pret, oferim intervale realiste pentru 2026 si va aratam un calcul concret pentru o casa de 100 mp utili. Preturile includ materialele si manopera, fara TVA.",
+      "Factorul 1 — Suprafata acoperisului: suprafata reala a acoperisului este intotdeauna mai mare decat suprafata utila a casei, datorita pantei si a stresinii. Pentru o casa de 100 mp la sol cu acoperis in doua ape si panta de 35 grade, suprafata reala a invelitorii este de aproximativ 140-160 mp. Cu cat panta este mai mare, cu atat suprafata creste si montajul devine mai dificil (si mai scump).",
+      "Factorul 2 — Tipul de invelitoare. Tigla metalica (Bilka, Wetterbest, Lindab): 45-80 lei/mp montat. Tigla ceramica (Bramac, Tondach): 90-150 lei/mp montat. Tabla faltuita: 120-200 lei/mp montat. Sindrila bituminoasa: 40-65 lei/mp montata. La aceste preturi se adauga accesoriile (coame, dolii, jgheaburi, parazapezi) care pot reprezenta 15-25% din costul total al invelitorii.",
+      "Factorul 3 — Sarpanta (structura de lemn). Daca sarpanta este noua sau trebuie refacuta, costul adaugat este de 80-150 lei/mp de suprafata construita, in functie de complexitatea formei si de sectiunile de lemn folosite. Lemn tratat anti-insecte si anti-mucegai este obligatoriu — nu faceti economii aici. Factorul 4 — Izolatia termica: vata minerala bazaltica 15 cm grosime costa 30-55 lei/mp montat; 25 cm grosime (recomandat) 50-80 lei/mp.",
+      "Calcul concret pentru casa 100 mp, acoperis in doua ape, tigla metalica, fara sarpanta noua: suprafata acoperis ~150 mp x 60 lei/mp (tigla metalica medie) = 9.000 lei; accesorii (jgheaburi, coame, dolii) ~2.500 lei; izolatie 150 mp x 65 lei = 9.750 lei; total aproximativ 21.000-24.000 lei cu TVA. Pentru tigla ceramica premium acelasi acoperis ajunge la 35.000-45.000 lei. Recomandarea noastra: cereti minim 3 oferte, comparati specificatiile tehnice (nu doar pretul) si verificati referintele meserilor. La Acoperisuri Pro oferim deviz detaliat gratuit, cu specificatii complete si garantie scrisa.",
     ],
   },
   "izolatie-termica-acoperis-economii": {
