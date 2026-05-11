@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Accesorii si Sisteme de Montaj - Acoperisuri Pro",
-  description: "Montaj jgheaburi,, burlane, parazapezi, coame, dolii, aeratoare si tinichigerie profesionala. Materiale Lindab, Bilka. Garantie completa.",
+  description: "Montaj jgheaburi, burlane, parazapezi, coame, dolii, aeratoare si tinichigerie profesionala. Materiale Lindab, Bilka. Garantie completa.",
   alternates: { canonical: "https://reparatiipro.ro/servicii/accesorii-si-sisteme-de-montaj" },
 };
 

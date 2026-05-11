@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Sibiu - Acoperisuri Pro",
-  description: "Acoperisuri profesionale in judetul Sibiu — Sibiu,, Medias, Cisnadie, Avrig. Constructie, reparatii, renovari. Materiale premium Bilka, Lindab. Garantie scrisa.",
+  description: "Acoperisuri profesionale in judetul Sibiu — Sibiu, Medias, Cisnadie, Avrig. Constructie, reparatii, renovari. Materiale Bilka, Lindab. Garantie scrisa.",
   alternates: { canonical: "https://reparatiipro.ro/judete/sibiu" },
 };
 

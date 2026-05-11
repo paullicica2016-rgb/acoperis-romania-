@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Invelitori pentru Acoperisuri - Acoperisuri Pro",
-  description: "Montaj profesional tigla ceramica,, tigla metalica, tabla faltuita, sindrila bituminoasa. Branduri Bilka, Lindab, Bramac, Tondach. Garantie completa, evaluare gratuita.",
+  description: "Montaj tigla ceramica, metalica, tabla faltuita, sindrila bituminoasa. Branduri Bilka, Lindab, Bramac, Tondach. Garantie completa, evaluare gratuita.",
   alternates: { canonical: "https://reparatiipro.ro/servicii/invelitori-pentru-acoperisuri" },
 };
 

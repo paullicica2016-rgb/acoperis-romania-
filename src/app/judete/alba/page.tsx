@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Alba - Acoperisuri Pro",
-  description: "Constructie si reparatii acoperisuri in judetul Alba — Alba Iulia,, Sebes, Blaj, Aiud. Tigla metalica, ceramica, tabla faltuita. Evaluare gratuita, garantie scrisa.",
+  description: "Constructie si reparatii acoperisuri in Alba — Alba Iulia, Sebes, Blaj, Aiud. Tigla metalica, ceramica, tabla faltuita. Evaluare gratuita, garantie scrisa.",
   alternates: { canonical: "https://reparatiipro.ro/judete/alba" },
 };
 

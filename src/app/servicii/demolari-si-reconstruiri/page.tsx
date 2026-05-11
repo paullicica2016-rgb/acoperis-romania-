@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Demolari si Reconstruiri Acoperisuri - Acoperisuri Pro",
-  description: "Demolare sigura a acoperisului vechi si reconstructie completa de la zero. Sarpanta noua,, materiale moderne, garantie integrala. Acoperisuri Pro.",
+  description: "Demolare sigura a acoperisului vechi si reconstructie completa de la zero. Sarpanta noua, materiale moderne, garantie integrala. Acoperisuri Pro.",
   alternates: { canonical: "https://reparatiipro.ro/servicii/demolari-si-reconstruiri" },
 };
 

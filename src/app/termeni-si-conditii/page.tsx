@@ -3,7 +3,8 @@ import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
   title: "Termeni si Conditii - Acoperisuri Pro",
-  description: "Termenii si conditiile de utilizare a serviciilor Acoperisuri Pro.",
+  description: "Termenii si conditiile de utilizare a serviciilor si site-ului Acoperisuri Pro. Informatii despre drepturi, obligatii si raspundere contractuala.",
+  alternates: { canonical: "https://reparatiipro.ro/termeni-si-conditii" },
 };
 
 export default function TermeniPage() {

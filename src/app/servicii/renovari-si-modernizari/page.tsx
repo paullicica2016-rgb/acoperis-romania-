@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Renovari si Modernizari Acoperisuri - Acoperisuri Pro",
-  description: "Renovare completa acoperisuri vechi — invelitoare noua,, sarpanta consolidata, izolatie termica. Reducere pierderi caldura pana la 30%. Garantie scrisa.",
+  description: "Renovare completa acoperisuri vechi — invelitoare noua, sarpanta consolidata, izolatie termica. Reducere pierderi caldura pana la 30%. Garantie scrisa.",
   alternates: { canonical: "https://reparatiipro.ro/servicii/renovari-si-modernizari" },
 };
 

@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Mansardari si Extinderi - Acoperisuri Pro",
-  description: "Transformam podul in spatiu locuibil — mansardari complete cu izolatie,, ferestre Velux, finisaje. Extinderi acoperis pentru spatiu suplimentar. Garantie scrisa.",
+  description: "Transformam podul in spatiu locuibil — mansardari cu izolatie, ferestre Velux, finisaje complete. Extinderi acoperis pentru spatiu suplimentar. Garantie scrisa.",
   alternates: { canonical: "https://reparatiipro.ro/servicii/mansardari-si-extinderi" },
 };
 

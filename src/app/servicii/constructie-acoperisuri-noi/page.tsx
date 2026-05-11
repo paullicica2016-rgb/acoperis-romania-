@@ -7,7 +7,7 @@ import FaqSchema from "@/components/FaqSchema";
 
 export const metadata: Metadata = {
   title: "Constructie Acoperisuri Noi - Acoperisuri Pro",
-  description: "Constructie acoperisuri noi pentru case,, vile si hale. Sarpanta lemn sau metal, toate tipurile de invelitori. Evaluare gratuita, garantie completa. Activi in 12 judete.",
+  description: "Constructie acoperisuri noi pentru case, vile si hale. Sarpanta lemn sau metal, toate tipurile de invelitori. Evaluare gratuita si garantie completa.",
   alternates: { canonical: "https://reparatiipro.ro/servicii/constructie-acoperisuri-noi" },
 };
 

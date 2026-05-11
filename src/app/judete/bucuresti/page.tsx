@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Bucuresti - Acoperisuri Pro",
-  description: "Constructie si reparatii acoperisuri in Bucuresti — toate sectoarele. Tigla metalica,, ceramica, tabla faltuita, interventii urgenta 24/7. Evaluare gratuita la fata locului.",
+  description: "Constructie si reparatii acoperisuri in Bucuresti — toate sectoarele. Tigla metalica, ceramica, tabla faltuita, interventii urgenta 24/7. Evaluare gratuita.",
   alternates: { canonical: "https://reparatiipro.ro/judete/bucuresti" },
 };
 

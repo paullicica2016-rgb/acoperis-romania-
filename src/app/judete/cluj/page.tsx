@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Cluj - Acoperisuri Pro",
-  description: "Constructie si reparatii acoperisuri in judetul Cluj — Cluj-Napoca,, Turda, Dej, Huedin. Materiale Bilka, Bramac, Lindab. Evaluare gratuita, garantie scrisa.",
+  description: "Constructie si reparatii acoperisuri in judetul Cluj — Cluj-Napoca, Turda, Dej, Huedin. Materiale Bilka, Bramac, Lindab. Evaluare gratuita, garantie scrisa.",
   alternates: { canonical: "https://reparatiipro.ro/judete/cluj" },
 };
 

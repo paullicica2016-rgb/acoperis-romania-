@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Bihor - Acoperisuri Pro",
-  description: "Acoperisuri profesionale in judetul Bihor — Oradea,, Beius, Salonta, Marghita. Constructie, reparatii, renovari si mansardari. Deplasare gratuita, garantie scrisa.",
+  description: "Acoperisuri in judetul Bihor — Oradea, Beius, Salonta, Marghita. Constructie, reparatii, renovari, mansardari. Deplasare gratuita, garantie scrisa.",
   alternates: { canonical: "https://reparatiipro.ro/judete/bihor" },
 };
 

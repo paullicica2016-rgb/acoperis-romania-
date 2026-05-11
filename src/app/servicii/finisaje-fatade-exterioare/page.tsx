@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Finisaje Fatade Exterioare - Acoperisuri Pro",
-  description: "Finisaje fatade exterioare — tencuiala decorativa,, placaje, vopsitorie. Materiale certificate, aspect premium, protectie la intemperii. Evaluare gratuita.",
+  description: "Finisaje fatade exterioare — tencuiala decorativa, placaje, vopsitorie. Materiale certificate, aspect premium, protectie la intemperii. Evaluare gratuita.",
   alternates: { canonical: "https://reparatiipro.ro/servicii/finisaje-fatade-exterioare" },
 };
 

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Acoperisuri Pro",
   },
   description:
-    "Firma cu peste 15 ani experienta in montaj acoperisuri, reparatii acoperisuri, tigla metalica, tigla ceramica, tabla faltuita. Servicii complete in Hunedoara si judete invecinate. Garantie lucrari. Apeleaza 0754 456 844.",
+    "Montaj acoperisuri, reparatii, tigla metalica, ceramica, tabla faltuita. Firma cu 15+ ani in Hunedoara si judete invecinate. Garantie lucrari. 0754 456 844.",
   keywords: [
     "montaj acoperis", "reparatii acoperis", "firma acoperisuri", "acoperis Hunedoara",
     "tigla metalica", "tigla ceramica", "tabla faltuita", "sindrila bituminoasa",

@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Mehedinti - Acoperisuri Pro",
-  description: "Acoperisuri in judetul Mehedinti — Drobeta-Turnu Severin,, Orsova, Strehaia. Constructie, reparatii urgenta, renovari complete. Deplasare gratuita in tot judetul.",
+  description: "Acoperisuri in judetul Mehedinti — Drobeta-Turnu Severin, Orsova, Strehaia. Constructie, reparatii urgenta, renovari complete. Deplasare gratuita.",
   alternates: { canonical: "https://reparatiipro.ro/judete/mehedinti" },
 };
 

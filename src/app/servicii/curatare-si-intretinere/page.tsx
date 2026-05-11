@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Curatare si Intretinere Acoperisuri - Acoperisuri Pro",
-  description: "Curatare profesionala acoperisuri — muschi,, licheni, jgheaburi infundate. Inspectie periodica si intretinere preventiva. Prelungim viata acoperisului tau.",
+  description: "Curatare profesionala acoperisuri — muschi, licheni, jgheaburi infundate. Inspectie periodica si intretinere preventiva. Prelungim viata acoperisului tau.",
   alternates: { canonical: "https://reparatiipro.ro/servicii/curatare-si-intretinere" },
 };
 

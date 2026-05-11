@@ -3,7 +3,8 @@ import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
   title: "Politica de Confidentialitate - Acoperisuri Pro",
-  description: "Politica de confidentialitate a Acoperisuri Pro. Informatii despre colectarea si protejarea datelor personale.",
+  description: "Politica de confidentialitate Acoperisuri Pro. Cum colectam, utilizam si protejam datele personale ale utilizatorilor conform GDPR si legislatiei romane.",
+  alternates: { canonical: "https://reparatiipro.ro/politica-de-confidentialitate" },
 };
 
 export default function PoliticaConfidentialitatePage() {

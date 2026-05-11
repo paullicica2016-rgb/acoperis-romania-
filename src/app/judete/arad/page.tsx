@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Arad - Acoperisuri Pro",
-  description: "Servicii acoperisuri in judetul Arad — Arad,, Lipova, Curtici, Ineu. Montaj tigla metalica si ceramica, reparatii, renovari. Evaluare gratuita, garantie pe lucrare.",
+  description: "Servicii acoperisuri in judetul Arad — Arad, Lipova, Curtici, Ineu. Tigla metalica, ceramica, reparatii, renovari. Evaluare gratuita, garantie pe lucrare.",
   alternates: { canonical: "https://reparatiipro.ro/judete/arad" },
 };
 

@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Valcea - Acoperisuri Pro",
-  description: "Servicii complete acoperisuri in judetul Valcea — Ramnicu Valcea,, Dragasani, Horezu. Constructie acoperis nou, reparatii, renovari. Evaluare gratuita la fata locului.",
+  description: "Servicii acoperisuri in judetul Valcea — Ramnicu Valcea, Dragasani, Horezu. Constructie, reparatii, renovari. Evaluare gratuita la fata locului.",
   alternates: { canonical: "https://reparatiipro.ro/judete/valcea" },
 };
 

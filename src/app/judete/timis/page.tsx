@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Timis - Acoperisuri Pro",
-  description: "Firma specializata in acoperisuri in judetul Timis — Timisoara,, Lugoj, Buzias, Jimbolia. Constructie acoperisuri noi, reparatii, interventii urgenta 24/7. Garantie scrisa.",
+  description: "Firma specializata in acoperisuri in judetul Timis — Timisoara, Lugoj, Buzias, Jimbolia. Constructie, reparatii, interventii urgenta 24/7. Garantie scrisa.",
   alternates: { canonical: "https://reparatiipro.ro/judete/timis" },
 };
 

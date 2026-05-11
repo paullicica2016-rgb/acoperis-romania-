@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Ilfov - Acoperisuri Pro",
-  description: "Servicii acoperisuri in judetul Ilfov — Voluntari,, Buftea, Otopeni, Pantelimon, Popesti-Leordeni. Constructie, reparatii, renovari. Garantie scrisa, deplasare gratuita.",
+  description: "Servicii acoperisuri in judetul Ilfov — Voluntari, Buftea, Otopeni, Pantelimon. Constructie, reparatii, renovari complete. Garantie scrisa, deplasare gratuita.",
   alternates: { canonical: "https://reparatiipro.ro/judete/ilfov" },
 };
 

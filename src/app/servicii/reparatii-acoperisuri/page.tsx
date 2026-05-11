@@ -7,7 +7,7 @@ import FaqSchema from "@/components/FaqSchema";
 
 export const metadata: Metadata = {
   title: "Reparatii Acoperisuri - Acoperisuri Pro",
-  description: "Reparatii profesionale acoperisuri deteriorate — tigla sparta,, sarpanta degradata, infiltratii. Evaluare gratuita, interventie rapida, garantie scrisa.",
+  description: "Reparatii profesionale acoperisuri deteriorate — tigla sparta, sarpanta degradata, infiltratii. Evaluare gratuita, interventie rapida, garantie scrisa.",
   alternates: { canonical: "https://reparatiipro.ro/servicii/reparatii-acoperisuri" },
 };
 

@@ -3,7 +3,8 @@ import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
   title: "Politica de Cookies - Acoperisuri Pro",
-  description: "Politica de cookies a Acoperisuri Pro. Informatii despre utilizarea cookie-urilor pe site-ul nostru.",
+  description: "Politica de cookies Acoperisuri Pro. Informatii despre tipurile de cookie-uri utilizate, scopul lor si cum poti gestiona preferintele tale de confidentialitate.",
+  alternates: { canonical: "https://reparatiipro.ro/politica-de-cookies" },
 };
 
 export default function PoliticaCookiesPage() {

@@ -7,7 +7,7 @@ import FaqSchema from "@/components/FaqSchema";
 
 export const metadata: Metadata = {
   title: "Interventii de Urgenta Acoperisuri - Acoperisuri Pro",
-  description: "Interventii urgenta 24/7 pentru acoperisuri avariate — furtuna,, vant, grindina. Echipe mobile, raspuns rapid, securizare imediata. Suna acum 0754 456 844.",
+  description: "Interventii urgenta 24/7 pentru acoperisuri avariate — furtuna, vant, grindina. Echipe mobile, raspuns rapid, securizare imediata. Suna acum 0754 456 844.",
   alternates: { canonical: "https://reparatiipro.ro/servicii/interventii-de-urgenta" },
 };
 

@@ -4,8 +4,9 @@ import Image from "next/image";
 import { Hammer, Shield, Wrench, Paintbrush, Home, AlertTriangle, Trash2, Sparkles, Building2, Layers, ArrowRight, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Servicii Montaj si Reparatii Acoperisuri - 10 Tipuri de Servicii",
-  description: "Servicii complete acoperisuri: constructie acoperis nou, montaj tigla metalica, tigla ceramica, tabla faltuita, reparatii, renovari, mansardari, interventii urgenta 24/7.",
+  title: "Servicii Acoperisuri - Montaj, Reparatii, Renovari",
+  description: "Constructie, reparatii si renovari acoperisuri. Tigla metalica, ceramica, tabla faltuita. Hunedoara si judete invecinate. Oferta gratuita, garantie scrisa.",
+  alternates: { canonical: "https://reparatiipro.ro/servicii" },
 };
 
 const services = [

@@ -6,7 +6,8 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Despre Noi - Firma Montaj Acoperisuri cu 15+ Ani Experienta",
-  description: "Acoperisuri Pro - firma acreditata cu 15+ ani experienta in montaj acoperisuri, reparatii, renovari. Echipa specializata, materiale premium Bilka, Lindab, Wetterbest. Garantie lucrari.",
+  description: "Firma cu 15+ ani experienta in montaj acoperisuri, reparatii si renovari. Echipa specializata, materiale Bilka, Lindab, Wetterbest. Garantie pe toate lucrarile.",
+  alternates: { canonical: "https://reparatiipro.ro/despre-noi" },
 };
 
 const stats = [

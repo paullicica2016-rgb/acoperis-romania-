@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Hunedoara - Acoperisuri Pro",
-  description: "Firma locala cu 15+ ani experienta in acoperisuri in judetul Hunedoara. Deva,, Petrosani, Orastie, Brad, Simeria. Evaluare gratuita, garantie scrisa.",
+  description: "Firma locala cu 15+ ani experienta in acoperisuri in judetul Hunedoara. Deva, Petrosani, Orastie, Brad, Simeria. Evaluare gratuita, garantie scrisa.",
   alternates: { canonical: "https://reparatiipro.ro/judete/hunedoara" },
 };
 

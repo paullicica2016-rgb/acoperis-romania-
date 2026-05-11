@@ -5,7 +5,8 @@ import { MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Portofoliu Lucrari Acoperisuri - Proiecte Finalizate",
-  description: "Galerie foto cu acoperisuri finalizate: tigla metalica, tigla ceramica, tabla faltuita, reparatii, renovari. Proiecte in Hunedoara, Alba, Sibiu, Cluj, Timis si alte judete.",
+  description: "Galerie foto lucrari finalizate: tigla metalica, ceramica, tabla faltuita, reparatii si renovari. Proiecte in Hunedoara, Alba, Sibiu, Cluj si Timis.",
+  alternates: { canonical: "https://reparatiipro.ro/portofoliu" },
 };
 
 const projects = [

@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Gorj - Acoperisuri Pro",
-  description: "Montaj si reparatii acoperisuri in judetul Gorj — Targu Jiu,, Motru, Rovinari, Novaci. Tigla metalica, ceramica, tabla faltuita. Garantie scrisa pe toate lucrarile.",
+  description: "Montaj si reparatii acoperisuri in judetul Gorj — Targu Jiu, Motru, Rovinari, Novaci. Tigla metalica, ceramica, tabla faltuita. Garantie scrisa.",
   alternates: { canonical: "https://reparatiipro.ro/judete/gorj" },
 };
 

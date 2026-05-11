@@ -12,9 +12,9 @@ import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 
 export const metadata: Metadata = {
-  title: "Montaj si Reparatii Acoperisuri Hunedoara | Acoperisuri Pro - Firma Acoperisuri",
+  title: "Montaj Acoperisuri Hunedoara | Acoperisuri Pro",
   description:
-    "Acoperisuri Pro - firma cu 15+ ani experienta in montaj acoperisuri, reparatii acoperisuri, tigla metalica, tigla ceramica, tabla faltuita. Servicii complete in Hunedoara si judete invecinate. Evaluare gratuita. Suna 0754 456 844.",
+    "Firma cu 15+ ani in montaj si reparatii acoperisuri. Tigla metalica, ceramica, tabla faltuita. Hunedoara si judete invecinate. Evaluare gratuita. 0754 456 844.",
   alternates: {
     canonical: "https://reparatiipro.ro",
   },
