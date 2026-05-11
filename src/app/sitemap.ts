@@ -16,8 +16,8 @@ const services = [
 ];
 
 const counties = [
-  "bucuresti", "ilfov", "constanta", "ialomita", "prahova",
-  "brasov", "braila", "galati", "dambovita", "arges", "tulcea", "buzau", "iasi",
+  "hunedoara", "alba", "sibiu", "valcea", "gorj", "mehedinti",
+  "timis", "arad", "cluj", "bihor", "bucuresti", "ilfov",
 ];
 
 const blogSlugs = [
