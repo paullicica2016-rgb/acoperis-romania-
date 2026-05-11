@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award }
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Alba - Acoperisuri Pro",
-  description: "Servicii profesionale acoperisuri in judetul Alba. Constructie, reparatii, renovari. Evaluare gratuita, garantie scrisa.",
+  description: "Constructie si reparatii acoperisuri in judetul Alba — Alba Iulia, Sebes, Blaj, Aiud. Tigla metalica, ceramica, tabla faltuita. Evaluare gratuita, garantie scrisa.",
 };
 
 const stats = [

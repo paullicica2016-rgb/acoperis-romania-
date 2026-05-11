@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award }
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Arad - Acoperisuri Pro",
-  description: "Servicii profesionale acoperisuri in judetul Arad. Constructie, reparatii, renovari. Evaluare gratuita, garantie scrisa.",
+  description: "Servicii acoperisuri in judetul Arad — Arad, Lipova, Curtici, Ineu. Montaj tigla metalica si ceramica, reparatii, renovari. Evaluare gratuita, garantie pe lucrare.",
 };
 
 const stats = [

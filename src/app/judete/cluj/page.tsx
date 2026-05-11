@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award }
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Cluj - Acoperisuri Pro",
-  description: "Servicii profesionale acoperisuri in judetul Cluj. Constructie, reparatii, renovari. Evaluare gratuita, garantie scrisa.",
+  description: "Constructie si reparatii acoperisuri in judetul Cluj — Cluj-Napoca, Turda, Dej, Huedin. Materiale Bilka, Bramac, Lindab. Evaluare gratuita, garantie scrisa.",
 };
 
 const stats = [

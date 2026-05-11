@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award }
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Sibiu - Acoperisuri Pro",
-  description: "Servicii profesionale acoperisuri in judetul Sibiu. Constructie, reparatii, renovari. Evaluare gratuita, garantie scrisa.",
+  description: "Acoperisuri profesionale in judetul Sibiu — Sibiu, Medias, Cisnadie, Avrig. Constructie, reparatii, renovari. Materiale premium Bilka, Lindab. Garantie scrisa.",
 };
 
 const stats = [

@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award }
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Ilfov - Acoperisuri Pro",
-  description: "Servicii profesionale acoperisuri in judetul Ilfov. Constructie, reparatii, renovari. Evaluare gratuita, garantie scrisa.",
+  description: "Servicii acoperisuri in judetul Ilfov — Voluntari, Buftea, Otopeni, Pantelimon, Popesti-Leordeni. Constructie, reparatii, renovari. Garantie scrisa, deplasare gratuita.",
 };
 
 const stats = [

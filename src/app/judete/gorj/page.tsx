@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award }
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Gorj - Acoperisuri Pro",
-  description: "Servicii profesionale acoperisuri in judetul Gorj. Constructie, reparatii, renovari. Evaluare gratuita, garantie scrisa.",
+  description: "Montaj si reparatii acoperisuri in judetul Gorj — Targu Jiu, Motru, Rovinari, Novaci. Tigla metalica, ceramica, tabla faltuita. Garantie scrisa pe toate lucrarile.",
 };
 
 const stats = [

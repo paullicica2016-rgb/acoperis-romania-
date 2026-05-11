@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award }
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Mehedinti - Acoperisuri Pro",
-  description: "Servicii profesionale acoperisuri in judetul Mehedinti. Constructie, reparatii, renovari. Evaluare gratuita, garantie scrisa.",
+  description: "Acoperisuri in judetul Mehedinti — Drobeta-Turnu Severin, Orsova, Strehaia. Constructie, reparatii urgenta, renovari complete. Deplasare gratuita in tot judetul.",
 };
 
 const stats = [

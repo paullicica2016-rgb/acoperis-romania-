@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award }
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Valcea - Acoperisuri Pro",
-  description: "Servicii profesionale acoperisuri in judetul Valcea. Constructie, reparatii, renovari. Evaluare gratuita, garantie scrisa.",
+  description: "Servicii complete acoperisuri in judetul Valcea — Ramnicu Valcea, Dragasani, Horezu. Constructie acoperis nou, reparatii, renovari. Evaluare gratuita la fata locului.",
 };
 
 const stats = [

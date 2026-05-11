@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award }
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Timis - Acoperisuri Pro",
-  description: "Servicii profesionale acoperisuri in judetul Timis. Constructie, reparatii, renovari. Evaluare gratuita, garantie scrisa.",
+  description: "Firma specializata in acoperisuri in judetul Timis — Timisoara, Lugoj, Buzias, Jimbolia. Constructie acoperisuri noi, reparatii, interventii urgenta 24/7. Garantie scrisa.",
 };
 
 const stats = [

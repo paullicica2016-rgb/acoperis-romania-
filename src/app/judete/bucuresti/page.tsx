@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award }
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Bucuresti - Acoperisuri Pro",
-  description: "Servicii profesionale acoperisuri in Bucuresti. Constructie, reparatii, renovari. Evaluare gratuita, garantie scrisa.",
+  description: "Constructie si reparatii acoperisuri in Bucuresti — toate sectoarele. Tigla metalica, ceramica, tabla faltuita, interventii urgenta 24/7. Evaluare gratuita la fata locului.",
 };
 
 const stats = [

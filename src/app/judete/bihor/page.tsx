@@ -5,7 +5,7 @@ import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award }
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Bihor - Acoperisuri Pro",
-  description: "Servicii profesionale acoperisuri in judetul Bihor. Constructie, reparatii, renovari. Evaluare gratuita, garantie scrisa.",
+  description: "Acoperisuri profesionale in judetul Bihor — Oradea, Beius, Salonta, Marghita. Constructie, reparatii, renovari si mansardari. Deplasare gratuita, garantie scrisa.",
 };
 
 const stats = [
