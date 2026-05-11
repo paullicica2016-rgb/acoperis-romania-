@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award } from "lucide-react";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Bihor - Acoperisuri Pro",
-  description: "Acoperisuri profesionale in judetul Bihor — Oradea, Beius, Salonta, Marghita. Constructie, reparatii, renovari si mansardari. Deplasare gratuita, garantie scrisa.",
+  description: "Acoperisuri profesionale in judetul Bihor — Oradea,, Beius, Salonta, Marghita. Constructie, reparatii, renovari si mansardari. Deplasare gratuita, garantie scrisa.",
+  alternates: { canonical: "https://reparatiipro.ro/judete/bihor" },
 };
 
 const stats = [
@@ -55,6 +57,7 @@ const portofoliu = [
 export default function BihorPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Judete","url":"https://reparatiipro.ro/judete"},{"name":"Bihor","url":"https://reparatiipro.ro/judete/bihor"}]} />
       {/* Hero */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">

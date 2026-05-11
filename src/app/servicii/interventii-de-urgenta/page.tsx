@@ -2,10 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Clock, Zap, ShieldAlert, PhoneCall } from "lucide-react";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import FaqSchema from "@/components/FaqSchema";
 
 export const metadata: Metadata = {
   title: "Interventii de Urgenta Acoperisuri - Acoperisuri Pro",
-  description: "Interventii urgenta 24/7 pentru acoperisuri avariate — furtuna, vant, grindina. Echipe mobile, raspuns rapid, securizare imediata. Suna acum 0754 456 844.",
+  description: "Interventii urgenta 24/7 pentru acoperisuri avariate — furtuna,, vant, grindina. Echipe mobile, raspuns rapid, securizare imediata. Suna acum 0754 456 844.",
+  alternates: { canonical: "https://reparatiipro.ro/servicii/interventii-de-urgenta" },
 };
 
 const situatii = [
@@ -36,6 +39,7 @@ const otherServices = [
 export default function InterventiiUrgenta() {
   return (
     <>
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Interventii de Urgenta","url":"https://reparatiipro.ro/servicii/interventii-de-urgenta"}]} />
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">
           <Image src="/images/hero-reparatii.webp" alt="Interventii urgenta acoperisuri" fill className="object-cover" priority sizes="100vw" />
@@ -156,6 +160,9 @@ export default function InterventiiUrgenta() {
           </div>
         </div>
       </section>
+
+      
+      <FaqSchema items={[{"q":"Cat de repede ajungeti la interventii de urgenta?","a":"Suntem disponibili 24/7 si ajungem de regula in 1-3 ore de la apel, in functie de locatie."},{"q":"Ce tipuri de urgente acoperiti?","a":"Acoperim orice urgenta: acoperis avariat de furtuna, infiltratii active, tabla smulsa de vant, tigla sparta sau dislocata."},{"q":"Lucrati si in weekend sau noapte?","a":"Da, suntem disponibili 24/7 inclusiv sambata, duminica si noptile pentru interventii de urgenta."}]} />
 
       <section className="py-20 bg-[#0d1547]">
         <div className="max-w-3xl mx-auto px-4 text-center">

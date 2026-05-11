@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight } from "lucide-react";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Accesorii si Sisteme de Montaj - Acoperisuri Pro",
-  description: "Montaj jgheaburi, burlane, parazapezi, coame, dolii, aeratoare si tinichigerie profesionala. Materiale Lindab, Bilka. Garantie completa.",
+  description: "Montaj jgheaburi,, burlane, parazapezi, coame, dolii, aeratoare si tinichigerie profesionala. Materiale Lindab, Bilka. Garantie completa.",
+  alternates: { canonical: "https://reparatiipro.ro/servicii/accesorii-si-sisteme-de-montaj" },
 };
 
 const lucrari = [
@@ -35,6 +37,7 @@ const otherServices = [
 export default function AccesoriiMontaj() {
   return (
     <>
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Accesorii si Sisteme Montaj","url":"https://reparatiipro.ro/servicii/accesorii-si-sisteme-de-montaj"}]} />
       {/* Hero */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">

@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Droplets, Leaf, Eye, CalendarCheck } from "lucide-react";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Curatare si Intretinere Acoperisuri - Acoperisuri Pro",
-  description: "Curatare profesionala acoperisuri — muschi, licheni, jgheaburi infundate. Inspectie periodica si intretinere preventiva. Prelungim viata acoperisului tau.",
+  description: "Curatare profesionala acoperisuri — muschi,, licheni, jgheaburi infundate. Inspectie periodica si intretinere preventiva. Prelungim viata acoperisului tau.",
+  alternates: { canonical: "https://reparatiipro.ro/servicii/curatare-si-intretinere" },
 };
 
 const servicii = [
@@ -36,6 +38,7 @@ const otherServices = [
 export default function CuratareIntretinere() {
   return (
     <>
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Curatare si Intretinere","url":"https://reparatiipro.ro/servicii/curatare-si-intretinere"}]} />
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">
           <Image src="/images/importanta-reparatie.webp" alt="Curatare si intretinere acoperisuri" fill className="object-cover" priority sizes="100vw" />

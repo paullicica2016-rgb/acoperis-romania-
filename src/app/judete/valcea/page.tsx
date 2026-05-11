@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award } from "lucide-react";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Valcea - Acoperisuri Pro",
-  description: "Servicii complete acoperisuri in judetul Valcea — Ramnicu Valcea, Dragasani, Horezu. Constructie acoperis nou, reparatii, renovari. Evaluare gratuita la fata locului.",
+  description: "Servicii complete acoperisuri in judetul Valcea — Ramnicu Valcea,, Dragasani, Horezu. Constructie acoperis nou, reparatii, renovari. Evaluare gratuita la fata locului.",
+  alternates: { canonical: "https://reparatiipro.ro/judete/valcea" },
 };
 
 const stats = [
@@ -55,6 +57,7 @@ const portofoliu = [
 export default function ValceaPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Judete","url":"https://reparatiipro.ro/judete"},{"name":"Valcea","url":"https://reparatiipro.ro/judete/valcea"}]} />
       {/* Hero */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">

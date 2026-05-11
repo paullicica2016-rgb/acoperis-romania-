@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award } from "lucide-react";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Mehedinti - Acoperisuri Pro",
-  description: "Acoperisuri in judetul Mehedinti — Drobeta-Turnu Severin, Orsova, Strehaia. Constructie, reparatii urgenta, renovari complete. Deplasare gratuita in tot judetul.",
+  description: "Acoperisuri in judetul Mehedinti — Drobeta-Turnu Severin,, Orsova, Strehaia. Constructie, reparatii urgenta, renovari complete. Deplasare gratuita in tot judetul.",
+  alternates: { canonical: "https://reparatiipro.ro/judete/mehedinti" },
 };
 
 const stats = [
@@ -55,6 +57,7 @@ const portofoliu = [
 export default function MehedintiPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Judete","url":"https://reparatiipro.ro/judete"},{"name":"Mehedinti","url":"https://reparatiipro.ro/judete/mehedinti"}]} />
       {/* Hero */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">

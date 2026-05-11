@@ -2,10 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Shield, Clock, Hammer, Home, Award, Wrench } from "lucide-react";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import FaqSchema from "@/components/FaqSchema";
 
 export const metadata: Metadata = {
   title: "Constructie Acoperisuri Noi - Acoperisuri Pro",
-  description: "Constructie acoperisuri noi pentru case, vile si hale. Sarpanta lemn sau metal, toate tipurile de invelitori. Evaluare gratuita, garantie completa. Activi in 12 judete.",
+  description: "Constructie acoperisuri noi pentru case,, vile si hale. Sarpanta lemn sau metal, toate tipurile de invelitori. Evaluare gratuita, garantie completa. Activi in 12 judete.",
+  alternates: { canonical: "https://reparatiipro.ro/servicii/constructie-acoperisuri-noi" },
 };
 
 const etape = [
@@ -45,6 +48,7 @@ const otherServices = [
 export default function ConstructieAcoperisuri() {
   return (
     <>
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Constructie Acoperisuri Noi","url":"https://reparatiipro.ro/servicii/constructie-acoperisuri-noi"}]} />
       {/* ── Hero cu val ── */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">
@@ -258,6 +262,9 @@ export default function ConstructieAcoperisuri() {
       </section>
 
       {/* ── CTA final ── */}
+      
+      <FaqSchema items={[{"q":"Cat dureaza constructia unui acoperis nou?","a":"Un acoperis nou pentru o casa unifamiliala dureaza in medie 2-4 saptamani, in functie de complexitate si suprafata."},{"q":"Ce tipuri de invelitoare montati?","a":"Montam tigla ceramica, tigla metalica, tabla faltuita, sindrila bituminoasa si toate celelalte sisteme moderne de invelitoare."},{"q":"Oferiti garantie pentru constructie acoperis?","a":"Da, oferim garantie extinsa atat pentru materialele folosite cat si pentru manopera, cu certificat scris la predarea lucrarii."}]} />
+
       <section className="py-20 bg-[#0d1547]">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">

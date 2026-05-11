@@ -36,6 +36,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/portofoliu`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${baseUrl}/blog`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.7 },
     { url: `${baseUrl}/contact`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${baseUrl}/termeni-si-conditii`, lastModified: now, changeFrequency: "yearly" as const, priority: 0.3 },
+    { url: `${baseUrl}/politica-de-confidentialitate`, lastModified: now, changeFrequency: "yearly" as const, priority: 0.3 },
   ];
 
   const servicePages = services.map((slug) => ({

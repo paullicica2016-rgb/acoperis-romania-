@@ -2,10 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Search, FileText, Wrench, BadgeCheck } from "lucide-react";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import FaqSchema from "@/components/FaqSchema";
 
 export const metadata: Metadata = {
   title: "Reparatii Acoperisuri - Acoperisuri Pro",
-  description: "Reparatii profesionale acoperisuri deteriorate — tigla sparta, sarpanta degradata, infiltratii. Evaluare gratuita, interventie rapida, garantie scrisa.",
+  description: "Reparatii profesionale acoperisuri deteriorate — tigla sparta,, sarpanta degradata, infiltratii. Evaluare gratuita, interventie rapida, garantie scrisa.",
+  alternates: { canonical: "https://reparatiipro.ro/servicii/reparatii-acoperisuri" },
 };
 
 const etape = [
@@ -37,6 +40,7 @@ const otherServices = [
 export default function ReparatiiAcoperisuri() {
   return (
     <>
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Reparatii Acoperisuri","url":"https://reparatiipro.ro/servicii/reparatii-acoperisuri"}]} />
       {/* Hero */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">
@@ -163,6 +167,9 @@ export default function ReparatiiAcoperisuri() {
       </section>
 
       {/* CTA final */}
+      
+      <FaqSchema items={[{"q":"Cat costa o reparatie de acoperis?","a":"Pretul depinde de suprafata afectata si tipul lucrarii. Oferim evaluare gratuita si deviz detaliat fara costuri ascunse."},{"q":"Cat dureaza o reparatie de acoperis?","a":"Reparatiile simple dureaza 1-2 zile. Lucrarile mai complexe pot dura 3-5 zile, in functie de amploare."},{"q":"Oferiti garantie pentru reparatii?","a":"Da, toate lucrarile de reparatie vin cu garantie scrisa. Durata garantiei variaza in functie de tipul lucrarii."}]} />
+
       <section className="py-20 bg-[#0d1547]">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Acoperisul tau are nevoie de reparatii?</h2>
