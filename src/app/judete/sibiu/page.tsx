@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award } from "lucide-react";
@@ -7,7 +7,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Sibiu - Acoperisuri Pro",
   description: "Acoperisuri profesionale in judetul Sibiu — Sibiu, Medias, Cisnadie, Avrig. Constructie, reparatii, renovari. Materiale Bilka, Lindab. Garantie scrisa.",
-  alternates: { canonical: "https://reparatiipro.ro/judete/sibiu" },
+  alternates: { canonical: "https://montajacoperispro.ro/judete/sibiu" },
 };
 
 const stats = [
@@ -57,7 +57,7 @@ const portofoliu = [
 export default function SibiuPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Judete","url":"https://reparatiipro.ro/judete"},{"name":"Sibiu","url":"https://reparatiipro.ro/judete/sibiu"}]} />
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://montajacoperispro.ro/"},{"name":"Judete","url":"https://montajacoperispro.ro/judete"},{"name":"Sibiu","url":"https://montajacoperispro.ro/judete/sibiu"}]} />
       {/* Hero */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">

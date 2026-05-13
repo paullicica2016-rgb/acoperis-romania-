@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Paintbrush, Shield, Star, Layers } from "lucide-react";
@@ -7,7 +7,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Finisaje Fatade Exterioare - Acoperisuri Pro",
   description: "Finisaje fatade exterioare — tencuiala decorativa, placaje, vopsitorie. Materiale certificate, aspect premium, protectie la intemperii. Evaluare gratuita.",
-  alternates: { canonical: "https://reparatiipro.ro/servicii/finisaje-fatade-exterioare" },
+  alternates: { canonical: "https://montajacoperispro.ro/servicii/finisaje-fatade-exterioare" },
 };
 
 const tipuri = [
@@ -38,7 +38,7 @@ const otherServices = [
 export default function FinisajeFatade() {
   return (
     <>
-      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Finisaje Fatade Exterioare","url":"https://reparatiipro.ro/servicii/finisaje-fatade-exterioare"}]} />
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://montajacoperispro.ro/"},{"name":"Servicii","url":"https://montajacoperispro.ro/servicii"},{"name":"Finisaje Fatade Exterioare","url":"https://montajacoperispro.ro/servicii/finisaje-fatade-exterioare"}]} />
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">
           <Image src="/images/cta-man.webp" alt="Finisaje fatade exterioare" fill className="object-cover" priority sizes="100vw" />

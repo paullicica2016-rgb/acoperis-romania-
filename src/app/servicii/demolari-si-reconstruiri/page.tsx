@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, AlertTriangle, RefreshCcw, ShieldCheck, Hammer } from "lucide-react";
@@ -7,7 +7,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Demolari si Reconstruiri Acoperisuri - Acoperisuri Pro",
   description: "Demolare sigura a acoperisului vechi si reconstructie completa de la zero. Sarpanta noua, materiale moderne, garantie integrala. Acoperisuri Pro.",
-  alternates: { canonical: "https://reparatiipro.ro/servicii/demolari-si-reconstruiri" },
+  alternates: { canonical: "https://montajacoperispro.ro/servicii/demolari-si-reconstruiri" },
 };
 
 const semne = [
@@ -36,7 +36,7 @@ const otherServices = [
 export default function DemolariReconstruiri() {
   return (
     <>
-      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Demolari si Reconstruiri","url":"https://reparatiipro.ro/servicii/demolari-si-reconstruiri"}]} />
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://montajacoperispro.ro/"},{"name":"Servicii","url":"https://montajacoperispro.ro/servicii"},{"name":"Demolari si Reconstruiri","url":"https://montajacoperispro.ro/servicii/demolari-si-reconstruiri"}]} />
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">
           <Image src="/images/tipuri-reparatii.webp" alt="Demolari si reconstruiri acoperisuri" fill className="object-cover" priority sizes="100vw" />

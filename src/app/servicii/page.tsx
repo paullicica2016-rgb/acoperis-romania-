@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { Hammer, Shield, Wrench, Paintbrush, Home, AlertTriangle, Trash2, Sparkles, Building2, Layers, ArrowRight, Phone } from "lucide-react";
@@ -6,7 +6,7 @@ import { Hammer, Shield, Wrench, Paintbrush, Home, AlertTriangle, Trash2, Sparkl
 export const metadata: Metadata = {
   title: "Servicii Acoperisuri - Montaj, Reparatii, Renovari",
   description: "Constructie, reparatii si renovari acoperisuri. Tigla metalica, ceramica, tabla faltuita. Hunedoara si judete invecinate. Oferta gratuita, garantie scrisa.",
-  alternates: { canonical: "https://reparatiipro.ro/servicii" },
+  alternates: { canonical: "https://montajacoperispro.ro/servicii" },
 };
 
 const services = [

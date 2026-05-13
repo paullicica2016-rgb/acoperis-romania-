@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Shield, Clock, Hammer, Home, Award, Wrench } from "lucide-react";
@@ -8,7 +8,7 @@ import FaqSchema from "@/components/FaqSchema";
 export const metadata: Metadata = {
   title: "Constructie Acoperisuri Noi - Acoperisuri Pro",
   description: "Constructie acoperisuri noi pentru case, vile si hale. Sarpanta lemn sau metal, toate tipurile de invelitori. Evaluare gratuita si garantie completa.",
-  alternates: { canonical: "https://reparatiipro.ro/servicii/constructie-acoperisuri-noi" },
+  alternates: { canonical: "https://montajacoperispro.ro/servicii/constructie-acoperisuri-noi" },
 };
 
 const etape = [
@@ -48,7 +48,7 @@ const otherServices = [
 export default function ConstructieAcoperisuri() {
   return (
     <>
-      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Constructie Acoperisuri Noi","url":"https://reparatiipro.ro/servicii/constructie-acoperisuri-noi"}]} />
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://montajacoperispro.ro/"},{"name":"Servicii","url":"https://montajacoperispro.ro/servicii"},{"name":"Constructie Acoperisuri Noi","url":"https://montajacoperispro.ro/servicii/constructie-acoperisuri-noi"}]} />
       {/* ── Hero cu val ── */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">

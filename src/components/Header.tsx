@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -50,9 +50,9 @@ export default function Header() {
               <Phone size={12} />
               <span>0754 456 844</span>
             </a>
-            <a href="mailto:office@reparatiipro.ro" className="flex items-center gap-1.5 hover:text-[#0d1547] transition-colors">
+            <a href="mailto:office@montajacoperispro.ro" className="flex items-center gap-1.5 hover:text-[#0d1547] transition-colors">
               <Mail size={12} />
-              <span>office@reparatiipro.ro</span>
+              <span>office@montajacoperispro.ro</span>
             </a>
           </div>
           <div className="flex items-center gap-4">

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { MapPin } from "lucide-react";
@@ -6,7 +6,7 @@ import { MapPin } from "lucide-react";
 export const metadata: Metadata = {
   title: "Portofoliu Lucrari Acoperisuri - Proiecte Finalizate",
   description: "Galerie foto lucrari finalizate: tigla metalica, ceramica, tabla faltuita, reparatii si renovari. Proiecte in Hunedoara, Alba, Sibiu, Cluj si Timis.",
-  alternates: { canonical: "https://reparatiipro.ro/portofoliu" },
+  alternates: { canonical: "https://montajacoperispro.ro/portofoliu" },
 };
 
 const projects = [

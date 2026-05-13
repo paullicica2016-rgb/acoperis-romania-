@@ -1,6 +1,6 @@
-import type { MetadataRoute } from "next";
+﻿import type { MetadataRoute } from "next";
 
-const baseUrl = "https://reparatiipro.ro";
+const baseUrl = "https://montajacoperispro.ro";
 
 const services = [
   "constructie-acoperisuri-noi",

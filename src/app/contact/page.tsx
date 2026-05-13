@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -222,13 +222,13 @@ export default function ContactPage() {
               </a>
 
               {/* Email */}
-              <a href="mailto:office@reparatiipro.ro" className="group flex items-center gap-4 bg-white border border-gray-200 rounded-2xl p-5 hover:border-[#0d1547]/30 transition-colors">
+              <a href="mailto:office@montajacoperispro.ro" className="group flex items-center gap-4 bg-white border border-gray-200 rounded-2xl p-5 hover:border-[#0d1547]/30 transition-colors">
                 <div className="w-12 h-12 rounded-xl bg-[#0d1547]/8 text-[#0d1547] flex items-center justify-center shrink-0">
                   <Mail size={20} />
                 </div>
                 <div className="min-w-0">
                   <span className="block text-gray-400 text-xs uppercase tracking-wider mb-0.5">Email</span>
-                  <span className="font-semibold text-gray-800 text-sm truncate block">office@reparatiipro.ro</span>
+                  <span className="font-semibold text-gray-800 text-sm truncate block">office@montajacoperispro.ro</span>
                 </div>
               </a>
 

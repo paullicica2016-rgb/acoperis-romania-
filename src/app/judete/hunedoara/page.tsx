@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award } from "lucide-react";
@@ -7,7 +7,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Hunedoara - Acoperisuri Pro",
   description: "Firma locala cu 15+ ani experienta in acoperisuri in judetul Hunedoara. Deva, Petrosani, Orastie, Brad, Simeria. Evaluare gratuita, garantie scrisa.",
-  alternates: { canonical: "https://reparatiipro.ro/judete/hunedoara" },
+  alternates: { canonical: "https://montajacoperispro.ro/judete/hunedoara" },
 };
 
 const stats = [
@@ -56,7 +56,7 @@ const portofoliu = [
 export default function HunedoaraPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Judete","url":"https://reparatiipro.ro/judete"},{"name":"Hunedoara","url":"https://reparatiipro.ro/judete/hunedoara"}]} />
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://montajacoperispro.ro/"},{"name":"Judete","url":"https://montajacoperispro.ro/judete"},{"name":"Hunedoara","url":"https://montajacoperispro.ro/judete/hunedoara"}]} />
       {/* ── Hero cu val ── */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">

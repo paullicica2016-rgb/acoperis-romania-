@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import {
   Phone,
@@ -233,7 +233,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="mailto:office@reparatiipro.ro"
+              href="mailto:office@montajacoperispro.ro"
               className="group flex items-center gap-4 bg-white rounded-xl p-5 border-l-4 border-[#0d1547] shadow-sm hover:shadow-md transition-all"
             >
               <div className="w-12 h-12 rounded-xl bg-[#0d1547]/10 text-[#0d1547] flex items-center justify-center shrink-0 group-hover:bg-[#0d1547] group-hover:text-white transition-colors">
@@ -244,7 +244,7 @@ export default function Contact() {
                   Trimite mail
                 </span>
                 <span className="font-bold text-[#051D3E] text-sm md:text-base truncate block">
-                  office@reparatiipro.ro
+                  office@montajacoperispro.ro
                 </span>
               </div>
             </a>

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight } from "lucide-react";
@@ -7,7 +7,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Invelitori pentru Acoperisuri - Acoperisuri Pro",
   description: "Montaj tigla ceramica, metalica, tabla faltuita, sindrila bituminoasa. Branduri Bilka, Lindab, Bramac, Tondach. Garantie completa, evaluare gratuita.",
-  alternates: { canonical: "https://reparatiipro.ro/servicii/invelitori-pentru-acoperisuri" },
+  alternates: { canonical: "https://montajacoperispro.ro/servicii/invelitori-pentru-acoperisuri" },
 };
 
 const lucrari = [
@@ -36,7 +36,7 @@ const otherServices = [
 export default function InvelitoriAcoperisuri() {
   return (
     <>
-      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Invelitori Acoperisuri","url":"https://reparatiipro.ro/servicii/invelitori-pentru-acoperisuri"}]} />
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://montajacoperispro.ro/"},{"name":"Servicii","url":"https://montajacoperispro.ro/servicii"},{"name":"Invelitori Acoperisuri","url":"https://montajacoperispro.ro/servicii/invelitori-pentru-acoperisuri"}]} />
       {/* Hero */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">

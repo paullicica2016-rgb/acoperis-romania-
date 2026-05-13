@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://reparatiipro.ro"),
+  metadataBase: new URL("https://montajacoperispro.ro"),
   title: {
     default: "Montaj si Reparatii Acoperisuri | Acoperisuri Pro - Firma Acoperisuri Hunedoara",
     template: "%s | Acoperisuri Pro",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ro_RO",
-    url: "https://reparatiipro.ro",
+    url: "https://montajacoperispro.ro",
     siteName: "Acoperisuri Pro - Montaj si Reparatii Acoperisuri",
     title: "Montaj si Reparatii Acoperisuri | Acoperisuri Pro",
     description:
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://reparatiipro.ro",
+    canonical: "https://montajacoperispro.ro",
   },
 };
 
@@ -149,9 +149,9 @@ export default function RootLayout({
               "@type": "RoofingContractor",
               name: "Acoperisuri Pro",
               description: "Firma cu peste 15 ani experienta in montaj si reparatii acoperisuri in Hunedoara si judete invecinate. Servicii complete: constructie acoperisuri noi, invelitori, reparatii, renovari, mansardari, interventii de urgenta.",
-              url: "https://reparatiipro.ro",
+              url: "https://montajacoperispro.ro",
               telephone: "+40754456844",
-              email: "office@reparatiipro.ro",
+              email: "office@montajacoperispro.ro",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Hunedoara",
@@ -171,7 +171,7 @@ export default function RootLayout({
                 { "@type": "OpeningHoursSpecification", dayOfWeek: "Saturday", opens: "08:00", closes: "16:00" },
               ],
               priceRange: "$$",
-              image: "https://reparatiipro.ro/images/hero.webp",
+              image: "https://montajacoperispro.ro/images/hero.webp",
               sameAs: [],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",

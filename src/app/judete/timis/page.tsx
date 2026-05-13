@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, MapPin, Home, Calendar, Users, Award } from "lucide-react";
@@ -7,7 +7,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Montaj si Reparatii Acoperisuri Timis - Acoperisuri Pro",
   description: "Firma specializata in acoperisuri in judetul Timis — Timisoara, Lugoj, Buzias, Jimbolia. Constructie, reparatii, interventii urgenta 24/7. Garantie scrisa.",
-  alternates: { canonical: "https://reparatiipro.ro/judete/timis" },
+  alternates: { canonical: "https://montajacoperispro.ro/judete/timis" },
 };
 
 const stats = [
@@ -57,7 +57,7 @@ const portofoliu = [
 export default function TimisPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Judete","url":"https://reparatiipro.ro/judete"},{"name":"Timis","url":"https://reparatiipro.ro/judete/timis"}]} />
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://montajacoperispro.ro/"},{"name":"Judete","url":"https://montajacoperispro.ro/judete"},{"name":"Timis","url":"https://montajacoperispro.ro/judete/timis"}]} />
       {/* Hero */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">

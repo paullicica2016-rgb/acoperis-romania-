@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
 import QuickContact from "@/components/QuickContact";
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Firma cu 15+ ani in montaj si reparatii acoperisuri. Tigla metalica, ceramica, tabla faltuita. Hunedoara si judete invecinate. Evaluare gratuita. 0754 456 844.",
   alternates: {
-    canonical: "https://reparatiipro.ro",
+    canonical: "https://montajacoperispro.ro",
   },
 };
 

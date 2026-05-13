@@ -1,16 +1,16 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Acoperisuri Pro - Cere Oferta Gratuita",
   description:
     "Contacteaza Acoperisuri Pro pentru oferta gratuita. Montaj si reparatii acoperisuri in Hunedoara si judete invecinate. Raspundem in 24h. Suna 0754 456 844.",
   alternates: {
-    canonical: "https://reparatiipro.ro/contact",
+    canonical: "https://montajacoperispro.ro/contact",
   },
   openGraph: {
     type: "website",
     locale: "ro_RO",
-    url: "https://reparatiipro.ro/contact",
+    url: "https://montajacoperispro.ro/contact",
     siteName: "Acoperisuri Pro",
     title: "Contact - Cere Oferta Gratuita | Acoperisuri Pro",
     description:

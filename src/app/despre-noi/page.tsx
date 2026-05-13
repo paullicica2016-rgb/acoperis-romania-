@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import { CheckCircle2, ShieldCheck, Clock, Users, Award, Home, Calendar, Hammer, Phone, FileText, Package, Wrench, BadgeCheck } from "lucide-react";
@@ -7,7 +7,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Despre Noi - Firma Montaj Acoperisuri cu 15+ Ani Experienta",
   description: "Firma cu 15+ ani experienta in montaj acoperisuri, reparatii si renovari. Echipa specializata, materiale Bilka, Lindab, Wetterbest. Garantie pe toate lucrarile.",
-  alternates: { canonical: "https://reparatiipro.ro/despre-noi" },
+  alternates: { canonical: "https://montajacoperispro.ro/despre-noi" },
 };
 
 const stats = [

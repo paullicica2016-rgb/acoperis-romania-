@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Hammer, Layers, TrendingUp, Shield } from "lucide-react";
@@ -7,7 +7,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Renovari si Modernizari Acoperisuri - Acoperisuri Pro",
   description: "Renovare completa acoperisuri vechi — invelitoare noua, sarpanta consolidata, izolatie termica. Reducere pierderi caldura pana la 30%. Garantie scrisa.",
-  alternates: { canonical: "https://reparatiipro.ro/servicii/renovari-si-modernizari" },
+  alternates: { canonical: "https://montajacoperispro.ro/servicii/renovari-si-modernizari" },
 };
 
 const beneficii = [
@@ -39,7 +39,7 @@ const otherServices = [
 export default function RenovariModernizari() {
   return (
     <>
-      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Renovari si Modernizari","url":"https://reparatiipro.ro/servicii/renovari-si-modernizari"}]} />
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://montajacoperispro.ro/"},{"name":"Servicii","url":"https://montajacoperispro.ro/servicii"},{"name":"Renovari si Modernizari","url":"https://montajacoperispro.ro/servicii/renovari-si-modernizari"}]} />
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">
           <Image src="/images/dragos/renovari-1.jpeg" alt="Renovari acoperisuri" fill className="object-cover" priority sizes="100vw" />

@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
   title: "Politica de Cookies - Acoperisuri Pro",
   description: "Politica de cookies Acoperisuri Pro. Informatii despre tipurile de cookie-uri utilizate, scopul lor si cum poti gestiona preferintele tale de confidentialitate.",
-  alternates: { canonical: "https://reparatiipro.ro/politica-de-cookies" },
+  alternates: { canonical: "https://montajacoperispro.ro/politica-de-cookies" },
 };
 
 export default function PoliticaCookiesPage() {
@@ -25,7 +25,7 @@ export default function PoliticaCookiesPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Tipuri de Cookie-uri Utilizate</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Site-ul reparatiipro.ro utilizeaza urmatoarele tipuri de cookie-uri:
+              Site-ul montajacoperispro.ro utilizeaza urmatoarele tipuri de cookie-uri:
             </p>
             <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
               <li><strong>Cookie-uri esentiale:</strong> Necesare pentru functionarea corecta a site-ului. Fara acestea, site-ul nu poate functiona corect.</li>
@@ -45,7 +45,7 @@ export default function PoliticaCookiesPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Consimtamantul</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Prin continuarea navigarii pe site-ul reparatiipro.ro, va exprimati consimtamantul pentru utilizarea cookie-urilor conform prezentei politici. Aveti dreptul de a va retrage consimtamantul in orice moment prin modificarea setarilor browserului.
+              Prin continuarea navigarii pe site-ul montajacoperispro.ro, va exprimati consimtamantul pentru utilizarea cookie-urilor conform prezentei politici. Aveti dreptul de a va retrage consimtamantul in orice moment prin modificarea setarilor browserului.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Modificari ale Politicii de Cookies</h2>
@@ -55,7 +55,7 @@ export default function PoliticaCookiesPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Contact</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Pentru intrebari suplimentare despre utilizarea cookie-urilor pe site-ul nostru, ne puteti contacta la: email office@reparatiipro.ro, telefon 0754 456 844.
+              Pentru intrebari suplimentare despre utilizarea cookie-urilor pe site-ul nostru, ne puteti contacta la: email office@montajacoperispro.ro, telefon 0754 456 844.
             </p>
           </div>
         </div>

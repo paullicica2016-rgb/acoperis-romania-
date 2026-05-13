@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Home, Sun, Thermometer, Ruler } from "lucide-react";
@@ -7,7 +7,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Mansardari si Extinderi - Acoperisuri Pro",
   description: "Transformam podul in spatiu locuibil — mansardari cu izolatie, ferestre Velux, finisaje complete. Extinderi acoperis pentru spatiu suplimentar. Garantie scrisa.",
-  alternates: { canonical: "https://reparatiipro.ro/servicii/mansardari-si-extinderi" },
+  alternates: { canonical: "https://montajacoperispro.ro/servicii/mansardari-si-extinderi" },
 };
 
 const avantaje = [
@@ -38,7 +38,7 @@ const otherServices = [
 export default function MansardariExtinderi() {
   return (
     <>
-      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Mansardari si Extinderi","url":"https://reparatiipro.ro/servicii/mansardari-si-extinderi"}]} />
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://montajacoperispro.ro/"},{"name":"Servicii","url":"https://montajacoperispro.ro/servicii"},{"name":"Mansardari si Extinderi","url":"https://montajacoperispro.ro/servicii/mansardari-si-extinderi"}]} />
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">
           <Image src="/images/projects/mansardari-1.jpeg" alt="Mansardari si extinderi" fill className="object-cover" priority sizes="100vw" />

@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
   title: "Termeni si Conditii - Acoperisuri Pro",
   description: "Termenii si conditiile de utilizare a serviciilor si site-ului Acoperisuri Pro. Informatii despre drepturi, obligatii si raspundere contractuala.",
-  alternates: { canonical: "https://reparatiipro.ro/termeni-si-conditii" },
+  alternates: { canonical: "https://montajacoperispro.ro/termeni-si-conditii" },
 };
 
 export default function TermeniPage() {
@@ -20,7 +20,7 @@ export default function TermeniPage() {
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Informatii Generale</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Prezentul document stabileste termenii si conditiile de utilizare a site-ului reparatiipro.ro si a serviciilor oferite de Acoperisuri Pro. Prin accesarea si utilizarea acestui site, sunteti de acord cu acesti termeni si conditii. Daca nu sunteti de acord cu vreuna dintre prevederi, va rugam sa nu utilizati site-ul.
+              Prezentul document stabileste termenii si conditiile de utilizare a site-ului montajacoperispro.ro si a serviciilor oferite de Acoperisuri Pro. Prin accesarea si utilizarea acestui site, sunteti de acord cu acesti termeni si conditii. Daca nu sunteti de acord cu vreuna dintre prevederi, va rugam sa nu utilizati site-ul.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Serviciile Oferite</h2>
@@ -40,7 +40,7 @@ export default function TermeniPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Proprietate Intelectuala</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Continutul site-ului reparatiipro.ro -- texte, imagini, grafice, logo-uri si alte materiale -- este proprietatea Acoperisuri Pro si este protejat de legislatia privind drepturile de autor. Reproducerea, distribuirea sau utilizarea continutului fara acordul scris al Acoperisuri Pro este interzisa.
+              Continutul site-ului montajacoperispro.ro -- texte, imagini, grafice, logo-uri si alte materiale -- este proprietatea Acoperisuri Pro si este protejat de legislatia privind drepturile de autor. Reproducerea, distribuirea sau utilizarea continutului fara acordul scris al Acoperisuri Pro este interzisa.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Limitarea Raspunderii</h2>
@@ -55,7 +55,7 @@ export default function TermeniPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Contact</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Pentru orice intrebari legate de acesti termeni si conditii, ne puteti contacta la adresa de email office@reparatiipro.ro sau la numarul de telefon 0754 456 844.
+              Pentru orice intrebari legate de acesti termeni si conditii, ne puteti contacta la adresa de email office@montajacoperispro.ro sau la numarul de telefon 0754 456 844.
             </p>
           </div>
         </div>

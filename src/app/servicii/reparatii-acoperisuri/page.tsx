@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Search, FileText, Wrench, BadgeCheck } from "lucide-react";
@@ -8,7 +8,7 @@ import FaqSchema from "@/components/FaqSchema";
 export const metadata: Metadata = {
   title: "Reparatii Acoperisuri - Acoperisuri Pro",
   description: "Reparatii profesionale acoperisuri deteriorate — tigla sparta, sarpanta degradata, infiltratii. Evaluare gratuita, interventie rapida, garantie scrisa.",
-  alternates: { canonical: "https://reparatiipro.ro/servicii/reparatii-acoperisuri" },
+  alternates: { canonical: "https://montajacoperispro.ro/servicii/reparatii-acoperisuri" },
 };
 
 const etape = [
@@ -40,7 +40,7 @@ const otherServices = [
 export default function ReparatiiAcoperisuri() {
   return (
     <>
-      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Reparatii Acoperisuri","url":"https://reparatiipro.ro/servicii/reparatii-acoperisuri"}]} />
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://montajacoperispro.ro/"},{"name":"Servicii","url":"https://montajacoperispro.ro/servicii"},{"name":"Reparatii Acoperisuri","url":"https://montajacoperispro.ro/servicii/reparatii-acoperisuri"}]} />
       {/* Hero */}
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">

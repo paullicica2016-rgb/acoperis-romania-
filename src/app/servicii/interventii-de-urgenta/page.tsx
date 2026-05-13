@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Clock, Zap, ShieldAlert, PhoneCall } from "lucide-react";
@@ -8,7 +8,7 @@ import FaqSchema from "@/components/FaqSchema";
 export const metadata: Metadata = {
   title: "Interventii de Urgenta Acoperisuri - Acoperisuri Pro",
   description: "Interventii urgenta 24/7 pentru acoperisuri avariate — furtuna, vant, grindina. Echipe mobile, raspuns rapid, securizare imediata. Suna acum 0754 456 844.",
-  alternates: { canonical: "https://reparatiipro.ro/servicii/interventii-de-urgenta" },
+  alternates: { canonical: "https://montajacoperispro.ro/servicii/interventii-de-urgenta" },
 };
 
 const situatii = [
@@ -39,7 +39,7 @@ const otherServices = [
 export default function InterventiiUrgenta() {
   return (
     <>
-      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://reparatiipro.ro/"},{"name":"Servicii","url":"https://reparatiipro.ro/servicii"},{"name":"Interventii de Urgenta","url":"https://reparatiipro.ro/servicii/interventii-de-urgenta"}]} />
+      <BreadcrumbSchema items={[{"name":"Acasa","url":"https://montajacoperispro.ro/"},{"name":"Servicii","url":"https://montajacoperispro.ro/servicii"},{"name":"Interventii de Urgenta","url":"https://montajacoperispro.ro/servicii/interventii-de-urgenta"}]} />
       <section className="relative bg-[#051D3E] text-white pt-16 pb-0 overflow-hidden">
         <div className="absolute inset-0">
           <Image src="/images/hero-reparatii.webp" alt="Interventii urgenta acoperisuri" fill className="object-cover" priority sizes="100vw" />

@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import Logo from "./Logo";
@@ -57,8 +57,8 @@ export default function Footer() {
               <a href="tel:0754456844" className="flex items-center gap-2 text-gray-600 hover:text-[#0d1547] transition-colors text-sm">
                 <Phone size={14} className="text-[#0d1547]" /> 0754 456 844
               </a>
-              <a href="mailto:office@reparatiipro.ro" className="flex items-center gap-2 text-gray-600 hover:text-[#0d1547] transition-colors text-sm">
-                <Mail size={14} className="text-[#0d1547]" /> office@reparatiipro.ro
+              <a href="mailto:office@montajacoperispro.ro" className="flex items-center gap-2 text-gray-600 hover:text-[#0d1547] transition-colors text-sm">
+                <Mail size={14} className="text-[#0d1547]" /> office@montajacoperispro.ro
               </a>
               <span className="flex items-center gap-2 text-gray-600 text-sm">
                 Hunedoara si zona invecinata
