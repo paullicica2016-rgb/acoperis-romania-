@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://montajacoperispro.ro"),
   title: {
-    default: "Montaj si Reparatii Acoperisuri | Acoperisuri Pro - Firma Acoperisuri Hunedoara",
+    default: "Montaj si Reparatii Acoperisuri | Acoperisuri Pro - Firma Acoperisuri Romania",
     template: "%s | Acoperisuri Pro",
   },
   description:
