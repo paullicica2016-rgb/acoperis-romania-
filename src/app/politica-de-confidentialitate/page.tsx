@@ -40,7 +40,7 @@ export default function PoliticaConfidentialitatePage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Drepturile Dumneavoastra</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              In conformitate cu GDPR, aveti dreptul de acces, rectificare, stergere, restrictionare a prelucrarii, portabilitate a datelor si opozitie. Pentru exercitarea acestor drepturi, ne puteti contacta la adresa office@montajacoperispro.ro. Vom raspunde solicitarii dumneavoastra in termen de maximum 30 de zile.
+              In conformitate cu GDPR, aveti dreptul de acces, rectificare, stergere, restrictionare a prelucrarii, portabilitate a datelor si opozitie. Pentru exercitarea acestor drepturi, ne puteti contacta la adresa montajacoperispro@gmail.com. Vom raspunde solicitarii dumneavoastra in termen de maximum 30 de zile.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Transferul Datelor catre Terti</h2>
@@ -55,7 +55,7 @@ export default function PoliticaConfidentialitatePage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Contact</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Pentru orice intrebari sau solicitari legate de protectia datelor personale, ne puteti contacta la: email office@montajacoperispro.ro, telefon 0754 456 844.
+              Pentru orice intrebari sau solicitari legate de protectia datelor personale, ne puteti contacta la: email montajacoperispro@gmail.com, telefon 0735 097 539.
             </p>
           </div>
         </div>

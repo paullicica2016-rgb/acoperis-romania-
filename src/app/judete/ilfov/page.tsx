@@ -85,8 +85,8 @@ export default function IlfovPage() {
             Servicii profesionale de constructie, reparatii si renovare acoperisuri in judetul Ilfov. Evaluare gratuita, garantie scrisa, echipe specializate.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
-            <a href="tel:0754456844" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
-              <Phone size={16} /> 0754 456 844
+            <a href="tel:0735097539" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
+              <Phone size={16} /> 0735 097 539
             </a>
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-7 py-3.5 rounded-full font-semibold text-sm hover:bg-white/25 transition-all">
               Cere Oferta Gratuita <ArrowRight size={15} />
@@ -163,10 +163,10 @@ export default function IlfovPage() {
               <div className="bg-[#051D3E] rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-lg mb-2">Evaluare Gratuita in Ilfov</h3>
                 <p className="text-white/60 text-sm mb-5">Venim la fata locului oriunde in judet. Fara costuri de deplasare, fara obligatii.</p>
-                <a href="tel:0754456844" className="flex items-center justify-center gap-2 bg-white text-[#051D3E] py-3 rounded-xl font-bold text-sm hover:bg-gray-100 transition-colors mb-3">
-                  <Phone size={15} /> 0754 456 844
+                <a href="tel:0735097539" className="flex items-center justify-center gap-2 bg-white text-[#051D3E] py-3 rounded-xl font-bold text-sm hover:bg-gray-100 transition-colors mb-3">
+                  <Phone size={15} /> 0735 097 539
                 </a>
-                <a href="https://wa.me/40754456844" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">
+                <a href="https://wa.me/40735097539" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">
                   WhatsApp
                 </a>
               </div>
@@ -246,8 +246,8 @@ export default function IlfovPage() {
             Venim rapid, lucram serios, garantam rezultatul.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:0754456844" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
-              <Phone size={18} /> 0754 456 844
+            <a href="tel:0735097539" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
+              <Phone size={18} /> 0735 097 539
             </a>
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/25 transition-all">
               Formular Contact

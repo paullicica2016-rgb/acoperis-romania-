@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Acoperisuri Pro",
   },
   description:
-    "Montaj acoperisuri, reparatii, tigla metalica, ceramica, tabla faltuita. Firma cu 15+ ani in Hunedoara si judete invecinate. Garantie lucrari. 0754 456 844.",
+    "Montaj acoperisuri, reparatii, tigla metalica, ceramica, tabla faltuita. Firma cu 15+ ani in Hunedoara si judete invecinate. Garantie lucrari. 0735 097 539.",
   keywords: [
     "montaj acoperis", "reparatii acoperis", "firma acoperisuri", "acoperis Hunedoara",
     "tigla metalica", "tigla ceramica", "tabla faltuita", "sindrila bituminoasa",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Acoperisuri Pro - Montaj si Reparatii Acoperisuri",
     title: "Montaj si Reparatii Acoperisuri | Acoperisuri Pro",
     description:
-      "Firma cu peste 15 ani experienta in montaj si reparatii acoperisuri. Tigla metalica, ceramica, tabla faltuita. Hunedoara si judete invecinate. Suna 0754 456 844.",
+      "Firma cu peste 15 ani experienta in montaj si reparatii acoperisuri. Tigla metalica, ceramica, tabla faltuita. Hunedoara si judete invecinate. Suna 0735 097 539.",
     images: [
       {
         url: "/images/hero.webp",
@@ -150,8 +150,8 @@ export default function RootLayout({
               name: "Acoperisuri Pro",
               description: "Firma cu peste 15 ani experienta in montaj si reparatii acoperisuri in Hunedoara si judete invecinate. Servicii complete: constructie acoperisuri noi, invelitori, reparatii, renovari, mansardari, interventii de urgenta.",
               url: "https://montajacoperispro.ro",
-              telephone: "+40754456844",
-              email: "office@montajacoperispro.ro",
+              telephone: "+40735097539",
+              email: "montajacoperispro@gmail.com",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Hunedoara",

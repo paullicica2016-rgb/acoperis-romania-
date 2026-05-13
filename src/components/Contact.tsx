@@ -206,7 +206,7 @@ export default function Contact() {
 
                     {status === "error" && (
                       <p className="text-red-600 text-sm text-center">
-                        Eroare la trimitere. Incercati din nou sau sunati la 0754 456 844.
+                        Eroare la trimitere. Incercati din nou sau sunati la 0735 097 539.
                       </p>
                     )}
                   </form>
@@ -218,7 +218,7 @@ export default function Contact() {
           {/* Contact info - 2 cols */}
           <div className="lg:col-span-2 space-y-4">
             <a
-              href="tel:0754456844"
+              href="tel:0735097539"
               className="group flex items-center gap-4 bg-white rounded-xl p-5 border-l-4 border-[#0d1547] shadow-sm hover:shadow-md transition-all"
             >
               <div className="w-12 h-12 rounded-xl bg-[#0d1547]/10 text-[#0d1547] flex items-center justify-center shrink-0 group-hover:bg-[#0d1547] group-hover:text-white transition-colors">
@@ -228,12 +228,12 @@ export default function Contact() {
                 <span className="block text-xs text-[#666] uppercase tracking-wider mb-0.5">
                   Apeleaza acum
                 </span>
-                <span className="font-bold text-[#051D3E] text-lg">0754 456 844</span>
+                <span className="font-bold text-[#051D3E] text-lg">0735 097 539</span>
               </div>
             </a>
 
             <a
-              href="mailto:office@montajacoperispro.ro"
+              href="mailto:montajacoperispro@gmail.com"
               className="group flex items-center gap-4 bg-white rounded-xl p-5 border-l-4 border-[#0d1547] shadow-sm hover:shadow-md transition-all"
             >
               <div className="w-12 h-12 rounded-xl bg-[#0d1547]/10 text-[#0d1547] flex items-center justify-center shrink-0 group-hover:bg-[#0d1547] group-hover:text-white transition-colors">
@@ -244,7 +244,7 @@ export default function Contact() {
                   Trimite mail
                 </span>
                 <span className="font-bold text-[#051D3E] text-sm md:text-base truncate block">
-                  office@montajacoperispro.ro
+                  montajacoperispro@gmail.com
                 </span>
               </div>
             </a>
@@ -262,7 +262,7 @@ export default function Contact() {
             </div>
 
             <a
-              href="https://wa.me/40754456844"
+              href="https://wa.me/40735097539"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#1faf52] text-white rounded-xl p-5 font-semibold transition-colors shadow-sm hover:shadow-md"

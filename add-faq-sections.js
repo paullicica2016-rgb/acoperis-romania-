@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 
 // FAQ data per page
 const faqPages = [
@@ -20,7 +20,7 @@ const faqPages = [
       },
       {
         q: 'Faceti si reparatii urgente?',
-        a: 'Da, avem echipe disponibile 24/7 pentru interventii de urgenta — acoperisuri avariate de furtuna, infiltratii active, tabla smulsa. Sunati 0754 456 844 si ajungem in maxim 3 ore in zona Hunedoara si judete invecinate.',
+        a: 'Da, avem echipe disponibile 24/7 pentru interventii de urgenta — acoperisuri avariate de furtuna, infiltratii active, tabla smulsa. Sunati 0735 097 539 si ajungem in maxim 3 ore in zona Hunedoara si judete invecinate.',
       },
       {
         q: 'Cat costa o evaluare a acoperisului?',
@@ -46,7 +46,7 @@ const faqPages = [
       },
       {
         q: 'Faceti si reparatii urgente?',
-        a: 'Da, pe langa constructii noi gestionam si urgente — securizare acoperis avariat, interventii rapide post-furtuna, acoperire provizorie. Sunati 0754 456 844 pentru interventie rapida.',
+        a: 'Da, pe langa constructii noi gestionam si urgente — securizare acoperis avariat, interventii rapide post-furtuna, acoperire provizorie. Sunati 0735 097 539 pentru interventie rapida.',
       },
       {
         q: 'Ce tipuri de invelitoare montati?',
@@ -60,7 +60,7 @@ const faqPages = [
     items: [
       {
         q: 'Cat de repede ajungeti la o urgenta?',
-        a: 'In zona Hunedoara si judete invecinate ajungem in maxim 1-3 ore. Suntem disponibili 24/7, inclusiv sambata, duminica si sarbatori legale. Sunati 0754 456 844 si va confirmam ora sosirii.',
+        a: 'In zona Hunedoara si judete invecinate ajungem in maxim 1-3 ore. Suntem disponibili 24/7, inclusiv sambata, duminica si sarbatori legale. Sunati 0735 097 539 si va confirmam ora sosirii.',
       },
       {
         q: 'Lucrati si iarna sau pe timp de furtuna?',

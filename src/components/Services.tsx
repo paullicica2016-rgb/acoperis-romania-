@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Image from "next/image";
@@ -167,7 +167,7 @@ export default function Services() {
                 Vezi serviciu <ArrowRight size={16} />
               </Link>
               <a
-                href="tel:0754456844"
+                href="tel:0735097539"
                 className="btn-accent inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm"
               >
                 Apeleaza Acum

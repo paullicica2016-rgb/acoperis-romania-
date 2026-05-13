@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -79,7 +79,7 @@ export default function ServiceAreas() {
               <Link href="/despre-noi" className="inline-flex items-center justify-center px-7 py-3 rounded-lg font-semibold text-sm bg-white text-[#0f1623] hover:bg-gray-100 transition-colors">
                 Despre noi
               </Link>
-              <a href="tel:0754456844" className="btn-accent inline-flex items-center justify-center px-7 py-3 rounded-lg font-semibold text-sm">
+              <a href="tel:0735097539" className="btn-accent inline-flex items-center justify-center px-7 py-3 rounded-lg font-semibold text-sm">
                 Apelează acum
               </a>
             </div>

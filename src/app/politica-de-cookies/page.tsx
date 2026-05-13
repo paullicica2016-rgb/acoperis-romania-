@@ -55,7 +55,7 @@ export default function PoliticaCookiesPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Contact</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Pentru intrebari suplimentare despre utilizarea cookie-urilor pe site-ul nostru, ne puteti contacta la: email office@montajacoperispro.ro, telefon 0754 456 844.
+              Pentru intrebari suplimentare despre utilizarea cookie-urilor pe site-ul nostru, ne puteti contacta la: email montajacoperispro@gmail.com, telefon 0735 097 539.
             </p>
           </div>
         </div>

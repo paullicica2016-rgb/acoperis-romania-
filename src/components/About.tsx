@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 
 export default function About() {
@@ -60,7 +60,7 @@ export default function About() {
                 Vezi Mai Mult
               </Link>
               <a
-                href="tel:0754456844"
+                href="tel:0735097539"
                 className="btn-accent inline-flex items-center justify-center px-7 py-3 rounded-lg font-semibold text-sm"
               >
                 Apeleaza Acum
