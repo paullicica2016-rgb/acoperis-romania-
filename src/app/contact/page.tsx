@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Phone, Mail, MapPin, Clock, Send, MessageCircle, User, Briefcase, MessageSquare, CheckCircle2 } from "lucide-react";
 import { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
 
 const serviceOptions = [
   "Constructie acoperis nou",
@@ -31,14 +30,17 @@ export default function ContactPage() {
     if (!formRef.current) return;
     setStatus("sending");
     try {
-      await emailjs.sendForm(
-        "service_vfof2ij",
-        "template_06ijk4o",
-        formRef.current,
-        "OQ8Y1KLVvFMVeN_SP"
-      );
-      setStatus("sent");
-      formRef.current.reset();
+      const res = await fetch("https://formspree.io/f/xqenjjed", {
+        method: "POST",
+        body: new FormData(formRef.current),
+        headers: { Accept: "application/json" },
+      });
+      if (res.ok) {
+        setStatus("sent");
+        formRef.current.reset();
+      } else {
+        setStatus("error");
+      }
     } catch {
       setStatus("error");
     }

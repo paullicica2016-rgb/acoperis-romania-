@@ -2,7 +2,6 @@
 
 import { useState, useRef } from "react";
 import Image from "next/image";
-import emailjs from "@emailjs/browser";
 import { trackFormConversion } from "@/lib/gtag";
 import {
   Send,
@@ -52,15 +51,18 @@ export default function QuickContact() {
     setStatus("sending");
 
     try {
-      await emailjs.sendForm(
-        "service_vfof2ij",
-        "template_06ijk4o",
-        formRef.current,
-        "OQ8Y1KLVvFMVeN_SP"
-      );
-      setStatus("sent");
-      trackFormConversion();
-      formRef.current.reset();
+      const res = await fetch("https://formspree.io/f/xqenjjed", {
+        method: "POST",
+        body: new FormData(formRef.current),
+        headers: { Accept: "application/json" },
+      });
+      if (res.ok) {
+        setStatus("sent");
+        trackFormConversion();
+        formRef.current.reset();
+      } else {
+        setStatus("error");
+      }
     } catch {
       setStatus("error");
     }
