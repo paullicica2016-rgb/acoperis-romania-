@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ClickGuard from "@/components/ClickGuard";
+import CookieConsent from "@/components/CookieConsent";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -98,6 +99,32 @@ export default function RootLayout({
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
+
+              // Consent Mode v2 - totul DENIED implicit pana la acordul vizitatorului
+              gtag('consent', 'default', {
+                'ad_storage': 'denied',
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+                'analytics_storage': 'denied',
+                'functionality_storage': 'denied',
+                'personalization_storage': 'denied',
+                'security_storage': 'granted',
+                'wait_for_update': 500
+              });
+              // Daca vizitatorul a acceptat deja la o vizita anterioara, activam imediat
+              try {
+                if (localStorage.getItem('cookie-consent') === 'accepted') {
+                  gtag('consent', 'update', {
+                    'ad_storage': 'granted',
+                    'ad_user_data': 'granted',
+                    'ad_personalization': 'granted',
+                    'analytics_storage': 'granted',
+                    'functionality_storage': 'granted',
+                    'personalization_storage': 'granted'
+                  });
+                }
+              } catch(e) {}
+
               gtag('js', new Date());
               gtag('config', 'AW-17767684704');
               gtag('config', 'AW-18247104800');
@@ -205,6 +232,7 @@ export default function RootLayout({
         <Footer />
         <WhatsAppButton />
         <ClickGuard />
+        <CookieConsent />
       </body>
     </html>
   );
