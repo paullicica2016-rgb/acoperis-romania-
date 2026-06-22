@@ -135,10 +135,17 @@ export default function RootLayout({
               document.addEventListener('click', function(e) {
                 var link = e.target.closest('a[href^="tel:"]');
                 if (link) {
+                  // Conversie Google Ads
                   gtag('event', 'conversion', {
                     'send_to': 'AW-17767684704/qlzLCKfM1JQcEOC0pZhC',
                     'value': 1.0,
                     'currency': 'RON'
+                  });
+                  // Eveniment Google Analytics (GA4) - apel telefonic de pe site
+                  gtag('event', 'apel_telefon', {
+                    'send_to': 'G-9M4ET4VZZP',
+                    'event_category': 'contact',
+                    'event_label': link.getAttribute('href')
                   });
                 }
               });
