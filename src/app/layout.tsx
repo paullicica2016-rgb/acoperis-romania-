@@ -101,7 +101,7 @@ export default function RootLayout({
               gtag('js', new Date());
               gtag('config', 'AW-17767684704');
               gtag('config', 'AW-18247104800');
-              gtag('config', 'G-6GN88FEBLJ');
+              gtag('config', 'G-9M4ET4VZZP');
               gtag('config', 'GT-T5MMHLZK');
 
               // Auto-track ALL phone link clicks
