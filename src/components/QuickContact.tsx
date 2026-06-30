@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useRef } from "react";
 import Image from "next/image";
@@ -190,7 +190,7 @@ export default function QuickContact() {
 
                   {status === "error" && (
                     <p className="text-red-600 text-sm text-center">
-                      Eroare la trimitere. Incercati din nou sau sunati la 0735 097 539.
+                      Eroare la trimitere. Incercati din nou sau sunati la 0750 771 028.
                     </p>
                   )}
                 </form>

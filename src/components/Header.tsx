@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -46,9 +46,9 @@ export default function Header() {
       <div className="bg-[#051D3E] text-white text-xs py-2 hidden md:block">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-5">
-            <a href="tel:0735097539" className="flex items-center gap-1.5 hover:text-[#0d1547] transition-colors">
+            <a href="tel:0750771028" className="flex items-center gap-1.5 hover:text-[#0d1547] transition-colors">
               <Phone size={12} />
-              <span>0735 097 539</span>
+              <span>0750 771 028</span>
             </a>
             <a href="mailto:montajacoperispro@gmail.com" className="flex items-center gap-1.5 hover:text-[#0d1547] transition-colors">
               <Mail size={12} />
@@ -146,11 +146,11 @@ export default function Header() {
 
             {/* Red phone CTA button */}
             <a
-              href="tel:0735097539"
+              href="tel:0750771028"
               className="btn-accent px-5 py-2.5 rounded-lg text-sm font-semibold ml-4 flex items-center gap-2"
             >
               <Phone size={14} />
-              0735 097 539
+              0750 771 028
             </a>
           </nav>
 
@@ -220,9 +220,9 @@ export default function Header() {
                 Contact
               </Link>
 
-              <a href="tel:0735097539" className="btn-accent text-center px-6 py-3 rounded-lg font-semibold mt-2 flex items-center justify-center gap-2">
+              <a href="tel:0750771028" className="btn-accent text-center px-6 py-3 rounded-lg font-semibold mt-2 flex items-center justify-center gap-2">
                 <Phone size={14} />
-                0735 097 539
+                0750 771 028
               </a>
             </nav>
           </div>

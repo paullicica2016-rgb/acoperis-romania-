@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
@@ -55,7 +55,7 @@ export default function TermeniPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Contact</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Pentru orice intrebari legate de acesti termeni si conditii, ne puteti contacta la adresa de email montajacoperispro@gmail.com sau la numarul de telefon 0735 097 539.
+              Pentru orice intrebari legate de acesti termeni si conditii, ne puteti contacta la adresa de email montajacoperispro@gmail.com sau la numarul de telefon 0750 771 028.
             </p>
           </div>
         </div>

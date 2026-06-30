@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -186,7 +186,7 @@ export default function ContactPage() {
 
                   {status === "error" && (
                     <p className="text-red-600 text-sm text-center bg-red-50 rounded-xl py-3">
-                      Eroare la trimitere. Suna direct la 0735 097 539.
+                      Eroare la trimitere. Suna direct la 0750 771 028.
                     </p>
                   )}
                 </form>
@@ -197,19 +197,19 @@ export default function ContactPage() {
             <div className="lg:col-span-2 space-y-4">
 
               {/* CTA phone */}
-              <a href="tel:0735097539" className="group flex items-center gap-4 bg-[#051D3E] rounded-2xl p-6 hover:bg-[#0a1040] transition-colors">
+              <a href="tel:0750771028" className="group flex items-center gap-4 bg-[#051D3E] rounded-2xl p-6 hover:bg-[#0a1040] transition-colors">
                 <div className="w-12 h-12 rounded-xl bg-white/15 text-white flex items-center justify-center shrink-0">
                   <Phone size={22} />
                 </div>
                 <div>
                   <span className="block text-white/60 text-xs uppercase tracking-wider mb-0.5">Suna acum</span>
-                  <span className="font-bold text-white text-xl">0735 097 539</span>
+                  <span className="font-bold text-white text-xl">0750 771 028</span>
                 </div>
               </a>
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/40735097539"
+                href="https://wa.me/40750771028"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 bg-[#25D366] hover:bg-[#1faf52] rounded-2xl p-6 transition-colors"
@@ -301,11 +301,11 @@ export default function ContactPage() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Preferi sa vorbim direct?</h2>
           <p className="text-white/70 text-lg mb-10">Suna acum si stabilim o vizita gratuita la acoperisul tau.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:0735097539" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
-              <Phone size={18} /> 0735 097 539
+            <a href="tel:0750771028" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
+              <Phone size={18} /> 0750 771 028
             </a>
             <a
-              href="https://wa.me/40735097539"
+              href="https://wa.me/40750771028"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1faf52] text-white px-8 py-4 rounded-full text-lg font-semibold transition-colors"

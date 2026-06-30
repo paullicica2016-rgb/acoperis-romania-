@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import Image from "next/image";
 import { Phone, ArrowRight } from "lucide-react";
 
@@ -46,11 +46,11 @@ export default function Hero() {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 mb-12">
             <a
-              href="tel:0735097539"
+              href="tel:0750771028"
               className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-lg text-base font-semibold bg-[#051D3E] hover:bg-[#0a2d5c] text-white transition-colors shadow-lg shadow-black/30"
             >
               <Phone size={18} />
-              0735 097 539
+              0750 771 028
             </a>
             <Link
               href="/servicii"

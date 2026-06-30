@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 interface PhoneLinkProps {
   children: React.ReactNode;
@@ -8,7 +8,7 @@ interface PhoneLinkProps {
 export default function PhoneLink({ children, className }: PhoneLinkProps) {
   return (
     <a
-      href="tel:0735097539"
+      href="tel:0750771028"
       className={className}
       onClick={() => {
         if (typeof window !== "undefined" && window.gtag)

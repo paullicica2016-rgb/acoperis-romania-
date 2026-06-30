@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { Hammer, Shield, Wrench, Paintbrush, Home, AlertTriangle, Trash2, Sparkles, Building2, Layers, ArrowRight, Phone } from "lucide-react";
@@ -165,8 +165,8 @@ export default function ServiciiPage() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ai nevoie de un serviciu?</h2>
           <p className="text-white/70 text-lg mb-10">Suna acum pentru oferta gratuita. Venim la fata locului fara costuri.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:0735097539" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
-              <Phone size={18} /> 0735 097 539
+            <a href="tel:0750771028" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
+              <Phone size={18} /> 0750 771 028
             </a>
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/25 transition-all">
               Formular Contact

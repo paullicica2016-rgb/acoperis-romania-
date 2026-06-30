@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import { CheckCircle2, ShieldCheck, Clock, Users, Award, Home, Calendar, Hammer, Phone, FileText, Package, Wrench, BadgeCheck } from "lucide-react";
@@ -286,10 +286,10 @@ export default function DespreNoi() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:0735097539"
+              href="tel:0750771028"
               className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors"
             >
-              Apeleaza: 0735 097 539
+              Apeleaza: 0750 771 028
             </a>
             <Link
               href="/contact"

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight, Clock, Zap, ShieldAlert, PhoneCall } from "lucide-react";
@@ -7,7 +7,7 @@ import FaqSchema from "@/components/FaqSchema";
 
 export const metadata: Metadata = {
   title: "Interventii de Urgenta Acoperisuri - Acoperisuri Pro",
-  description: "Interventii urgenta 24/7 pentru acoperisuri avariate — furtuna, vant, grindina. Echipe mobile, raspuns rapid, securizare imediata. Suna acum 0735 097 539.",
+  description: "Interventii urgenta 24/7 pentru acoperisuri avariate — furtuna, vant, grindina. Echipe mobile, raspuns rapid, securizare imediata. Suna acum 0750 771 028.",
   alternates: { canonical: "https://montajacoperispro.ro/servicii/interventii-de-urgenta" },
 };
 
@@ -59,8 +59,8 @@ export default function InterventiiUrgenta() {
               Furtuna, grindina sau vant puternic a avariat acoperisul? Suna acum — echipele noastre mobile intervin rapid, zi si noapte, pentru a securiza si repara.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <a href="tel:0735097539" className="inline-flex items-center justify-center gap-2 bg-[#E53935] text-white px-7 py-3.5 rounded-full font-bold text-sm hover:bg-red-700 transition-colors">
-                <Phone size={16} /> Suna Acum — 0735 097 539
+              <a href="tel:0750771028" className="inline-flex items-center justify-center gap-2 bg-[#E53935] text-white px-7 py-3.5 rounded-full font-bold text-sm hover:bg-red-700 transition-colors">
+                <Phone size={16} /> Suna Acum — 0750 771 028
               </a>
             </div>
           </div>
@@ -83,8 +83,8 @@ export default function InterventiiUrgenta() {
               <p className="font-bold text-gray-900">Urgenta acum? Suna direct.</p>
               <p className="text-gray-500 text-sm">Echipa de urgenta disponibila 24 ore din 24, 7 zile din 7, inclusiv sarbatori legale.</p>
             </div>
-            <a href="tel:0735097539" className="inline-flex items-center gap-2 bg-[#E53935] text-white px-6 py-3 rounded-full font-bold text-sm hover:bg-red-700 transition-colors shrink-0">
-              0735 097 539
+            <a href="tel:0750771028" className="inline-flex items-center gap-2 bg-[#E53935] text-white px-6 py-3 rounded-full font-bold text-sm hover:bg-red-700 transition-colors shrink-0">
+              0750 771 028
             </a>
           </div>
         </div>
@@ -139,10 +139,10 @@ export default function InterventiiUrgenta() {
               <div className="bg-[#E53935] rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-xl mb-2">Urgenta? Suna acum.</h3>
                 <p className="text-white/80 text-sm mb-5">Disponibili non-stop. Raspundem la primul apel.</p>
-                <a href="tel:0735097539" className="flex items-center justify-center gap-2 bg-white text-[#E53935] py-3.5 rounded-xl font-bold text-sm hover:bg-gray-100 transition-colors mb-3">
-                  <Phone size={15} /> 0735 097 539
+                <a href="tel:0750771028" className="flex items-center justify-center gap-2 bg-white text-[#E53935] py-3.5 rounded-xl font-bold text-sm hover:bg-gray-100 transition-colors mb-3">
+                  <Phone size={15} /> 0750 771 028
                 </a>
-                <a href="https://wa.me/40735097539" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">WhatsApp</a>
+                <a href="https://wa.me/40750771028" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">WhatsApp</a>
               </div>
               <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6">
                 <h3 className="font-bold text-gray-900 text-sm uppercase tracking-wide mb-4">Alte Servicii</h3>
@@ -172,7 +172,7 @@ export default function InterventiiUrgenta() {
             {[
               {
                 q: "Cat de repede ajungeti la o urgenta?",
-                a: "In zona Hunedoara si judete invecinate ajungem in maxim 1-3 ore. Suntem disponibili 24/7, inclusiv sambata, duminica si sarbatori legale. Sunati 0735 097 539 si va confirmam ora sosirii.",
+                a: "In zona Hunedoara si judete invecinate ajungem in maxim 1-3 ore. Suntem disponibili 24/7, inclusiv sambata, duminica si sarbatori legale. Sunati 0750 771 028 si va confirmam ora sosirii.",
               },
               {
                 q: "Lucrati si iarna sau pe timp de furtuna?",
@@ -211,8 +211,8 @@ export default function InterventiiUrgenta() {
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Nu lasa apa sa patrunda mai adanc</h2>
           <p className="text-white/70 text-lg mb-10">Fiecare ora de intarziere inseamna daune mai mari. Suna-ne acum.</p>
-          <a href="tel:0735097539" className="inline-flex items-center justify-center gap-2 bg-[#E53935] text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">
-            <Phone size={20} /> 0735 097 539 — Urgenta
+          <a href="tel:0750771028" className="inline-flex items-center justify-center gap-2 bg-[#E53935] text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-red-700 transition-colors">
+            <Phone size={20} /> 0750 771 028 — Urgenta
           </a>
         </div>
       </section>

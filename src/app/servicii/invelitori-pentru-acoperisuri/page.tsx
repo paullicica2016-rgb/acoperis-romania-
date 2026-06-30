@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle2, Phone, ArrowRight } from "lucide-react";
@@ -59,8 +59,8 @@ export default function InvelitoriAcoperisuri() {
               Tigla ceramica, tigla metalica, tabla faltuita, sindrila — montam orice tip de invelitoare cu materiale originale de la producatori de top si garantie scrisa.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <a href="tel:0735097539" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
-                <Phone size={16} /> 0735 097 539
+              <a href="tel:0750771028" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
+                <Phone size={16} /> 0750 771 028
               </a>
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-7 py-3.5 rounded-full font-semibold text-sm hover:bg-white/25 transition-all">
                 Cere Oferta Gratuita <ArrowRight size={15} />
@@ -106,10 +106,10 @@ export default function InvelitoriAcoperisuri() {
               <div className="bg-[#051D3E] rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-lg mb-2">Evaluare Gratuita</h3>
                 <p className="text-white/60 text-sm mb-5">Venim la fata locului, evaluam structura si iti recomandam invelitoarea potrivita.</p>
-                <a href="tel:0735097539" className="flex items-center justify-center gap-2 bg-white text-[#051D3E] py-3 rounded-xl font-bold text-sm hover:bg-gray-100 transition-colors mb-3">
-                  <Phone size={15} /> 0735 097 539
+                <a href="tel:0750771028" className="flex items-center justify-center gap-2 bg-white text-[#051D3E] py-3 rounded-xl font-bold text-sm hover:bg-gray-100 transition-colors mb-3">
+                  <Phone size={15} /> 0750 771 028
                 </a>
-                <a href="https://wa.me/40735097539" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">WhatsApp</a>
+                <a href="https://wa.me/40750771028" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">WhatsApp</a>
               </div>
               <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6">
                 <h3 className="font-bold text-gray-900 text-sm uppercase tracking-wide mb-4">Alte Servicii</h3>
@@ -151,8 +151,8 @@ export default function InvelitoriAcoperisuri() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Vrei o invelitoare noua?</h2>
           <p className="text-white/70 text-lg mb-10">Oferta gratuita la fata locului. Lucram cu materiale originale si garantie scrisa.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:0735097539" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
-              <Phone size={18} /> 0735 097 539
+            <a href="tel:0750771028" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
+              <Phone size={18} /> 0750 771 028
             </a>
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/25 transition-all">
               Formular Contact

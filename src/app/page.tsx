@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
 import QuickContact from "@/components/QuickContact";
@@ -14,7 +14,7 @@ import Contact from "@/components/Contact";
 export const metadata: Metadata = {
   title: "Montaj Acoperisuri Hunedoara | Acoperisuri Pro",
   description:
-    "Firma cu 15+ ani in montaj si reparatii acoperisuri. Tigla metalica, ceramica, tabla faltuita. Hunedoara si judete invecinate. Evaluare gratuita. 0735 097 539.",
+    "Firma cu 15+ ani in montaj si reparatii acoperisuri. Tigla metalica, ceramica, tabla faltuita. Hunedoara si judete invecinate. Evaluare gratuita. 0750 771 028.",
   alternates: {
     canonical: "https://montajacoperispro.ro",
   },
