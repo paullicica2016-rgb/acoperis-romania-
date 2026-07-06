@@ -54,8 +54,8 @@ export default function Footer() {
               Firma cu peste 15 ani experienta in montaj, reparatii si intretinere acoperisuri.
             </p>
             <div className="space-y-2.5">
-              <a href="tel:0750771028" className="flex items-center gap-2 text-gray-600 hover:text-[#0d1547] transition-colors text-sm">
-                <Phone size={14} className="text-[#0d1547]" /> 0750 771 028
+              <a href="tel:0735097539" className="flex items-center gap-2 text-gray-600 hover:text-[#0d1547] transition-colors text-sm">
+                <Phone size={14} className="text-[#0d1547]" /> 0735 097 539
               </a>
               <a href="mailto:montajacoperispro@gmail.com" className="flex items-center gap-2 text-gray-600 hover:text-[#0d1547] transition-colors text-sm">
                 <Mail size={14} className="text-[#0d1547]" /> montajacoperispro@gmail.com
@@ -145,11 +145,11 @@ export default function Footer() {
                 <span className="text-gray-500">Urgente</span>
               </div>
             </div>
-            <a href="tel:0750771028" className="btn-accent block text-center py-3 rounded-xl font-semibold text-sm mt-auto">
+            <a href="tel:0735097539" className="btn-accent block text-center py-3 rounded-xl font-semibold text-sm mt-auto">
               Apeleaza Acum
             </a>
             <a
-              href="https://wa.me/40750771028"
+              href="https://wa.me/40735097539"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors"

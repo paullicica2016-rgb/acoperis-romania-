@@ -55,7 +55,7 @@ export default function PoliticaConfidentialitatePage() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Contact</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Pentru orice intrebari sau solicitari legate de protectia datelor personale, ne puteti contacta la: email montajacoperispro@gmail.com, telefon 0750 771 028.
+              Pentru orice intrebari sau solicitari legate de protectia datelor personale, ne puteti contacta la: email montajacoperispro@gmail.com, telefon 0735 097 539.
             </p>
           </div>
         </div>

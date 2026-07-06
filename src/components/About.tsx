@@ -60,7 +60,7 @@ export default function About() {
                 Vezi Mai Mult
               </Link>
               <a
-                href="tel:0750771028"
+                href="tel:0735097539"
                 className="btn-accent inline-flex items-center justify-center px-7 py-3 rounded-lg font-semibold text-sm"
               >
                 Apeleaza Acum

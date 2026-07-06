@@ -75,8 +75,8 @@ export default function ConstructieAcoperisuri() {
               De la sarpanta la ultimul jgheab — executam acoperisuri complete pentru case, vile si cladiri industriale. Materiale premium, garantie scrisa, echipe proprii.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <a href="tel:0750771028" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
-                <Phone size={16} /> 0750 771 028
+              <a href="tel:0735097539" className="inline-flex items-center justify-center gap-2 bg-white text-[#051D3E] px-7 py-3.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
+                <Phone size={16} /> 0735 097 539
               </a>
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-7 py-3.5 rounded-full font-semibold text-sm hover:bg-white/25 transition-all">
                 Cere Oferta Gratuita <ArrowRight size={15} />
@@ -182,7 +182,7 @@ export default function ConstructieAcoperisuri() {
               },
               {
                 q: "Faceti si reparatii urgente?",
-                a: "Da, pe langa constructii noi gestionam si urgente — securizare acoperis avariat, interventii rapide post-furtuna, acoperire provizorie. Sunati 0750 771 028 pentru interventie rapida.",
+                a: "Da, pe langa constructii noi gestionam si urgente — securizare acoperis avariat, interventii rapide post-furtuna, acoperire provizorie. Sunati 0735 097 539 pentru interventie rapida.",
               },
               {
                 q: "Ce tipuri de invelitoare montati?",
@@ -252,10 +252,10 @@ export default function ConstructieAcoperisuri() {
                 <div className="bg-[#051D3E] rounded-2xl p-6 text-white">
                   <h3 className="font-bold text-lg mb-2">Evaluare Gratuita</h3>
                   <p className="text-white/60 text-sm mb-5">Venim la fata locului, masuram si oferim oferta fara costuri.</p>
-                  <a href="tel:0750771028" className="flex items-center justify-center gap-2 bg-white text-[#051D3E] py-3 rounded-xl font-bold text-sm hover:bg-gray-100 transition-colors mb-3">
-                    <Phone size={15} /> 0750 771 028
+                  <a href="tel:0735097539" className="flex items-center justify-center gap-2 bg-white text-[#051D3E] py-3 rounded-xl font-bold text-sm hover:bg-gray-100 transition-colors mb-3">
+                    <Phone size={15} /> 0735 097 539
                   </a>
-                  <a href="https://wa.me/40750771028" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">
+                  <a href="https://wa.me/40735097539" target="_blank" rel="noopener noreferrer" className="block text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold text-sm transition-colors">
                     WhatsApp
                   </a>
                 </div>
@@ -306,7 +306,7 @@ export default function ConstructieAcoperisuri() {
 
       {/* ── CTA final ── */}
       
-      <FaqSchema items={[{"q":"Cat dureaza montajul unui acoperis nou?","a":"Pentru o casa unifamiliala standard (100-150 mp), montajul complet — sarpanta, membrana, invelitoare, accesorii — dureaza 10-20 zile lucratoare, in functie de complexitate, forma acoperisului si conditii meteo."},{"q":"Lucrati si iarna?","a":"Lucrarile de sarpanta pot fi executate pe tot parcursul anului. Montajul invelitorii necesita temperaturi de peste 5°C. Planificam lucrarile in avans si va comunicam transparent daca conditiile meteo pot influenta termenele."},{"q":"Oferiti garantie pentru acoperisul nou?","a":"Da. Oferim garantie de 10 ani pe manopera si respectam garantiile producatorilor pentru materiale: 10-15 ani pentru tigla metalica, 30-50 ani pentru tigla ceramica. Totul este documentat intr-un certificat de garantie scris."},{"q":"Faceti si reparatii urgente?","a":"Da, pe langa constructii noi gestionam si urgente — securizare acoperis avariat, interventii rapide post-furtuna, acoperire provizorie. Sunati 0750 771 028 pentru interventie rapida."},{"q":"Ce tipuri de invelitoare montati?","a":"Montam toate tipurile: tigla metalica (Bilka, Lindab, Wetterbest), tigla ceramica (Bramac, Tondach), tabla faltuita, sindrila bituminoasa si table speciale. Va recomandam solutia optima pentru panta, zona climatica si bugetul dumneavoastra."}]} />
+      <FaqSchema items={[{"q":"Cat dureaza montajul unui acoperis nou?","a":"Pentru o casa unifamiliala standard (100-150 mp), montajul complet — sarpanta, membrana, invelitoare, accesorii — dureaza 10-20 zile lucratoare, in functie de complexitate, forma acoperisului si conditii meteo."},{"q":"Lucrati si iarna?","a":"Lucrarile de sarpanta pot fi executate pe tot parcursul anului. Montajul invelitorii necesita temperaturi de peste 5°C. Planificam lucrarile in avans si va comunicam transparent daca conditiile meteo pot influenta termenele."},{"q":"Oferiti garantie pentru acoperisul nou?","a":"Da. Oferim garantie de 10 ani pe manopera si respectam garantiile producatorilor pentru materiale: 10-15 ani pentru tigla metalica, 30-50 ani pentru tigla ceramica. Totul este documentat intr-un certificat de garantie scris."},{"q":"Faceti si reparatii urgente?","a":"Da, pe langa constructii noi gestionam si urgente — securizare acoperis avariat, interventii rapide post-furtuna, acoperire provizorie. Sunati 0735 097 539 pentru interventie rapida."},{"q":"Ce tipuri de invelitoare montati?","a":"Montam toate tipurile: tigla metalica (Bilka, Lindab, Wetterbest), tigla ceramica (Bramac, Tondach), tabla faltuita, sindrila bituminoasa si table speciale. Va recomandam solutia optima pentru panta, zona climatica si bugetul dumneavoastra."}]} />
 
       <section className="py-20 bg-[#0d1547]">
         <div className="max-w-3xl mx-auto px-4 text-center">
@@ -317,8 +317,8 @@ export default function ConstructieAcoperisuri() {
             Contacteaza-ne azi pentru evaluare gratuita la fata locului si o oferta clara, fara surprize.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:0750771028" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
-              <Phone size={18} /> 0750 771 028
+            <a href="tel:0735097539" className="inline-flex items-center justify-center gap-2 bg-white text-[#0d1547] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors">
+              <Phone size={18} /> 0735 097 539
             </a>
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/25 transition-all">
               Formular Contact

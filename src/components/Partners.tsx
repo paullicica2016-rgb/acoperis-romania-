@@ -52,7 +52,7 @@ export default function Partners() {
                 Vezi Portofoliu
               </Link>
               <a
-                href="tel:0750771028"
+                href="tel:0735097539"
                 className="border-2 border-white text-white hover:bg-white hover:text-[#0d1547] px-6 py-3 rounded-md font-semibold text-sm text-center transition-colors"
               >
                 Apeleaza Acum
